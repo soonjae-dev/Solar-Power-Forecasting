@@ -1,0 +1,160 @@
+{
+  "spec": {
+    "rule": "14.42",
+    "params": {
+      "iterations": 600,
+      "learning_rate": 0.06,
+      "depth": 8,
+      "loss_function": "RMSE",
+      "thread_count": 4,
+      "verbose": false,
+      "allow_writing_files": false,
+      "one_hot_max_size": 255
+    },
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "features": 143,
+    "excluded_features": [
+      "site"
+    ]
+  },
+  "results": {
+    "summer_support": {
+      "base_penalty": 42781408,
+      "direct_penalty": 40906723,
+      "change_pct": -4.382,
+      "change_ci90_pct": [
+        -6.804,
+        -1.599
+      ],
+      "peak_change_pct": -4.744,
+      "base_forecast_actual_ratio": 0.9749,
+      "direct_forecast_actual_ratio": 0.9842,
+      "group_change_pct": {
+        "A": -3.947,
+        "B": -4.936
+      },
+      "train_rows": 1106282,
+      "features": 143,
+      "seconds": 389.4,
+      "train_cutoff": "2024-05-31T17:00:00+09:00",
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ]
+    },
+    "fold1_static": {
+      "base_penalty": 166627544,
+      "direct_penalty": 160700920,
+      "change_pct": -3.557,
+      "change_ci90_pct": [
+        -5.956,
+        -1.156
+      ],
+      "peak_change_pct": -3.556,
+      "base_forecast_actual_ratio": 1.0132,
+      "direct_forecast_actual_ratio": 0.9977,
+      "group_change_pct": {
+        "A": -2.207,
+        "B": -4.772
+      },
+      "train_rows": 1106282,
+      "features": 143,
+      "seconds": 391.1,
+      "train_cutoff": "2024-05-31T17:00:00+09:00",
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ]
+    },
+    "autumn_support": {
+      "base_penalty": 48555811,
+      "direct_penalty": 48323333,
+      "change_pct": -0.479,
+      "change_ci90_pct": [
+        -2.434,
+        2.284
+      ],
+      "peak_change_pct": -0.338,
+      "base_forecast_actual_ratio": 1.0034,
+      "direct_forecast_actual_ratio": 0.9942,
+      "group_change_pct": {
+        "A": -1.546,
+        "B": 0.522
+      },
+      "train_rows": 1409736,
+      "features": 143,
+      "seconds": 481.0,
+      "train_cutoff": "2024-08-31T17:00:00+09:00",
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ]
+    },
+    "development": {
+      "base_penalty": 25519629,
+      "direct_penalty": 24965261,
+      "change_pct": -2.172,
+      "change_ci90_pct": [
+        -7.94,
+        2.807
+      ],
+      "peak_change_pct": -2.461,
+      "base_forecast_actual_ratio": 1.0447,
+      "direct_forecast_actual_ratio": 1.0431,
+      "group_change_pct": {
+        "A": -2.589,
+        "B": -1.84
+      },
+      "train_rows": 1739344,
+      "features": 143,
+      "seconds": 595.4,
+      "train_cutoff": "2024-12-31T17:00:00+09:00",
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ]
+    },
+    "selection": {
+      "base_penalty": 25506539,
+      "direct_penalty": 27822297,
+      "change_pct": 9.079,
+      "change_ci90_pct": [
+        3.68,
+        13.924
+      ],
+      "peak_change_pct": 10.814,
+      "base_forecast_actual_ratio": 0.9992,
+      "direct_forecast_actual_ratio": 0.9814,
+      "group_change_pct": {
+        "A": 1.939,
+        "B": 15.766
+      },
+      "train_rows": 1890847,
+      "features": 143,
+      "seconds": 646.7,
+      "train_cutoff": "2025-02-28T17:00:00+09:00",
+      "seeds": [
+        2026,
+        2027,
+        2028
+      ]
+    }
+  },
+  "complete": true,
+  "passed": false,
+  "early_rejection": "계절+3% 초과",
+  "uncompleted_windows": [],
+  "seasonal_base_penalty": 142363387,
+  "seasonal_candidate_penalty": 142017614,
+  "seasonal_change_pct": -0.24288056591403873,
+  "evaluation_complete": true,
+  "improved_seasons": 3
+}

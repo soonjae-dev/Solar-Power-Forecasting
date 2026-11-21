@@ -1,0 +1,599 @@
+{
+  "baseline_config": {
+    "fold": "development",
+    "feats": "fullc",
+    "objective": "l2",
+    "alpha": 0.5,
+    "weight": "cap",
+    "target": "kt",
+    "train_start": "2021-01-01",
+    "n_estimators": 600,
+    "learning_rate": 0.06,
+    "num_leaves": 127,
+    "min_child_samples": 200,
+    "seed": 2026,
+    "model": "lgbm",
+    "depth": 8,
+    "outage": "keep",
+    "nbrc_asof": "fold",
+    "kt_weight": "cs"
+  },
+  "candidates": {
+    "gfs20": {}
+  },
+  "cache_name": "cache",
+  "gfs_hours": 25823,
+  "missing_days": 61,
+  "seeds1": {
+    "gfs20": {
+      "summer_support": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2024-05-31T17:00:00+09:00",
+        "validation_start": "2024-06-01T01:00:00+09:00",
+        "validation_end": "2024-09-01T00:00:00+09:00",
+        "train_rows": 1106282,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.106324,
+        "training_predict_seconds": 66.99,
+        "weighted_train_mae_kt": 0.073476,
+        "vs_v3_3seeds": {
+          "base_penalty": 46527873,
+          "direct_penalty": 42505252,
+          "change_pct": -8.646,
+          "change_ci90_pct": [
+            -15.02,
+            -1.955
+          ],
+          "peak_change_pct": -9.372,
+          "base_forecast_actual_ratio": 0.9689,
+          "direct_forecast_actual_ratio": 0.9662,
+          "group_change_pct": {
+            "A": -10.052,
+            "B": -6.835
+          }
+        },
+        "baseline_train_rmse_kt": 0.110888,
+        "baseline_train_mae_kt": 0.077086,
+        "vs_matched_v3": {
+          "base_penalty": 47116915,
+          "direct_penalty": 42505252,
+          "change_pct": -9.788,
+          "change_ci90_pct": [
+            -15.605,
+            -3.308
+          ],
+          "peak_change_pct": -10.61,
+          "base_forecast_actual_ratio": 0.9684,
+          "direct_forecast_actual_ratio": 0.9662,
+          "group_change_pct": {
+            "A": -11.519,
+            "B": -7.539
+          }
+        }
+      },
+      "fold1_static": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2024-05-31T17:00:00+09:00",
+        "validation_start": "2024-06-01T01:00:00+09:00",
+        "validation_end": "2025-05-01T00:00:00+09:00",
+        "train_rows": 1106282,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.106324,
+        "training_predict_seconds": 66.99,
+        "weighted_train_mae_kt": 0.073476,
+        "vs_v3_3seeds": {
+          "base_penalty": 179141150,
+          "direct_penalty": 171262788,
+          "change_pct": -4.398,
+          "change_ci90_pct": [
+            -7.166,
+            -1.338
+          ],
+          "peak_change_pct": -4.123,
+          "base_forecast_actual_ratio": 1.0048,
+          "direct_forecast_actual_ratio": 1.0086,
+          "group_change_pct": {
+            "A": -5.486,
+            "B": -3.413
+          }
+        },
+        "baseline_train_rmse_kt": 0.110888,
+        "baseline_train_mae_kt": 0.077086,
+        "vs_matched_v3": {
+          "base_penalty": 179603446,
+          "direct_penalty": 171262788,
+          "change_pct": -4.644,
+          "change_ci90_pct": [
+            -7.346,
+            -1.647
+          ],
+          "peak_change_pct": -4.266,
+          "base_forecast_actual_ratio": 1.0049,
+          "direct_forecast_actual_ratio": 1.0086,
+          "group_change_pct": {
+            "A": -5.639,
+            "B": -3.745
+          }
+        }
+      },
+      "autumn_support": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2024-08-31T17:00:00+09:00",
+        "validation_start": "2024-09-01T01:00:00+09:00",
+        "validation_end": "2024-12-01T00:00:00+09:00",
+        "train_rows": 1409736,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.107554,
+        "training_predict_seconds": 73.74,
+        "weighted_train_mae_kt": 0.075664,
+        "vs_v3_3seeds": {
+          "base_penalty": 56121692,
+          "direct_penalty": 52934205,
+          "change_pct": -5.68,
+          "change_ci90_pct": [
+            -9.905,
+            -1.332
+          ],
+          "peak_change_pct": -5.655,
+          "base_forecast_actual_ratio": 1.0313,
+          "direct_forecast_actual_ratio": 1.0233,
+          "group_change_pct": {
+            "A": -5.733,
+            "B": -5.629
+          }
+        },
+        "baseline_train_rmse_kt": 0.111599,
+        "baseline_train_mae_kt": 0.078966,
+        "vs_matched_v3": {
+          "base_penalty": 55517097,
+          "direct_penalty": 52934205,
+          "change_pct": -4.652,
+          "change_ci90_pct": [
+            -8.7,
+            -0.171
+          ],
+          "peak_change_pct": -4.472,
+          "base_forecast_actual_ratio": 1.027,
+          "direct_forecast_actual_ratio": 1.0233,
+          "group_change_pct": {
+            "A": -4.818,
+            "B": -4.497
+          }
+        }
+      },
+      "development": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2024-12-31T17:00:00+09:00",
+        "validation_start": "2025-01-01T01:00:00+09:00",
+        "validation_end": "2025-03-01T00:00:00+09:00",
+        "train_rows": 1739344,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.114334,
+        "training_predict_seconds": 89.76,
+        "weighted_train_mae_kt": 0.081096,
+        "vs_v3_3seeds": {
+          "base_penalty": 25759542,
+          "direct_penalty": 25921911,
+          "change_pct": 0.63,
+          "change_ci90_pct": [
+            -4.042,
+            6.08
+          ],
+          "peak_change_pct": 1.073,
+          "base_forecast_actual_ratio": 1.0303,
+          "direct_forecast_actual_ratio": 1.04,
+          "group_change_pct": {
+            "A": -0.038,
+            "B": 1.152
+          }
+        },
+        "baseline_train_rmse_kt": 0.119296,
+        "baseline_train_mae_kt": 0.085217,
+        "vs_matched_v3": {
+          "base_penalty": 25438897,
+          "direct_penalty": 25921911,
+          "change_pct": 1.899,
+          "change_ci90_pct": [
+            -2.645,
+            7.15
+          ],
+          "peak_change_pct": 2.57,
+          "base_forecast_actual_ratio": 1.0307,
+          "direct_forecast_actual_ratio": 1.04,
+          "group_change_pct": {
+            "A": 0.445,
+            "B": 3.05
+          }
+        }
+      },
+      "selection": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2025-02-28T17:00:00+09:00",
+        "validation_start": "2025-03-01T01:00:00+09:00",
+        "validation_end": "2025-05-01T00:00:00+09:00",
+        "train_rows": 1890847,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.117667,
+        "training_predict_seconds": 94.45,
+        "weighted_train_mae_kt": 0.083263,
+        "vs_v3_3seeds": {
+          "base_penalty": 27954798,
+          "direct_penalty": 26750769,
+          "change_pct": -4.307,
+          "change_ci90_pct": [
+            -7.991,
+            1.445
+          ],
+          "peak_change_pct": -3.901,
+          "base_forecast_actual_ratio": 0.9908,
+          "direct_forecast_actual_ratio": 0.994,
+          "group_change_pct": {
+            "A": -3.825,
+            "B": -4.725
+          }
+        },
+        "baseline_train_rmse_kt": 0.122347,
+        "baseline_train_mae_kt": 0.087137,
+        "vs_matched_v3": {
+          "base_penalty": 28089326,
+          "direct_penalty": 26750769,
+          "change_pct": -4.765,
+          "change_ci90_pct": [
+            -7.849,
+            0.934
+          ],
+          "peak_change_pct": -4.156,
+          "base_forecast_actual_ratio": 0.9922,
+          "direct_forecast_actual_ratio": 0.994,
+          "group_change_pct": {
+            "A": -4.963,
+            "B": -4.591
+          }
+        }
+      }
+    }
+  },
+  "seeds1_verdicts": {
+    "gfs20": {
+      "vs_v3_3seeds_seasonal_change_pct": -5.277,
+      "vs_matched_v3_seasonal_change_pct": -5.155,
+      "screen_pass": true
+    }
+  },
+  "seeds3": {
+    "gfs20": {
+      "summer_support": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 3,
+        "train_cutoff": "2024-05-31T17:00:00+09:00",
+        "validation_start": "2024-06-01T01:00:00+09:00",
+        "validation_end": "2024-09-01T00:00:00+09:00",
+        "train_rows": 1106282,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.105561,
+        "training_predict_seconds": 200.7,
+        "weighted_train_mae_kt": 0.072734,
+        "vs_v3_3seeds": {
+          "base_penalty": 46527873,
+          "direct_penalty": 41913823,
+          "change_pct": -9.917,
+          "change_ci90_pct": [
+            -15.976,
+            -3.547
+          ],
+          "peak_change_pct": -10.737,
+          "base_forecast_actual_ratio": 0.9689,
+          "direct_forecast_actual_ratio": 0.9672,
+          "group_change_pct": {
+            "A": -10.562,
+            "B": -9.086
+          }
+        }
+      },
+      "fold1_static": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 3,
+        "train_cutoff": "2024-05-31T17:00:00+09:00",
+        "validation_start": "2024-06-01T01:00:00+09:00",
+        "validation_end": "2025-05-01T00:00:00+09:00",
+        "train_rows": 1106282,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.105561,
+        "training_predict_seconds": 200.7,
+        "weighted_train_mae_kt": 0.072734,
+        "vs_v3_3seeds": {
+          "base_penalty": 179141150,
+          "direct_penalty": 169116219,
+          "change_pct": -5.596,
+          "change_ci90_pct": [
+            -8.307,
+            -2.608
+          ],
+          "peak_change_pct": -5.476,
+          "base_forecast_actual_ratio": 1.0048,
+          "direct_forecast_actual_ratio": 1.0092,
+          "group_change_pct": {
+            "A": -6.433,
+            "B": -4.839
+          }
+        }
+      },
+      "autumn_support": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 3,
+        "train_cutoff": "2024-08-31T17:00:00+09:00",
+        "validation_start": "2024-09-01T01:00:00+09:00",
+        "validation_end": "2024-12-01T00:00:00+09:00",
+        "train_rows": 1409736,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.106695,
+        "training_predict_seconds": 221.38,
+        "weighted_train_mae_kt": 0.07487,
+        "vs_v3_3seeds": {
+          "base_penalty": 56121692,
+          "direct_penalty": 52362957,
+          "change_pct": -6.697,
+          "change_ci90_pct": [
+            -11.043,
+            -2.05
+          ],
+          "peak_change_pct": -6.783,
+          "base_forecast_actual_ratio": 1.0313,
+          "direct_forecast_actual_ratio": 1.0233,
+          "group_change_pct": {
+            "A": -6.212,
+            "B": -7.151
+          }
+        }
+      },
+      "development": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 3,
+        "train_cutoff": "2024-12-31T17:00:00+09:00",
+        "validation_start": "2025-01-01T01:00:00+09:00",
+        "validation_end": "2025-03-01T00:00:00+09:00",
+        "train_rows": 1739344,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.113528,
+        "training_predict_seconds": 266.84,
+        "weighted_train_mae_kt": 0.080381,
+        "vs_v3_3seeds": {
+          "base_penalty": 25759542,
+          "direct_penalty": 25786336,
+          "change_pct": 0.104,
+          "change_ci90_pct": [
+            -4.229,
+            5.196
+          ],
+          "peak_change_pct": 0.632,
+          "base_forecast_actual_ratio": 1.0303,
+          "direct_forecast_actual_ratio": 1.0405,
+          "group_change_pct": {
+            "A": -0.511,
+            "B": 0.585
+          }
+        }
+      },
+      "selection": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 3,
+        "train_cutoff": "2025-02-28T17:00:00+09:00",
+        "validation_start": "2025-03-01T01:00:00+09:00",
+        "validation_end": "2025-05-01T00:00:00+09:00",
+        "train_rows": 1890847,
+        "train_features": 104,
+        "weighted_train_rmse_kt": 0.116558,
+        "training_predict_seconds": 284.15,
+        "weighted_train_mae_kt": 0.082293,
+        "vs_v3_3seeds": {
+          "base_penalty": 27954798,
+          "direct_penalty": 27148650,
+          "change_pct": -2.884,
+          "change_ci90_pct": [
+            -6.457,
+            2.859
+          ],
+          "peak_change_pct": -1.921,
+          "base_forecast_actual_ratio": 0.9908,
+          "direct_forecast_actual_ratio": 0.9919,
+          "group_change_pct": {
+            "A": -2.945,
+            "B": -2.831
+          }
+        }
+      }
+    }
+  },
+  "seeds3_verdicts": {
+    "gfs20": {
+      "vs_v3_3seeds_seasonal_change_pct": -5.853,
+      "screen_pass": true
+    }
+  },
+  "selected_candidate": "gfs20"
+}

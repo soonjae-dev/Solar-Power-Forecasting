@@ -1,0 +1,13 @@
+# Python 3.9.6 (macOS, Apple M2)에서 검증한 버전
+numpy==2.0.2
+pandas==2.3.3
+pyarrow==21.0.0
+scipy==1.13.1
+scikit-learn==1.6.1
+lightgbm==4.6.0
+catboost==1.2.8
+eccodes==2.50.0      # GFS·LDAPS GRIB 해독
+holidays==0.58
+matplotlib==3.9.4
+torch==2.8.0         # 시퀀스 잔차 실험(sequence_*.py)에만 필요
+reportlab==4.2.5     # 기술 보고서 PDF(scripts/build_report.py)에만 필요. 4.3 이상은 Python 3.10+ 필요

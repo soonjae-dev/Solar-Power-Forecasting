@@ -1,0 +1,143 @@
+{
+ "checked_at": "2026-11-06T05:40:59.002619+00:00",
+ "scope": "public S3 listing metadata only; no bodies downloaded; no competition data accessed",
+ "rule": "all f015-f039 body and idx present and latest LastModified <= previous day 08:00 UTC",
+ "train": {
+  "days": 1611,
+  "eligible": 1606,
+  "late": 5,
+  "missing": 0,
+  "network_unverified": 0,
+  "eligible_share": 0.9969,
+  "margin_hours_min": -1459.14,
+  "margin_hours_median": 3.62
+ },
+ "evaluation": {
+  "days": 365,
+  "eligible": 361,
+  "late": 4,
+  "missing": 0,
+  "network_unverified": 0,
+  "eligible_share": 0.989,
+  "margin_hours_min": -8.16,
+  "margin_hours_median": 3.62
+ },
+ "by_year": {
+  "2021": {
+   "days": 364,
+   "eligible": 363,
+   "late": 1,
+   "missing": 0,
+   "network_unverified": 0,
+   "eligible_share": 0.9973,
+   "margin_hours_min": -1459.14,
+   "margin_hours_median": 3.59
+  },
+  "2022": {
+   "days": 365,
+   "eligible": 363,
+   "late": 2,
+   "missing": 0,
+   "network_unverified": 0,
+   "eligible_share": 0.9945,
+   "margin_hours_min": -10.95,
+   "margin_hours_median": 3.6
+  },
+  "2023": {
+   "days": 365,
+   "eligible": 364,
+   "late": 1,
+   "missing": 0,
+   "network_unverified": 0,
+   "eligible_share": 0.9973,
+   "margin_hours_min": -11.97,
+   "margin_hours_median": 3.62
+  },
+  "2024": {
+   "days": 366,
+   "eligible": 365,
+   "late": 1,
+   "missing": 0,
+   "network_unverified": 0,
+   "eligible_share": 0.9973,
+   "margin_hours_min": -13.25,
+   "margin_hours_median": 3.64
+  },
+  "2025": {
+   "days": 365,
+   "eligible": 362,
+   "late": 3,
+   "missing": 0,
+   "network_unverified": 0,
+   "eligible_share": 0.9918,
+   "margin_hours_min": -6.47,
+   "margin_hours_median": 3.62
+  },
+  "2026": {
+   "days": 151,
+   "eligible": 150,
+   "late": 1,
+   "missing": 0,
+   "network_unverified": 0,
+   "eligible_share": 0.9934,
+   "margin_hours_min": -8.16,
+   "margin_hours_median": 3.62
+  }
+ },
+ "not_eligible": [
+  {
+   "day": "2021-02-05",
+   "status": "late",
+   "missing": 0,
+   "last": "2021-04-06T03:08:16+00:00"
+  },
+  {
+   "day": "2022-01-07",
+   "status": "late",
+   "missing": 0,
+   "last": "2022-01-06T18:56:56+00:00"
+  },
+  {
+   "day": "2022-10-20",
+   "status": "late",
+   "missing": 0,
+   "last": "2022-10-19T13:18:43+00:00"
+  },
+  {
+   "day": "2023-01-21",
+   "status": "late",
+   "missing": 0,
+   "last": "2023-01-20T19:58:06+00:00"
+  },
+  {
+   "day": "2024-04-17",
+   "status": "late",
+   "missing": 0,
+   "last": "2024-04-16T21:15:00+00:00"
+  },
+  {
+   "day": "2025-06-29",
+   "status": "late",
+   "missing": 0,
+   "last": "2025-06-28T10:49:58+00:00"
+  },
+  {
+   "day": "2025-12-19",
+   "status": "late",
+   "missing": 0,
+   "last": "2025-12-18T13:25:41+00:00"
+  },
+  {
+   "day": "2025-12-20",
+   "status": "late",
+   "missing": 0,
+   "last": "2025-12-19T14:28:30+00:00"
+  },
+  {
+   "day": "2026-01-26",
+   "status": "late",
+   "missing": 0,
+   "last": "2026-01-25T16:09:48+00:00"
+  }
+ ]
+}

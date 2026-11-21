@@ -1,0 +1,187 @@
+{
+  "rule": "14.44",
+  "environment": {
+    "machine": "arm64",
+    "torch_installed": false,
+    "neural_training_benchmark_run": false
+  },
+  "blocks": {
+    "oof6m_1": {
+      "rows": 176094,
+      "site_count": 49,
+      "days": 181,
+      "site_days": 7345,
+      "complete_site_days": 7327,
+      "partial_site_days": 18,
+      "complete_zero_site_days": 2,
+      "negative_observed_rows": 2,
+      "partial_day_context": {
+        "missing_slots": 186,
+        "missing_daylight_slots": 67
+      },
+      "three_seed_columns_present": true,
+      "keys_unique": true,
+      "cutoff_before_all_targets": true,
+      "missing_prediction_rows": 0,
+      "daylight_feature_rows": 91826,
+      "nonzero_prediction_without_features": 0,
+      "complete_gfs_daylight_rows": 91826
+    },
+    "oof6m_2": {
+      "rows": 295411,
+      "site_count": 80,
+      "days": 184,
+      "site_days": 12326,
+      "complete_site_days": 12299,
+      "partial_site_days": 27,
+      "complete_zero_site_days": 18,
+      "negative_observed_rows": 18,
+      "partial_day_context": {
+        "missing_slots": 413,
+        "missing_daylight_slots": 196
+      },
+      "three_seed_columns_present": true,
+      "keys_unique": true,
+      "cutoff_before_all_targets": true,
+      "missing_prediction_rows": 0,
+      "daylight_feature_rows": 141569,
+      "nonzero_prediction_without_features": 0,
+      "complete_gfs_daylight_rows": 140796
+    },
+    "oof6m_3": {
+      "rows": 424489,
+      "site_count": 109,
+      "days": 181,
+      "site_days": 17704,
+      "complete_site_days": 17675,
+      "partial_site_days": 29,
+      "complete_zero_site_days": 177,
+      "negative_observed_rows": 0,
+      "partial_day_context": {
+        "missing_slots": 407,
+        "missing_daylight_slots": 178
+      },
+      "three_seed_columns_present": true,
+      "keys_unique": true,
+      "cutoff_before_all_targets": true,
+      "missing_prediction_rows": 0,
+      "daylight_feature_rows": 220762,
+      "nonzero_prediction_without_features": 0,
+      "complete_gfs_daylight_rows": 218564
+    },
+    "oof6m_4": {
+      "rows": 549669,
+      "site_count": 148,
+      "days": 184,
+      "site_days": 22922,
+      "complete_site_days": 22884,
+      "partial_site_days": 38,
+      "complete_zero_site_days": 262,
+      "negative_observed_rows": 0,
+      "partial_day_context": {
+        "missing_slots": 459,
+        "missing_daylight_slots": 201
+      },
+      "three_seed_columns_present": true,
+      "keys_unique": true,
+      "cutoff_before_all_targets": true,
+      "missing_prediction_rows": 0,
+      "daylight_feature_rows": 266410,
+      "nonzero_prediction_without_features": 0,
+      "complete_gfs_daylight_rows": 266410
+    },
+    "oof6m_5": {
+      "rows": 630412,
+      "site_count": 205,
+      "days": 152,
+      "site_days": 26295,
+      "complete_site_days": 26238,
+      "partial_site_days": 57,
+      "complete_zero_site_days": 76,
+      "negative_observed_rows": 0,
+      "partial_day_context": {
+        "missing_slots": 668,
+        "missing_daylight_slots": 305
+      },
+      "three_seed_columns_present": true,
+      "keys_unique": true,
+      "cutoff_before_all_targets": true,
+      "missing_prediction_rows": 0,
+      "daylight_feature_rows": 313549,
+      "nonzero_prediction_without_features": 0,
+      "complete_gfs_daylight_rows": 313549
+    }
+  },
+  "forecast_keys": {
+    "wa": {
+      "rounds": [
+        10,
+        17
+      ],
+      "rows": 2575234,
+      "off_hour_rows": 0,
+      "duplicate_keys": 0,
+      "station_round_days": 107421,
+      "complete_24hour_groups": 107295,
+      "incomplete_groups": 126
+    },
+    "wb": {
+      "rounds": [
+        10,
+        17
+      ],
+      "rows": 3075125,
+      "off_hour_rows": 0,
+      "duplicate_keys": 0,
+      "station_round_days": 128480,
+      "complete_24hour_groups": 128115,
+      "incomplete_groups": 365
+    }
+  },
+  "scored": false,
+  "input_policy": {
+    "target_mask_is_input": false,
+    "retain_zero_days": true,
+    "nbrc_recompute_per_original_fold": true,
+    "night_padding": "zero_with_input_mask"
+  },
+  "feature_provenance": {
+    "base_features": 84,
+    "proposed_without_site": 83,
+    "cached_boundary_rows": 0,
+    "next_feature_cross_day_rows": 0,
+    "source_round_contract": [
+      10,
+      17
+    ],
+    "actual_publication_timestamp_verified": false,
+    "note": "제공round계약/특징코드감사이며실제배포timestamp재인증아님"
+  },
+  "gfs": {
+    "columns": 60,
+    "unique_hours": true,
+    "rows": 25823,
+    "missing_cells": 16320
+  },
+  "memory_estimate": {
+    "site_days": 86592,
+    "observed_rows": 2076075,
+    "illustrative_channels": 288,
+    "full_dense_sequence_input_mib": 2283.2,
+    "batch64_sequence_input_mib": 1.69,
+    "shared_gfs_float32_mib": 5.91,
+    "note": "입력배열산술값,DataFrame/optimizer/activation/백엔드메모리포함안함"
+  },
+  "complete": true,
+  "can_define_training_plan": false,
+  "can_run_neural_training": false,
+  "reference_config": {
+    "feats": "fullc",
+    "weight": "cap",
+    "train_start": "2021-01-01",
+    "target": "kt",
+    "nbrc_asof": "fold",
+    "common": "gfs60",
+    "seeds": 3
+  }
+}

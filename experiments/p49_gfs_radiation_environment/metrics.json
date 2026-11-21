@@ -1,0 +1,25 @@
+{
+ "checked_at": "2026-11-07T14:37:59.241894+00:00",
+ "ready": true,
+ "pipeline_name": "gfs_sflux_optics20",
+ "competition_data_accessed": false,
+ "full_global_arrays_saved": false,
+ "samples": [
+  {
+   "target_day": "2021-03-01",
+   "energy_closure_passed": true,
+   "max_closure_error_wm2": 0.7163
+  },
+  {
+   "target_day": "2023-08-11",
+   "energy_closure_passed": true,
+   "max_closure_error_wm2": 0.0009
+  },
+  {
+   "target_day": "2024-08-16",
+   "energy_closure_passed": true,
+   "max_closure_error_wm2": 0.0006
+  }
+ ],
+ "repeat_retrieval_regional_means_identical": true
+}

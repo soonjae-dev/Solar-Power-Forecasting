@@ -1,0 +1,100 @@
+{
+  "rule": "14.83",
+  "seed": 2026,
+  "results": {
+    "summer_support": {
+      "base_penalty": 42881514,
+      "direct_penalty": 41617373,
+      "change_pct": -2.948,
+      "change_ci90_pct": [
+        -5.88,
+        0.643
+      ],
+      "peak_change_pct": -3.781,
+      "base_forecast_actual_ratio": 0.9803,
+      "direct_forecast_actual_ratio": 0.9776,
+      "group_change_pct": {
+        "A": -3.45,
+        "B": -2.291
+      },
+      "ldaps_only_vs_all_pct": 3.288,
+      "gfs_only_vs_all_pct": 0.059
+    },
+    "fold1_static": {
+      "base_penalty": 165236619,
+      "direct_penalty": 162327006,
+      "change_pct": -1.761,
+      "change_ci90_pct": [
+        -3.591,
+        0.076
+      ],
+      "peak_change_pct": -2.034,
+      "base_forecast_actual_ratio": 1.0132,
+      "direct_forecast_actual_ratio": 1.0124,
+      "group_change_pct": {
+        "A": -2.174,
+        "B": -1.388
+      },
+      "ldaps_only_vs_all_pct": 1.435,
+      "gfs_only_vs_all_pct": 1.194
+    },
+    "autumn_support": {
+      "base_penalty": 46410832,
+      "direct_penalty": 46857007,
+      "change_pct": 0.961,
+      "change_ci90_pct": [
+        -2.846,
+        4.025
+      ],
+      "peak_change_pct": 0.628,
+      "base_forecast_actual_ratio": 1.0076,
+      "direct_forecast_actual_ratio": 1.0121,
+      "group_change_pct": {
+        "A": 0.886,
+        "B": 1.032
+      },
+      "ldaps_only_vs_all_pct": 2.291,
+      "gfs_only_vs_all_pct": 4.327
+    },
+    "development": {
+      "base_penalty": 25214413,
+      "direct_penalty": 25419661,
+      "change_pct": 0.814,
+      "change_ci90_pct": [
+        -2.435,
+        3.36
+      ],
+      "peak_change_pct": 1.062,
+      "base_forecast_actual_ratio": 1.0462,
+      "direct_forecast_actual_ratio": 1.0442,
+      "group_change_pct": {
+        "A": 0.734,
+        "B": 0.877
+      },
+      "ldaps_only_vs_all_pct": 5.227,
+      "gfs_only_vs_all_pct": -0.839
+    },
+    "selection": {
+      "base_penalty": 25712272,
+      "direct_penalty": 25106245,
+      "change_pct": -2.357,
+      "change_ci90_pct": [
+        -6.233,
+        0.861
+      ],
+      "peak_change_pct": -2.03,
+      "base_forecast_actual_ratio": 1.0002,
+      "direct_forecast_actual_ratio": 0.9924,
+      "group_change_pct": {
+        "A": -4.846,
+        "B": -0.06
+      },
+      "ldaps_only_vs_all_pct": 1.813,
+      "gfs_only_vs_all_pct": -0.908
+    }
+  },
+  "seasonal_change_pct": -0.869,
+  "improved": 2,
+  "passed": false,
+  "complete": true
+}

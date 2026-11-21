@@ -1,0 +1,21 @@
+{
+  "name": "d1_kt_seed11",
+  "fold": "development",
+  "feats": "full",
+  "objective": "l2",
+  "alpha": 0.5,
+  "weight": "cap",
+  "target": "kt",
+  "train_start": "2021-01-01",
+  "n_estimators": 600,
+  "learning_rate": 0.06,
+  "num_leaves": 127,
+  "min_child_samples": 200,
+  "seed": 11,
+  "n_feats": 84,
+  "train_rows": 1739344,
+  "penalty_ref": 26574877,
+  "penalty_lb": 25630903,
+  "weighted_bias_kwh": 351.0,
+  "seconds": 91.8
+}

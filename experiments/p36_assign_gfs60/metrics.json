@@ -1,0 +1,104 @@
+{
+ "rule": "14.26",
+ "fixed_sites": 48,
+ "fixed_kw": 9491.0,
+ "ref_kw": [
+  20465.7,
+  22189.7
+ ],
+ "oof": {
+  "lower_bound": 152754294,
+  "ref": 156396328,
+  "random200_q5_50_95": [
+   155550081,
+   156451879,
+   157566069
+  ],
+  "search_from_ref_is_best": false
+ },
+ "gfs60_nolimit": {
+  "moved": 91,
+  "g1_kw": 22640.7,
+  "g2_kw": 20014.7,
+  "oof": 153474745,
+  "oof_change_pct": -1.868,
+  "fold1_mean_pct": -1.282,
+  "fold1_s0_pct": -1.405,
+  "fold1_s1_pct": -1.433,
+  "fold1_s2_pct": -1.032,
+  "fold1_ref": 166627544,
+  "fold1_block95_pct": [
+   -1.834,
+   -0.783
+  ],
+  "fold2_mean_pct": -1.12,
+  "fold2_s0_pct": -0.986,
+  "fold2_s1_pct": -0.792,
+  "fold2_s2_pct": -1.219,
+  "fold2_ref": 52021783,
+  "fold2_block95_pct": [
+   -2.106,
+   -0.165
+  ],
+  "fold1_random_position_pct": 17.5,
+  "diag_without_new_pct": -1.233,
+  "checks": {
+   "fold1_gt_1pct": true,
+   "seeds_same_direction": true,
+   "fold2_not_worse": true,
+   "random_bottom5": false
+  },
+  "passed": false
+ },
+ "gfs60_ref_mv20": {
+  "moved": 20,
+  "g1_kw": 22645.9,
+  "g2_kw": 20009.5,
+  "oof": 154070427,
+  "oof_change_pct": -1.487,
+  "fold1_mean_pct": 0.007,
+  "fold1_s0_pct": 0.015,
+  "fold1_s1_pct": 0.001,
+  "fold1_s2_pct": 0.093,
+  "fold1_ref": 166627544,
+  "fold1_block95_pct": [
+   -0.506,
+   0.548
+  ],
+  "fold2_mean_pct": 0.543,
+  "fold2_s0_pct": 0.571,
+  "fold2_s1_pct": 0.508,
+  "fold2_s2_pct": 0.44,
+  "fold2_ref": 52021783,
+  "fold2_block95_pct": [
+   -0.006,
+   1.038
+  ],
+  "fold1_random_position_pct": 97.5,
+  "diag_without_new_pct": -0.112,
+  "checks": {
+   "fold1_gt_1pct": false,
+   "seeds_same_direction": false,
+   "fold2_not_worse": false,
+   "random_bottom5": false
+  },
+  "passed": false
+ },
+ "fold1_random200": {
+  "q5_50_95_pct": [
+   -1.461,
+   -0.891,
+   -0.197
+  ],
+  "ref_position_pct": 97.5
+ },
+ "diag_fold1_without_new": {
+  "sites": 205,
+  "ref_position_pct": 85.0,
+  "random200_q5_50_95_pct": [
+   -1.354,
+   -0.682,
+   0.411
+  ]
+ }
+}

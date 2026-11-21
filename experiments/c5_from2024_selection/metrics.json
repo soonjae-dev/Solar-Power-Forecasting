@@ -1,0 +1,20 @@
+{
+  "name": "c5_from2024",
+  "fold": "selection",
+  "feats": "full",
+  "objective": "l2",
+  "alpha": 0.5,
+  "weight": "cap",
+  "train_start": "2024-01-01",
+  "n_estimators": 600,
+  "learning_rate": 0.06,
+  "num_leaves": 127,
+  "min_child_samples": 200,
+  "seed": 2026,
+  "n_feats": 81,
+  "train_rows": 1097567,
+  "penalty_ref": 32543006,
+  "penalty_lb": 31438571,
+  "weighted_bias_kwh": -509.2,
+  "seconds": 51.2
+}

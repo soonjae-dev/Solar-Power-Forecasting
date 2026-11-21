@@ -1,0 +1,281 @@
+{
+ "total": {
+  "sites": 253,
+  "hours": 8016,
+  "penalty": 179141150,
+  "base_penalty": 201066626,
+  "score": 10.9,
+  "ratio": 1.005,
+  "pen_pct_of_revenue": 2.661
+ },
+ "zero_forecast_energy_share": 0.0013,
+ "by_month": {
+  "2024-06": {
+   "sites": 224,
+   "hours": 720,
+   "penalty": 15380378,
+   "base_penalty": 18684714,
+   "score": 17.68,
+   "ratio": 0.991,
+   "pen_pct_of_revenue": 2.284
+  },
+  "2024-07": {
+   "sites": 250,
+   "hours": 744,
+   "penalty": 21880698,
+   "base_penalty": 26712099,
+   "score": 18.09,
+   "ratio": 0.938,
+   "pen_pct_of_revenue": 3.486
+  },
+  "2024-08": {
+   "sites": 252,
+   "hours": 744,
+   "penalty": 16117380,
+   "base_penalty": 16354032,
+   "score": 1.45,
+   "ratio": 0.965,
+   "pen_pct_of_revenue": 1.802
+  },
+  "2024-09": {
+   "sites": 252,
+   "hours": 720,
+   "penalty": 25702270,
+   "base_penalty": 26853815,
+   "score": 4.29,
+   "ratio": 1.0,
+   "pen_pct_of_revenue": 3.897
+  },
+  "2024-10": {
+   "sites": 252,
+   "hours": 744,
+   "penalty": 17779479,
+   "base_penalty": 21559640,
+   "score": 17.53,
+   "ratio": 1.025,
+   "pen_pct_of_revenue": 3.71
+  },
+  "2024-11": {
+   "sites": 252,
+   "hours": 720,
+   "penalty": 12211924,
+   "base_penalty": 13089939,
+   "score": 6.71,
+   "ratio": 1.027,
+   "pen_pct_of_revenue": 3.004
+  },
+  "2024-12": {
+   "sites": 253,
+   "hours": 744,
+   "penalty": 12739059,
+   "base_penalty": 12420090,
+   "score": -2.57,
+   "ratio": 1.014,
+   "pen_pct_of_revenue": 2.638
+  },
+  "2025-01": {
+   "sites": 253,
+   "hours": 744,
+   "penalty": 13228799,
+   "base_penalty": 13601797,
+   "score": 2.74,
+   "ratio": 1.062,
+   "pen_pct_of_revenue": 2.83
+  },
+  "2025-02": {
+   "sites": 253,
+   "hours": 672,
+   "penalty": 15132740,
+   "base_penalty": 16617306,
+   "score": 8.93,
+   "ratio": 1.036,
+   "pen_pct_of_revenue": 2.531
+  },
+  "2025-03": {
+   "sites": 253,
+   "hours": 744,
+   "penalty": 13593465,
+   "base_penalty": 14454846,
+   "score": 5.96,
+   "ratio": 1.032,
+   "pen_pct_of_revenue": 2.23
+  },
+  "2025-04": {
+   "sites": 253,
+   "hours": 720,
+   "penalty": 15374959,
+   "base_penalty": 20718347,
+   "score": 25.79,
+   "ratio": 0.992,
+   "pen_pct_of_revenue": 1.847
+  }
+ },
+ "by_period": {
+  "2024-06~12": {
+   "sites": 253,
+   "hours": 5136,
+   "penalty": 121811187,
+   "base_penalty": 135674330,
+   "score": 10.22,
+   "ratio": 0.991,
+   "pen_pct_of_revenue": 2.884
+  },
+  "2025-01~04": {
+   "sites": 253,
+   "hours": 2880,
+   "penalty": 57329963,
+   "base_penalty": 65392296,
+   "score": 12.33,
+   "ratio": 1.026,
+   "pen_pct_of_revenue": 2.286
+  }
+ },
+ "by_cohort": {
+  "2023-06~2024-05": {
+   "sites": 99,
+   "hours": 8016,
+   "penalty": 111519738,
+   "base_penalty": 124253601,
+   "score": 10.25,
+   "ratio": 0.996,
+   "pen_pct_of_revenue": 2.792
+  },
+  "2024-06~": {
+   "sites": 48,
+   "hours": 7955,
+   "penalty": 41705555,
+   "base_penalty": 44557642,
+   "score": 6.4,
+   "ratio": 1.033,
+   "pen_pct_of_revenue": 3.308
+  },
+  "~2023-05": {
+   "sites": 106,
+   "hours": 8016,
+   "penalty": 39180107,
+   "base_penalty": 44527739,
+   "score": 12.01,
+   "ratio": 1.004,
+   "pen_pct_of_revenue": 2.654
+  }
+ },
+ "retrain_compare": {
+  "summer_support": {
+   "retrain": {
+    "sites": 205,
+    "hours": 2208,
+    "penalty": 46527873,
+    "base_penalty": 53925192,
+    "score": 13.72,
+    "ratio": 0.969,
+    "pen_pct_of_revenue": 2.442
+   },
+   "static": {
+    "sites": 205,
+    "hours": 2208,
+    "penalty": 46527873,
+    "base_penalty": 53924780,
+    "score": 13.72,
+    "ratio": 0.969,
+    "pen_pct_of_revenue": 2.442
+   },
+   "static_vs_retrain_pct": 0.0
+  },
+  "autumn_support": {
+   "retrain": {
+    "sites": 252,
+    "hours": 2184,
+    "penalty": 56121692,
+    "base_penalty": 61929308,
+    "score": 9.38,
+    "ratio": 1.031,
+    "pen_pct_of_revenue": 3.632
+   },
+   "static": {
+    "sites": 252,
+    "hours": 2184,
+    "penalty": 55693672,
+    "base_penalty": 61503394,
+    "score": 9.45,
+    "ratio": 1.016,
+    "pen_pct_of_revenue": 3.604
+   },
+   "static_vs_retrain_pct": -0.76,
+   "late_static_vs_retrain_pct": 0.66,
+   "late_sites": 47,
+   "old_static_vs_retrain_pct": -0.58,
+   "old_ratio": {
+    "retrain": 1.03,
+    "static": 1.018
+   },
+   "late_ratio": {
+    "retrain": 1.035,
+    "static": 1.006
+   }
+  },
+  "development": {
+   "retrain": {
+    "sites": 253,
+    "hours": 1416,
+    "penalty": 25759542,
+    "base_penalty": 30685978,
+    "score": 16.05,
+    "ratio": 1.03,
+    "pen_pct_of_revenue": 2.418
+   },
+   "static": {
+    "sites": 253,
+    "hours": 1416,
+    "penalty": 28361539,
+    "base_penalty": 30219103,
+    "score": 6.15,
+    "ratio": 1.048,
+    "pen_pct_of_revenue": 2.662
+   },
+   "static_vs_retrain_pct": 10.1,
+   "late_static_vs_retrain_pct": 20.31,
+   "late_sites": 48,
+   "old_static_vs_retrain_pct": 4.82,
+   "old_ratio": {
+    "retrain": 1.018,
+    "static": 1.025
+   },
+   "late_ratio": {
+    "retrain": 1.074,
+    "static": 1.13
+   }
+  },
+  "selection": {
+   "retrain": {
+    "sites": 253,
+    "hours": 1464,
+    "penalty": 27954798,
+    "base_penalty": 35631744,
+    "score": 21.55,
+    "ratio": 0.991,
+    "pen_pct_of_revenue": 1.939
+   },
+   "static": {
+    "sites": 253,
+    "hours": 1464,
+    "penalty": 28968424,
+    "base_penalty": 35173193,
+    "score": 17.64,
+    "ratio": 1.01,
+    "pen_pct_of_revenue": 2.009
+   },
+   "static_vs_retrain_pct": 3.63,
+   "late_static_vs_retrain_pct": 6.3,
+   "late_sites": 48,
+   "old_static_vs_retrain_pct": 2.77,
+   "old_ratio": {
+    "retrain": 0.995,
+    "static": 0.998
+   },
+   "late_ratio": {
+    "retrain": 0.975,
+    "static": 1.053
+   }
+  }
+ }
+}

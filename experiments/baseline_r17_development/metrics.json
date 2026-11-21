@@ -1,0 +1,14 @@
+{
+  "sales": 1065528577.8332764,
+  "penalty": 29690634.309551656,
+  "S": 1035837943.5237248,
+  "penalty_pct": 2.7864700137772713,
+  "penalty_by_group": {
+    "G1": 13856609.998698289,
+    "G2": 15834024.31085337
+  },
+  "run_id": "baseline_r17_development",
+  "fold": "development",
+  "val_rows": 358248,
+  "elapsed_seconds": 33.9
+}

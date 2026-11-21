@@ -1,0 +1,45 @@
+# 공개 저장소에는 아래 허용 목록만 올린다(대회 규정: 제공 데이터·예측·제출물 외부 업로드 금지).
+# 새 파일을 올리려면 여기 허용 줄을 추가하고 scripts/check_publish.py를 다시 돌린다.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/README.ko.md
+!/requirements.txt
+!/docs/
+!/scripts/
+!/src/
+!/tests/
+!/experiments/
+
+# src: 코드만
+/src/**/__pycache__/
+/src/**/*.pyc
+
+# experiments: 집계 지표 metrics.json만
+/experiments/**
+!/experiments/*/
+!/experiments/*/metrics.json
+
+# 어디서든 금지(허용 폴더 안에 실수로 들어온 경우 대비)
+__pycache__/
+*.pyc
+*.parquet
+*.csv
+*.zip
+*.ipynb
+*.npz
+*.nc
+*.grib*
+*.pkl
+*.pptx
+*.pdf
+*.pages
+.DS_Store
+.env*
+
+# 제출 기록(로컬 경로·해시 포함)은 올리지 않는다
+/experiments/submission_log/
+
+# 집계값으로만 만든 기술 보고서는 예외로 올린다(scripts/build_report.py)
+!/docs/OIBC2026_technical_report.pdf

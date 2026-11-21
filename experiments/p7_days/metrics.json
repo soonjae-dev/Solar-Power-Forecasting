@@ -1,0 +1,434 @@
+{
+ "summer_support": {
+  "days": 92,
+  "concentration": {
+   "top10pct": 0.259,
+   "top20pct": 0.412
+  },
+  "by_cloud": {
+   "실측 맑음": {
+    "days": 14,
+    "pen_share": 0.101,
+    "pen_per_day": 335308,
+    "bias": 0.982
+   },
+   "실측 중간": {
+    "days": 39,
+    "pen_share": 0.324,
+    "pen_per_day": 386730,
+    "bias": 0.962
+   },
+   "실측 흐림": {
+    "days": 39,
+    "pen_share": 0.575,
+    "pen_per_day": 685925,
+    "bias": 0.972
+   }
+  },
+  "by_miss": {
+   "비슷": {
+    "days": 71,
+    "pen_share": 0.764,
+    "pen_per_day": 500670,
+    "bias": 0.984
+   },
+   "예보가 더 흐림(+20 초과)": {
+    "days": 21,
+    "pen_share": 0.236,
+    "pen_per_day": 522873,
+    "bias": 0.927
+   }
+  },
+  "by_kind": {
+   "평일": {
+    "days": 63,
+    "pen_share": 0.728,
+    "pen_per_day": 537291,
+    "bias": 0.965
+   },
+   "휴일": {
+    "days": 29,
+    "pen_share": 0.272,
+    "pen_per_day": 437190,
+    "bias": 0.978
+   }
+  },
+  "by_kind_clear": {
+   "평일": {
+    "days": 11,
+    "pen_share": 0.798,
+    "pen_per_day": 340525,
+    "bias": 0.973
+   },
+   "휴일": {
+    "days": 3,
+    "pen_share": 0.202,
+    "pen_per_day": 316177,
+    "bias": 1.016
+   }
+  },
+  "worst_days": {
+   "over": 1,
+   "under": 8,
+   "mean_abs_miss": 15.2,
+   "other_abs_miss": 13.3
+  }
+ },
+ "autumn_support": {
+  "days": 91,
+  "concentration": {
+   "top10pct": 0.281,
+   "top20pct": 0.443
+  },
+  "by_cloud": {
+   "실측 맑음": {
+    "days": 16,
+    "pen_share": 0.067,
+    "pen_per_day": 233273,
+    "bias": 1.019
+   },
+   "실측 중간": {
+    "days": 47,
+    "pen_share": 0.532,
+    "pen_per_day": 635776,
+    "bias": 0.989
+   },
+   "실측 흐림": {
+    "days": 28,
+    "pen_share": 0.401,
+    "pen_per_day": 803852,
+    "bias": 1.183
+   }
+  },
+  "by_miss": {
+   "예보가 더 맑음(-20 미만)": {
+    "days": 1,
+    "pen_share": 0.045,
+    "pen_per_day": 2539282,
+    "bias": 1.643
+   },
+   "비슷": {
+    "days": 82,
+    "pen_share": 0.803,
+    "pen_per_day": 549844,
+    "bias": 1.048
+   },
+   "예보가 더 흐림(+20 초과)": {
+    "days": 8,
+    "pen_share": 0.151,
+    "pen_per_day": 1061897,
+    "bias": 0.845
+   }
+  },
+  "by_kind": {
+   "평일": {
+    "days": 59,
+    "pen_share": 0.685,
+    "pen_per_day": 651733,
+    "bias": 1.017
+   },
+   "휴일": {
+    "days": 32,
+    "pen_share": 0.315,
+    "pen_per_day": 552171,
+    "bias": 1.058
+   }
+  },
+  "by_kind_clear": {
+   "평일": {
+    "days": 13,
+    "pen_share": 0.847,
+    "pen_per_day": 243259,
+    "bias": 1.014
+   },
+   "휴일": {
+    "days": 3,
+    "pen_share": 0.153,
+    "pen_per_day": 190002,
+    "bias": 1.041
+   }
+  },
+  "worst_days": {
+   "over": 5,
+   "under": 4,
+   "mean_abs_miss": 18.6,
+   "other_abs_miss": 7.8
+  }
+ },
+ "development": {
+  "days": 59,
+  "concentration": {
+   "top10pct": 0.246,
+   "top20pct": 0.427
+  },
+  "by_cloud": {
+   "실측 맑음": {
+    "days": 25,
+    "pen_share": 0.265,
+    "pen_per_day": 273496,
+    "bias": 1.017
+   },
+   "실측 중간": {
+    "days": 26,
+    "pen_share": 0.541,
+    "pen_per_day": 535740,
+    "bias": 1.019
+   },
+   "실측 흐림": {
+    "days": 8,
+    "pen_share": 0.194,
+    "pen_per_day": 624113,
+    "bias": 1.229
+   }
+  },
+  "by_miss": {
+   "예보가 더 맑음(-20 미만)": {
+    "days": 1,
+    "pen_share": 0.035,
+    "pen_per_day": 900565,
+    "bias": 1.193
+   },
+   "비슷": {
+    "days": 56,
+    "pen_share": 0.899,
+    "pen_per_day": 413639,
+    "bias": 1.029
+   },
+   "예보가 더 흐림(+20 초과)": {
+    "days": 2,
+    "pen_share": 0.066,
+    "pen_per_day": 847596,
+    "bias": 0.985
+   }
+  },
+  "by_kind": {
+   "평일": {
+    "days": 43,
+    "pen_share": 0.712,
+    "pen_per_day": 426362,
+    "bias": 1.042
+   },
+   "휴일": {
+    "days": 16,
+    "pen_share": 0.288,
+    "pen_per_day": 464123,
+    "bias": 0.995
+   }
+  },
+  "by_kind_clear": {
+   "평일": {
+    "days": 19,
+    "pen_share": 0.835,
+    "pen_per_day": 300620,
+    "bias": 1.025
+   },
+   "휴일": {
+    "days": 6,
+    "pen_share": 0.165,
+    "pen_per_day": 187602,
+    "bias": 0.992
+   }
+  },
+  "worst_days": {
+   "over": 4,
+   "under": 1,
+   "mean_abs_miss": 19.0,
+   "other_abs_miss": 7.6
+  }
+ },
+ "selection": {
+  "days": 61,
+  "concentration": {
+   "top10pct": 0.23,
+   "top20pct": 0.394
+  },
+  "by_cloud": {
+   "실측 맑음": {
+    "days": 24,
+    "pen_share": 0.246,
+    "pen_per_day": 285980,
+    "bias": 0.993
+   },
+   "실측 중간": {
+    "days": 23,
+    "pen_share": 0.449,
+    "pen_per_day": 546131,
+    "bias": 0.995
+   },
+   "실측 흐림": {
+    "days": 14,
+    "pen_share": 0.305,
+    "pen_per_day": 609304,
+    "bias": 0.967
+   }
+  },
+  "by_miss": {
+   "예보가 더 맑음(-20 미만)": {
+    "days": 2,
+    "pen_share": 0.022,
+    "pen_per_day": 309698,
+    "bias": 0.958
+   },
+   "비슷": {
+    "days": 49,
+    "pen_share": 0.773,
+    "pen_per_day": 440895,
+    "bias": 1.004
+   },
+   "예보가 더 흐림(+20 초과)": {
+    "days": 10,
+    "pen_share": 0.205,
+    "pen_per_day": 573153,
+    "bias": 0.94
+   }
+  },
+  "by_kind": {
+   "평일": {
+    "days": 42,
+    "pen_share": 0.688,
+    "pen_per_day": 457872,
+    "bias": 0.984
+   },
+   "휴일": {
+    "days": 19,
+    "pen_share": 0.312,
+    "pen_per_day": 459167,
+    "bias": 1.011
+   }
+  },
+  "by_kind_clear": {
+   "평일": {
+    "days": 19,
+    "pen_share": 0.847,
+    "pen_per_day": 306074,
+    "bias": 0.991
+   },
+   "휴일": {
+    "days": 5,
+    "pen_share": 0.153,
+    "pen_per_day": 209625,
+    "bias": 0.999
+   }
+  },
+  "worst_days": {
+   "over": 2,
+   "under": 4,
+   "mean_abs_miss": 9.9,
+   "other_abs_miss": 11.1
+  }
+ },
+ "off_day_history_clear": {
+  "2021 가을": {
+   "weekday_days": 15,
+   "off_days": 13,
+   "weekday_kt": 0.997,
+   "off_kt": 0.977,
+   "off_vs_weekday_pct": -1.9
+  },
+  "2021 겨울": {
+   "weekday_days": 22,
+   "off_days": 11,
+   "weekday_kt": 1.155,
+   "off_kt": 1.092,
+   "off_vs_weekday_pct": -5.5
+  },
+  "2021 봄": {
+   "weekday_days": 25,
+   "off_days": 11,
+   "weekday_kt": 0.848,
+   "off_kt": 0.735,
+   "off_vs_weekday_pct": -13.3
+  },
+  "2021 여름": {
+   "weekday_days": 9,
+   "off_days": 3,
+   "weekday_kt": 0.634,
+   "off_kt": 0.672,
+   "off_vs_weekday_pct": 6.0
+  },
+  "2022 가을": {
+   "weekday_days": 25,
+   "off_days": 6,
+   "weekday_kt": 0.951,
+   "off_kt": 1.023,
+   "off_vs_weekday_pct": 7.5
+  },
+  "2022 겨울": {
+   "weekday_days": 27,
+   "off_days": 9,
+   "weekday_kt": 1.166,
+   "off_kt": 1.157,
+   "off_vs_weekday_pct": -0.8
+  },
+  "2022 봄": {
+   "weekday_days": 24,
+   "off_days": 13,
+   "weekday_kt": 0.832,
+   "off_kt": 0.888,
+   "off_vs_weekday_pct": 6.7
+  },
+  "2023 가을": {
+   "weekday_days": 27,
+   "off_days": 10,
+   "weekday_kt": 0.964,
+   "off_kt": 0.938,
+   "off_vs_weekday_pct": -2.6
+  },
+  "2023 겨울": {
+   "weekday_days": 29,
+   "off_days": 8,
+   "weekday_kt": 1.127,
+   "off_kt": 1.108,
+   "off_vs_weekday_pct": -1.7
+  },
+  "2023 봄": {
+   "weekday_days": 22,
+   "off_days": 7,
+   "weekday_kt": 0.861,
+   "off_kt": 0.884,
+   "off_vs_weekday_pct": 2.7
+  },
+  "2024 가을": {
+   "weekday_days": 13,
+   "off_days": 3,
+   "weekday_kt": 0.962,
+   "off_kt": 0.937,
+   "off_vs_weekday_pct": -2.6
+  },
+  "2024 겨울": {
+   "weekday_days": 24,
+   "off_days": 12,
+   "weekday_kt": 1.11,
+   "off_kt": 1.123,
+   "off_vs_weekday_pct": 1.1
+  },
+  "2024 봄": {
+   "weekday_days": 21,
+   "off_days": 12,
+   "weekday_kt": 0.839,
+   "off_kt": 0.869,
+   "off_vs_weekday_pct": 3.7
+  },
+  "2024 여름": {
+   "weekday_days": 11,
+   "off_days": 3,
+   "weekday_kt": 0.696,
+   "off_kt": 0.715,
+   "off_vs_weekday_pct": 2.8
+  },
+  "2025 겨울": {
+   "weekday_days": 19,
+   "off_days": 6,
+   "weekday_kt": 1.107,
+   "off_kt": 1.132,
+   "off_vs_weekday_pct": 2.2
+  },
+  "2025 봄": {
+   "weekday_days": 19,
+   "off_days": 5,
+   "weekday_kt": 0.869,
+   "off_kt": 0.873,
+   "off_vs_weekday_pct": 0.4
+  }
+ }
+}

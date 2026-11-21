@@ -1,0 +1,608 @@
+{
+  "summer_support": {
+    "sites": 205,
+    "capacity_kw": 33164.4,
+    "total": {
+      "baseline": {
+        "penalty": 52677725,
+        "lower_bound": 51419899,
+        "pen_pct": 2.765,
+        "bias": 0.9689
+      },
+      "adopted": {
+        "penalty": 46429228,
+        "lower_bound": 44775724,
+        "pen_pct": 2.437,
+        "bias": 0.9651
+      }
+    },
+    "month": {
+      "2024-06": {
+        "baseline": {
+          "penalty": 19130046,
+          "lower_bound": 18780020,
+          "pen_pct": 2.947,
+          "bias": 0.9774
+        },
+        "adopted": {
+          "penalty": 14920218,
+          "lower_bound": 14490410,
+          "pen_pct": 2.299,
+          "bias": 0.99
+        }
+      },
+      "2024-07": {
+        "baseline": {
+          "penalty": 21738633,
+          "lower_bound": 21377147,
+          "pen_pct": 4.047,
+          "bias": 0.9304
+        },
+        "adopted": {
+          "penalty": 18672367,
+          "lower_bound": 18026147,
+          "pen_pct": 3.477,
+          "bias": 0.9362
+        }
+      },
+      "2024-08": {
+        "baseline": {
+          "penalty": 11809045,
+          "lower_bound": 11262732,
+          "pen_pct": 1.643,
+          "bias": 0.9912
+        },
+        "adopted": {
+          "penalty": 12836643,
+          "lower_bound": 12259168,
+          "pen_pct": 1.786,
+          "bias": 0.9627
+        }
+      }
+    },
+    "k": {
+      "1": {
+        "baseline": {
+          "penalty": 10715483,
+          "lower_bound": 10433759,
+          "pen_pct": 1.394,
+          "bias": 0.9676
+        },
+        "adopted": {
+          "penalty": 9713352,
+          "lower_bound": 9416163,
+          "pen_pct": 1.264,
+          "bias": 0.9492
+        }
+      },
+      "3": {
+        "baseline": {
+          "penalty": 41962242,
+          "lower_bound": 40986140,
+          "pen_pct": 3.693,
+          "bias": 0.9699
+        },
+        "adopted": {
+          "penalty": 36715876,
+          "lower_bound": 35359561,
+          "pen_pct": 3.231,
+          "bias": 0.9762
+        }
+      }
+    },
+    "sky": {
+      "맑음": {
+        "baseline": {
+          "penalty": 4814332,
+          "lower_bound": 4599227,
+          "pen_pct": 1.163,
+          "bias": 0.9914
+        },
+        "adopted": {
+          "penalty": 4443080,
+          "lower_bound": 4003040,
+          "pen_pct": 1.073,
+          "bias": 0.9864
+        }
+      },
+      "중간": {
+        "baseline": {
+          "penalty": 9957662,
+          "lower_bound": 9486999,
+          "pen_pct": 1.74,
+          "bias": 0.9653
+        },
+        "adopted": {
+          "penalty": 9317169,
+          "lower_bound": 8707077,
+          "pen_pct": 1.628,
+          "bias": 0.9665
+        }
+      },
+      "흐림": {
+        "baseline": {
+          "penalty": 37905731,
+          "lower_bound": 37333673,
+          "pen_pct": 4.125,
+          "bias": 0.9606
+        },
+        "adopted": {
+          "penalty": 32668979,
+          "lower_bound": 32065607,
+          "pen_pct": 3.555,
+          "bias": 0.9542
+        }
+      }
+    },
+    "cohort_bias": {
+      "2023-06~2024-05": {
+        "sites": 99,
+        "by_month": {
+          "2024-06": 0.986,
+          "2024-07": 0.936,
+          "2024-08": 0.951
+        }
+      },
+      "~2023-05": {
+        "sites": 106,
+        "by_month": {
+          "2024-06": 1.0,
+          "2024-07": 0.937,
+          "2024-08": 0.996
+        }
+      }
+    }
+  },
+  "autumn_support": {
+    "sites": 252,
+    "capacity_kw": 41379.8,
+    "total": {
+      "baseline": {
+        "penalty": 62417183,
+        "lower_bound": 61685438,
+        "pen_pct": 4.039,
+        "bias": 0.9996
+      },
+      "adopted": {
+        "penalty": 56328688,
+        "lower_bound": 55358130,
+        "pen_pct": 3.645,
+        "bias": 1.0316
+      }
+    },
+    "month": {
+      "2024-09": {
+        "baseline": {
+          "penalty": 28510250,
+          "lower_bound": 28292774,
+          "pen_pct": 4.322,
+          "bias": 0.9906
+        },
+        "adopted": {
+          "penalty": 25695888,
+          "lower_bound": 25273693,
+          "pen_pct": 3.896,
+          "bias": 1.0308
+        }
+      },
+      "2024-10": {
+        "baseline": {
+          "penalty": 20275915,
+          "lower_bound": 20004107,
+          "pen_pct": 4.231,
+          "bias": 1.0026
+        },
+        "adopted": {
+          "penalty": 18671793,
+          "lower_bound": 18450690,
+          "pen_pct": 3.897,
+          "bias": 1.0352
+        }
+      },
+      "2024-11": {
+        "baseline": {
+          "penalty": 13631018,
+          "lower_bound": 13388557,
+          "pen_pct": 3.353,
+          "bias": 1.0084
+        },
+        "adopted": {
+          "penalty": 11961007,
+          "lower_bound": 11633747,
+          "pen_pct": 2.942,
+          "bias": 1.0288
+        }
+      }
+    },
+    "k": {
+      "1": {
+        "baseline": {
+          "penalty": 9614628,
+          "lower_bound": 9488173,
+          "pen_pct": 1.98,
+          "bias": 1.0091
+        },
+        "adopted": {
+          "penalty": 8403335,
+          "lower_bound": 8234289,
+          "pen_pct": 1.731,
+          "bias": 1.035
+        }
+      },
+      "3": {
+        "baseline": {
+          "penalty": 52802555,
+          "lower_bound": 52197265,
+          "pen_pct": 4.982,
+          "bias": 0.9954
+        },
+        "adopted": {
+          "penalty": 47925353,
+          "lower_bound": 47123841,
+          "pen_pct": 4.522,
+          "bias": 1.0301
+        }
+      }
+    },
+    "sky": {
+      "맑음": {
+        "baseline": {
+          "penalty": 9967963,
+          "lower_bound": 9742174,
+          "pen_pct": 1.824,
+          "bias": 1.0013
+        },
+        "adopted": {
+          "penalty": 10114310,
+          "lower_bound": 9812524,
+          "pen_pct": 1.85,
+          "bias": 1.0196
+        }
+      },
+      "중간": {
+        "baseline": {
+          "penalty": 31052593,
+          "lower_bound": 30665250,
+          "pen_pct": 4.352,
+          "bias": 0.969
+        },
+        "adopted": {
+          "penalty": 27220744,
+          "lower_bound": 26669168,
+          "pen_pct": 3.815,
+          "bias": 1.0161
+        }
+      },
+      "흐림": {
+        "baseline": {
+          "penalty": 21396627,
+          "lower_bound": 21278015,
+          "pen_pct": 7.501,
+          "bias": 1.0742
+        },
+        "adopted": {
+          "penalty": 18993634,
+          "lower_bound": 18876439,
+          "pen_pct": 6.659,
+          "bias": 1.0944
+        }
+      }
+    },
+    "cohort_bias": {
+      "2023-06~2024-05": {
+        "sites": 99,
+        "by_month": {
+          "2024-09": 1.04,
+          "2024-10": 1.034,
+          "2024-11": 1.019
+        }
+      },
+      "2024-06~": {
+        "sites": 47,
+        "by_month": {
+          "2024-09": 1.022,
+          "2024-10": 1.037,
+          "2024-11": 1.048
+        }
+      },
+      "~2023-05": {
+        "sites": 106,
+        "by_month": {
+          "2024-09": 1.015,
+          "2024-10": 1.036,
+          "2024-11": 1.036
+        }
+      }
+    }
+  },
+  "development": {
+    "sites": 253,
+    "capacity_kw": 42655.4,
+    "total": {
+      "baseline": {
+        "penalty": 29939930,
+        "lower_bound": 29234701,
+        "pen_pct": 2.81,
+        "bias": 1.0145
+      },
+      "adopted": {
+        "penalty": 26115339,
+        "lower_bound": 25294218,
+        "pen_pct": 2.451,
+        "bias": 1.0298
+      }
+    },
+    "month": {
+      "2025-01": {
+        "baseline": {
+          "penalty": 13701009,
+          "lower_bound": 13535672,
+          "pen_pct": 2.931,
+          "bias": 1.0512
+        },
+        "adopted": {
+          "penalty": 11836901,
+          "lower_bound": 11663656,
+          "pen_pct": 2.532,
+          "bias": 1.0445
+        }
+      },
+      "2025-02": {
+        "baseline": {
+          "penalty": 16238921,
+          "lower_bound": 15699029,
+          "pen_pct": 2.716,
+          "bias": 0.9859
+        },
+        "adopted": {
+          "penalty": 14278438,
+          "lower_bound": 13630563,
+          "pen_pct": 2.388,
+          "bias": 1.0184
+        }
+      }
+    },
+    "k": {
+      "1": {
+        "baseline": {
+          "penalty": 3720429,
+          "lower_bound": 3520167,
+          "pen_pct": 1.287,
+          "bias": 1.0221
+        },
+        "adopted": {
+          "penalty": 3473805,
+          "lower_bound": 3316301,
+          "pen_pct": 1.201,
+          "bias": 1.0222
+        }
+      },
+      "3": {
+        "baseline": {
+          "penalty": 26219501,
+          "lower_bound": 25714534,
+          "pen_pct": 3.377,
+          "bias": 1.0118
+        },
+        "adopted": {
+          "penalty": 22641534,
+          "lower_bound": 21977918,
+          "pen_pct": 2.916,
+          "bias": 1.0326
+        }
+      }
+    },
+    "sky": {
+      "맑음": {
+        "baseline": {
+          "penalty": 13012924,
+          "lower_bound": 12392011,
+          "pen_pct": 1.823,
+          "bias": 0.9955
+        },
+        "adopted": {
+          "penalty": 12487731,
+          "lower_bound": 11940312,
+          "pen_pct": 1.749,
+          "bias": 1.0225
+        }
+      },
+      "중간": {
+        "baseline": {
+          "penalty": 13443223,
+          "lower_bound": 13360031,
+          "pen_pct": 4.333,
+          "bias": 1.0614
+        },
+        "adopted": {
+          "penalty": 10881441,
+          "lower_bound": 10643354,
+          "pen_pct": 3.507,
+          "bias": 1.0596
+        }
+      },
+      "흐림": {
+        "baseline": {
+          "penalty": 3483783,
+          "lower_bound": 3482660,
+          "pen_pct": 8.431,
+          "bias": 0.9861
+        },
+        "adopted": {
+          "penalty": 2746167,
+          "lower_bound": 2710552,
+          "pen_pct": 6.646,
+          "bias": 0.9334
+        }
+      }
+    },
+    "cohort_bias": {
+      "2023-06~2024-05": {
+        "sites": 99,
+        "by_month": {
+          "2025-01": 1.049,
+          "2025-02": 0.99
+        }
+      },
+      "2024-06~": {
+        "sites": 48,
+        "by_month": {
+          "2025-01": 1.031,
+          "2025-02": 1.109
+        }
+      },
+      "~2023-05": {
+        "sites": 106,
+        "by_month": {
+          "2025-01": 1.047,
+          "2025-02": 1.009
+        }
+      }
+    }
+  },
+  "selection": {
+    "sites": 253,
+    "capacity_kw": 42655.4,
+    "total": {
+      "baseline": {
+        "penalty": 34663921,
+        "lower_bound": 33740983,
+        "pen_pct": 2.404,
+        "bias": 0.966
+      },
+      "adopted": {
+        "penalty": 28017404,
+        "lower_bound": 27019928,
+        "pen_pct": 1.943,
+        "bias": 0.9891
+      }
+    },
+    "month": {
+      "2025-03": {
+        "baseline": {
+          "penalty": 14745342,
+          "lower_bound": 14298667,
+          "pen_pct": 2.419,
+          "bias": 0.9886
+        },
+        "adopted": {
+          "penalty": 13060489,
+          "lower_bound": 12479479,
+          "pen_pct": 2.143,
+          "bias": 1.0076
+        }
+      },
+      "2025-04": {
+        "baseline": {
+          "penalty": 19918579,
+          "lower_bound": 19442316,
+          "pen_pct": 2.393,
+          "bias": 0.9472
+        },
+        "adopted": {
+          "penalty": 14956915,
+          "lower_bound": 14540449,
+          "pen_pct": 1.797,
+          "bias": 0.9737
+        }
+      }
+    },
+    "k": {
+      "1": {
+        "baseline": {
+          "penalty": 7216860,
+          "lower_bound": 7059490,
+          "pen_pct": 1.367,
+          "bias": 0.9464
+        },
+        "adopted": {
+          "penalty": 5499113,
+          "lower_bound": 5354502,
+          "pen_pct": 1.042,
+          "bias": 0.9828
+        }
+      },
+      "3": {
+        "baseline": {
+          "penalty": 27447061,
+          "lower_bound": 26681492,
+          "pen_pct": 3.003,
+          "bias": 0.977
+        },
+        "adopted": {
+          "penalty": 22518291,
+          "lower_bound": 21665425,
+          "pen_pct": 2.464,
+          "bias": 0.9926
+        }
+      }
+    },
+    "sky": {
+      "맑음": {
+        "baseline": {
+          "penalty": 10874878,
+          "lower_bound": 10362768,
+          "pen_pct": 1.406,
+          "bias": 0.9598
+        },
+        "adopted": {
+          "penalty": 7291382,
+          "lower_bound": 6709588,
+          "pen_pct": 0.942,
+          "bias": 0.9953
+        }
+      },
+      "중간": {
+        "baseline": {
+          "penalty": 9286779,
+          "lower_bound": 9009303,
+          "pen_pct": 2.365,
+          "bias": 0.9833
+        },
+        "adopted": {
+          "penalty": 9188158,
+          "lower_bound": 8878654,
+          "pen_pct": 2.34,
+          "bias": 1.0085
+        }
+      },
+      "흐림": {
+        "baseline": {
+          "penalty": 14502263,
+          "lower_bound": 14368912,
+          "pen_pct": 5.263,
+          "bias": 0.9571
+        },
+        "adopted": {
+          "penalty": 11537865,
+          "lower_bound": 11431686,
+          "pen_pct": 4.187,
+          "bias": 0.9446
+        }
+      }
+    },
+    "cohort_bias": {
+      "2023-06~2024-05": {
+        "sites": 99,
+        "by_month": {
+          "2025-03": 1.007,
+          "2025-04": 0.981
+        }
+      },
+      "2024-06~": {
+        "sites": 48,
+        "by_month": {
+          "2025-03": 1.009,
+          "2025-04": 0.945
+        }
+      },
+      "~2023-05": {
+        "sites": 106,
+        "by_month": {
+          "2025-03": 1.008,
+          "2025-04": 0.984
+        }
+      }
+    }
+  }
+}

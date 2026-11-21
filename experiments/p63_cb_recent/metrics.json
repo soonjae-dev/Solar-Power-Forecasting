@@ -1,0 +1,393 @@
+{
+  "rule": "14.59",
+  "feature_families": {
+    "gfs": 60,
+    "forecast_B": 46,
+    "forecast_A": 22,
+    "other": 5,
+    "solar": 4,
+    "nbrc": 3,
+    "calendar": 3,
+    "site": 1
+  },
+  "other_features": [
+    "lat",
+    "lon",
+    "cap",
+    "cloud_mean",
+    "cloud_gap"
+  ],
+  "windows": {
+    "summer_support": {
+      "train_cutoff": "2024-05-31T17:00:00+09:00",
+      "train_rows": 1106282,
+      "cb_change_pct": -6.322,
+      "d1_half_month": {
+        "A:2024-06a": {
+          "forecast_kwh": 0.9768,
+          "cb": 0.9938
+        },
+        "A:2024-06b": {
+          "forecast_kwh": 1.0397,
+          "cb": 1.0455
+        },
+        "A:2024-07a": {
+          "forecast_kwh": 0.973,
+          "cb": 0.9832
+        },
+        "A:2024-07b": {
+          "forecast_kwh": 0.9057,
+          "cb": 0.9068
+        },
+        "A:2024-08a": {
+          "forecast_kwh": 0.957,
+          "cb": 0.9756
+        },
+        "A:2024-08b": {
+          "forecast_kwh": 0.9672,
+          "cb": 0.9805
+        },
+        "A:2024-09b": {
+          "forecast_kwh": null,
+          "cb": null
+        },
+        "B:2024-06a": {
+          "forecast_kwh": 0.9941,
+          "cb": 0.9832
+        },
+        "B:2024-06b": {
+          "forecast_kwh": 1.0751,
+          "cb": 1.0538
+        },
+        "B:2024-07a": {
+          "forecast_kwh": 0.9372,
+          "cb": 0.9334
+        },
+        "B:2024-07b": {
+          "forecast_kwh": 0.9223,
+          "cb": 0.9227
+        },
+        "B:2024-08a": {
+          "forecast_kwh": 0.9741,
+          "cb": 0.9746
+        },
+        "B:2024-08b": {
+          "forecast_kwh": 0.9713,
+          "cb": 0.971
+        },
+        "B:2024-09b": {
+          "forecast_kwh": null,
+          "cb": null
+        }
+      },
+      "d3_v6_kt": {
+        "A:high": {
+          "forecast_kwh": 1.0347,
+          "cb": 1.0148
+        },
+        "A:low": {
+          "forecast_kwh": 0.8173,
+          "cb": 0.8494
+        },
+        "A:mid": {
+          "forecast_kwh": 0.9697,
+          "cb": 0.9891
+        },
+        "B:high": {
+          "forecast_kwh": 1.0189,
+          "cb": 0.9842
+        },
+        "B:low": {
+          "forecast_kwh": 0.8919,
+          "cb": 0.9174
+        },
+        "B:mid": {
+          "forecast_kwh": 0.973,
+          "cb": 0.9775
+        }
+      },
+      "d2_train_year": {
+        "A:2021": {
+          "cb": 0.9949,
+          "lgbm": 0.9962
+        },
+        "A:2022": {
+          "cb": 0.9956,
+          "lgbm": 0.9956
+        },
+        "A:2023": {
+          "cb": 1.0,
+          "lgbm": 1.0003
+        },
+        "A:2024": {
+          "cb": 1.0047,
+          "lgbm": 1.0006
+        },
+        "B:2022": {
+          "cb": 0.9962,
+          "lgbm": 0.9917
+        },
+        "B:2023": {
+          "cb": 1.0073,
+          "lgbm": 1.0015
+        },
+        "B:2024": {
+          "cb": 0.9908,
+          "lgbm": 0.9995
+        }
+      },
+      "d2_train_last90": {
+        "A": {
+          "cb": 1.0063,
+          "lgbm": 1.0012
+        },
+        "B": {
+          "cb": 0.99,
+          "lgbm": 0.9995
+        }
+      },
+      "d4_importance": {
+        "catboost": {
+          "families": {
+            "calendar": 0.1297,
+            "forecast_A": 0.2007,
+            "forecast_B": 0.081,
+            "gfs": 0.3962,
+            "nbrc": 0.0083,
+            "other": 0.1086,
+            "site": 0.0456,
+            "solar": 0.0298
+          },
+          "top15": {
+            "gfs_pwat_r12": 0.0871,
+            "doy_cos": 0.0615,
+            "wa_humidity": 0.0573,
+            "lat": 0.05,
+            "doy_sin": 0.0474,
+            "site": 0.0456,
+            "gfs_dswrf_r12": 0.0357,
+            "lon": 0.0341,
+            "wa_cloud_roll3": 0.0326,
+            "gfs_lcdc_r12": 0.0237,
+            "hour": 0.0208,
+            "gfs_dswrf_r11": 0.0188,
+            "cap": 0.0187,
+            "wa_cloud_daymean": 0.0185,
+            "gfs_lcdc_r21": 0.018
+          }
+        },
+        "lightgbm": {
+          "families": {
+            "calendar": 0.0402,
+            "forecast_A": 0.5076,
+            "forecast_B": 0.0424,
+            "gfs": 0.2825,
+            "nbrc": 0.0044,
+            "other": 0.0199,
+            "site": 0.0874,
+            "solar": 0.0157
+          },
+          "top15": {
+            "wa_humidity": 0.3047,
+            "gfs_pwat_r12": 0.0953,
+            "site": 0.0874,
+            "wa_humidity_r10": 0.0659,
+            "wa_cloud_roll3": 0.0561,
+            "wa_cloud_daymean": 0.0365,
+            "gfs_pwat_all": 0.0243,
+            "doy_cos": 0.0216,
+            "gfs_lcdc_all": 0.0194,
+            "gfs_dswrf_r12": 0.0162,
+            "doy_sin": 0.0159,
+            "wb_rel_hum": 0.0114,
+            "wa_cloud_next": 0.0109,
+            "gfs_dswrf_r11": 0.0106,
+            "cloud_mean": 0.0104
+          }
+        }
+      }
+    },
+    "selection": {
+      "train_cutoff": "2025-02-28T17:00:00+09:00",
+      "train_rows": 1890847,
+      "cb_change_pct": 8.317,
+      "d1_half_month": {
+        "A:2025-03a": {
+          "forecast_kwh": 0.9692,
+          "cb": 0.9733
+        },
+        "A:2025-03b": {
+          "forecast_kwh": 1.0173,
+          "cb": 1.0065
+        },
+        "A:2025-04a": {
+          "forecast_kwh": 0.9988,
+          "cb": 1.0077
+        },
+        "A:2025-04b": {
+          "forecast_kwh": 0.994,
+          "cb": 0.9879
+        },
+        "A:2025-05b": {
+          "forecast_kwh": null,
+          "cb": null
+        },
+        "B:2025-03a": {
+          "forecast_kwh": 1.0033,
+          "cb": 0.9819
+        },
+        "B:2025-03b": {
+          "forecast_kwh": 1.0091,
+          "cb": 0.9744
+        },
+        "B:2025-04a": {
+          "forecast_kwh": 0.9905,
+          "cb": 0.9677
+        },
+        "B:2025-04b": {
+          "forecast_kwh": 1.002,
+          "cb": 0.9551
+        },
+        "B:2025-05b": {
+          "forecast_kwh": null,
+          "cb": null
+        }
+      },
+      "d3_v6_kt": {
+        "A:high": {
+          "forecast_kwh": 1.0142,
+          "cb": 1.0003
+        },
+        "A:low": {
+          "forecast_kwh": 0.8684,
+          "cb": 0.9126
+        },
+        "A:mid": {
+          "forecast_kwh": 0.9749,
+          "cb": 0.9974
+        },
+        "B:high": {
+          "forecast_kwh": 1.021,
+          "cb": 0.9995
+        },
+        "B:low": {
+          "forecast_kwh": 0.8078,
+          "cb": 0.7739
+        },
+        "B:mid": {
+          "forecast_kwh": 0.9748,
+          "cb": 0.9098
+        }
+      },
+      "d2_train_year": {
+        "A:2021": {
+          "cb": 0.9912,
+          "lgbm": 0.9914
+        },
+        "A:2022": {
+          "cb": 0.9953,
+          "lgbm": 0.9927
+        },
+        "A:2023": {
+          "cb": 1.0005,
+          "lgbm": 0.9986
+        },
+        "A:2024": {
+          "cb": 1.0052,
+          "lgbm": 1.0009
+        },
+        "A:2025": {
+          "cb": 1.0097,
+          "lgbm": 1.0033
+        },
+        "B:2022": {
+          "cb": 0.9941,
+          "lgbm": 0.9851
+        },
+        "B:2023": {
+          "cb": 1.0051,
+          "lgbm": 0.997
+        },
+        "B:2024": {
+          "cb": 0.9907,
+          "lgbm": 0.9996
+        },
+        "B:2025": {
+          "cb": 0.9989,
+          "lgbm": 1.0
+        }
+      },
+      "d2_train_last90": {
+        "A": {
+          "cb": 1.0101,
+          "lgbm": 1.0035
+        },
+        "B": {
+          "cb": 0.9971,
+          "lgbm": 0.9994
+        }
+      },
+      "d4_importance": {
+        "catboost": {
+          "families": {
+            "calendar": 0.1338,
+            "forecast_A": 0.1812,
+            "forecast_B": 0.0886,
+            "gfs": 0.382,
+            "nbrc": 0.0127,
+            "other": 0.1249,
+            "site": 0.044,
+            "solar": 0.0327
+          },
+          "top15": {
+            "doy_cos": 0.0747,
+            "gfs_pwat_r12": 0.0621,
+            "wa_humidity": 0.054,
+            "lat": 0.0501,
+            "site": 0.044,
+            "doy_sin": 0.0439,
+            "cap": 0.0342,
+            "gfs_dswrf_r12": 0.0322,
+            "lon": 0.0262,
+            "gfs_lcdc_r12": 0.0231,
+            "wa_cloud_daymean": 0.0183,
+            "gfs_lcdc_all": 0.0183,
+            "gfs_dswrf_r11": 0.0177,
+            "wa_cloud_roll3": 0.0175,
+            "gfs_pwat_r01": 0.0175
+          }
+        },
+        "lightgbm": {
+          "families": {
+            "calendar": 0.0399,
+            "forecast_A": 0.4729,
+            "forecast_B": 0.0486,
+            "gfs": 0.2863,
+            "nbrc": 0.0084,
+            "other": 0.0374,
+            "site": 0.0915,
+            "solar": 0.015
+          },
+          "top15": {
+            "wa_humidity": 0.2762,
+            "site": 0.0915,
+            "gfs_pwat_r12": 0.0875,
+            "wa_humidity_r10": 0.0668,
+            "wa_cloud_roll3": 0.0429,
+            "wa_cloud_daymean": 0.0351,
+            "gfs_pwat_r01": 0.0318,
+            "doy_cos": 0.0226,
+            "cloud_mean": 0.0196,
+            "gfs_lcdc_all": 0.0185,
+            "doy_sin": 0.0141,
+            "wb_rel_hum": 0.0141,
+            "gfs_pwat_all": 0.0117,
+            "wa_cloud_region": 0.0111,
+            "gfs_dswrf_r12": 0.0108
+          }
+        }
+      }
+    }
+  },
+  "complete": true
+}

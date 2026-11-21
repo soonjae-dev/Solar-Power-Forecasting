@@ -1,0 +1,11 @@
+{
+ "schema": "gefs_mean_3hour_blocks_v1",
+ "first": "2021-01-02",
+ "last": "2025-04-30",
+ "eligible_days": 1573,
+ "counts": {
+  "reused": 1573
+ },
+ "error_types": {},
+ "complete": true
+}

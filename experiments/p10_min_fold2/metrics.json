@@ -1,0 +1,199 @@
+{
+ "2023-01 시작": {
+  "total": {
+   "sites": 253,
+   "hours": 2880,
+   "penalty": 56196777,
+   "base_penalty": 66461999,
+   "score": 15.45,
+   "ratio": 1.01,
+   "pen_pct_of_revenue": 2.241
+  },
+  "by_month": {
+   "2025-01": {
+    "sites": 253,
+    "hours": 744,
+    "penalty": 12712971,
+    "base_penalty": 14356610,
+    "score": 11.45,
+    "ratio": 1.053,
+    "pen_pct_of_revenue": 2.719
+   },
+   "2025-02": {
+    "sites": 253,
+    "hours": 672,
+    "penalty": 14901110,
+    "base_penalty": 16329368,
+    "score": 8.75,
+    "ratio": 1.014,
+    "pen_pct_of_revenue": 2.492
+   },
+   "2025-03": {
+    "sites": 253,
+    "hours": 744,
+    "penalty": 13450344,
+    "base_penalty": 15164850,
+    "score": 11.31,
+    "ratio": 1.018,
+    "pen_pct_of_revenue": 2.207
+   },
+   "2025-04": {
+    "sites": 253,
+    "hours": 720,
+    "penalty": 15132353,
+    "base_penalty": 20611171,
+    "score": 26.58,
+    "ratio": 0.974,
+    "pen_pct_of_revenue": 1.818
+   }
+  },
+  "by_period": {
+   "2025-01~02": {
+    "sites": 253,
+    "hours": 1416,
+    "penalty": 27614081,
+    "base_penalty": 30685978,
+    "score": 10.01,
+    "ratio": 1.031,
+    "pen_pct_of_revenue": 2.592
+   },
+   "2025-03~04": {
+    "sites": 253,
+    "hours": 1464,
+    "penalty": 28582696,
+    "base_penalty": 35776021,
+    "score": 20.11,
+    "ratio": 0.994,
+    "pen_pct_of_revenue": 1.982
+   }
+  },
+  "by_cohort": {
+   "2023-06~2024-05": {
+    "sites": 99,
+    "hours": 2880,
+    "penalty": 33795437,
+    "base_penalty": 39259114,
+    "score": 13.92,
+    "ratio": 1.0,
+    "pen_pct_of_revenue": 2.368
+   },
+   "2024-06~": {
+    "sites": 48,
+    "hours": 2880,
+    "penalty": 15967638,
+    "base_penalty": 17529571,
+    "score": 8.91,
+    "ratio": 1.041,
+    "pen_pct_of_revenue": 2.902
+   },
+   "~2023-05": {
+    "sites": 106,
+    "hours": 2880,
+    "penalty": 11236784,
+    "base_penalty": 13511364,
+    "score": 16.83,
+    "ratio": 1.004,
+    "pen_pct_of_revenue": 2.12
+   }
+  }
+ },
+ "2021-01 시작": {
+  "total": {
+   "sites": 253,
+   "hours": 2880,
+   "penalty": 53590389,
+   "base_penalty": 66461999,
+   "score": 19.37,
+   "ratio": 1.014,
+   "pen_pct_of_revenue": 2.137
+  },
+  "by_month": {
+   "2025-01": {
+    "sites": 253,
+    "hours": 744,
+    "penalty": 11598075,
+    "base_penalty": 14356610,
+    "score": 19.21,
+    "ratio": 1.043,
+    "pen_pct_of_revenue": 2.481
+   },
+   "2025-02": {
+    "sites": 253,
+    "hours": 672,
+    "penalty": 14161467,
+    "base_penalty": 16329368,
+    "score": 13.28,
+    "ratio": 1.02,
+    "pen_pct_of_revenue": 2.368
+   },
+   "2025-03": {
+    "sites": 253,
+    "hours": 744,
+    "penalty": 13138086,
+    "base_penalty": 15164850,
+    "score": 13.36,
+    "ratio": 1.028,
+    "pen_pct_of_revenue": 2.156
+   },
+   "2025-04": {
+    "sites": 253,
+    "hours": 720,
+    "penalty": 14692761,
+    "base_penalty": 20611171,
+    "score": 28.71,
+    "ratio": 0.981,
+    "pen_pct_of_revenue": 1.765
+   }
+  },
+  "by_period": {
+   "2025-01~02": {
+    "sites": 253,
+    "hours": 1416,
+    "penalty": 25759542,
+    "base_penalty": 30685978,
+    "score": 16.05,
+    "ratio": 1.03,
+    "pen_pct_of_revenue": 2.418
+   },
+   "2025-03~04": {
+    "sites": 253,
+    "hours": 1464,
+    "penalty": 27830847,
+    "base_penalty": 35776021,
+    "score": 22.21,
+    "ratio": 1.002,
+    "pen_pct_of_revenue": 1.93
+   }
+  },
+  "by_cohort": {
+   "2023-06~2024-05": {
+    "sites": 99,
+    "hours": 2880,
+    "penalty": 32501509,
+    "base_penalty": 39259114,
+    "score": 17.21,
+    "ratio": 1.004,
+    "pen_pct_of_revenue": 2.277
+   },
+   "2024-06~": {
+    "sites": 48,
+    "hours": 2880,
+    "penalty": 15572633,
+    "base_penalty": 17529571,
+    "score": 11.16,
+    "ratio": 1.042,
+    "pen_pct_of_revenue": 2.83
+   },
+   "~2023-05": {
+    "sites": 106,
+    "hours": 2880,
+    "penalty": 10690437,
+    "base_penalty": 13511364,
+    "score": 20.88,
+    "ratio": 1.011,
+    "pen_pct_of_revenue": 2.017
+   }
+  }
+ },
+ "start_2023_vs_2021_pct": 4.86
+}

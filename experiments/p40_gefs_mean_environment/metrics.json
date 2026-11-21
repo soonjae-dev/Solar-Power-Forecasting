@@ -1,0 +1,20 @@
+{
+ "checked_at": "2026-11-07T14:08:10.672218+00:00",
+ "ready": true,
+ "public_requests_only": true,
+ "competition_data_accessed": false,
+ "dependencies": {
+  "eccodes": "2.50.0",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "lightgbm": "4.6.0"
+ },
+ "dns": "ok",
+ "idx_average_width_counts": {
+  "3": 6,
+  "6": 6
+ },
+ "https": "ok",
+ "decoded_fields": 2,
+ "repeat_retrieval_identical": true
+}

@@ -1,0 +1,185 @@
+{
+  "rule": "14.36",
+  "baseline": "gfs60_3seeds",
+  "windows": {
+    "summer_support": {
+      "penalty": 42781408,
+      "reproduces_p26": true,
+      "total_residual_floor": 40978558,
+      "allocation_excess": 1802851,
+      "allocation_excess_pct": 4.214,
+      "peak_penalty_share_pct": 79.594,
+      "worst_10pct_days_share_pct": 28.402,
+      "cloud_regime_penalty_share_pct": {
+        "clear": 8.327,
+        "cloudy": 71.033,
+        "mixed": 20.54,
+        "unknown": 0.1
+      },
+      "observation_history_cohorts": {
+        "180_to_729_days": {
+          "site_count": 91,
+          "suppressed": false,
+          "aligned_penalty_contribution": 20212808,
+          "prediction_actual_ratio": 0.9786
+        },
+        "730_days_or_more": {
+          "site_count": 45,
+          "suppressed": false,
+          "aligned_penalty_contribution": 4264817,
+          "prediction_actual_ratio": 1.0181
+        },
+        "under_180_days": {
+          "site_count": 69,
+          "suppressed": false,
+          "aligned_penalty_contribution": 18303784,
+          "prediction_actual_ratio": 0.9591
+        }
+      }
+    },
+    "autumn_support": {
+      "penalty": 48555811,
+      "reproduces_p26": true,
+      "total_residual_floor": 47700098,
+      "allocation_excess": 855713,
+      "allocation_excess_pct": 1.762,
+      "peak_penalty_share_pct": 85.276,
+      "worst_10pct_days_share_pct": 27.877,
+      "cloud_regime_penalty_share_pct": {
+        "clear": 11.086,
+        "cloudy": 49.468,
+        "mixed": 39.235,
+        "unknown": 0.211
+      },
+      "observation_history_cohorts": {
+        "180_to_729_days": {
+          "site_count": 115,
+          "suppressed": false,
+          "aligned_penalty_contribution": 27180036,
+          "prediction_actual_ratio": 1.0022
+        },
+        "730_days_or_more": {
+          "site_count": 58,
+          "suppressed": false,
+          "aligned_penalty_contribution": 5181735,
+          "prediction_actual_ratio": 1.0066
+        },
+        "under_180_days": {
+          "site_count": 79,
+          "suppressed": false,
+          "aligned_penalty_contribution": 16194039,
+          "prediction_actual_ratio": 1.0044
+        }
+      }
+    },
+    "development": {
+      "penalty": 25519629,
+      "reproduces_p26": true,
+      "total_residual_floor": 24680392,
+      "allocation_excess": 839237,
+      "allocation_excess_pct": 3.289,
+      "peak_penalty_share_pct": 87.066,
+      "worst_10pct_days_share_pct": 28.354,
+      "cloud_regime_penalty_share_pct": {
+        "clear": 32.819,
+        "cloudy": 23.055,
+        "mixed": 43.69,
+        "unknown": 0.435
+      },
+      "observation_history_cohorts": {
+        "180_to_729_days": {
+          "site_count": 144,
+          "suppressed": false,
+          "aligned_penalty_contribution": 17178219,
+          "prediction_actual_ratio": 1.0315
+        },
+        "730_days_or_more": {
+          "site_count": 80,
+          "suppressed": false,
+          "aligned_penalty_contribution": 3353744,
+          "prediction_actual_ratio": 1.0398
+        },
+        "under_180_days": {
+          "site_count": 29,
+          "suppressed": false,
+          "aligned_penalty_contribution": 4987666,
+          "prediction_actual_ratio": 1.1177
+        }
+      }
+    },
+    "selection": {
+      "penalty": 25506539,
+      "reproduces_p26": true,
+      "total_residual_floor": 24525452,
+      "allocation_excess": 981087,
+      "allocation_excess_pct": 3.846,
+      "peak_penalty_share_pct": 79.818,
+      "worst_10pct_days_share_pct": 27.436,
+      "cloud_regime_penalty_share_pct": {
+        "clear": 23.267,
+        "cloudy": 48.323,
+        "mixed": 28.194,
+        "unknown": 0.215
+      },
+      "observation_history_cohorts": {
+        "180_to_729_days": {
+          "site_count": 159,
+          "suppressed": false,
+          "aligned_penalty_contribution": 20341259,
+          "prediction_actual_ratio": 1.0041
+        },
+        "730_days_or_more": {
+          "site_count": 93,
+          "suppressed": false,
+          "aligned_penalty_contribution": 4311819,
+          "prediction_actual_ratio": 1.0034
+        },
+        "under_180_days": {
+          "site_count": 1,
+          "suppressed": true
+        }
+      }
+    },
+    "fold1_static": {
+      "penalty": 166627544,
+      "reproduces_p26": true,
+      "total_residual_floor": 161006191,
+      "allocation_excess": 5621353,
+      "allocation_excess_pct": 3.374,
+      "peak_penalty_share_pct": 83.229,
+      "worst_10pct_days_share_pct": 26.549,
+      "cloud_regime_penalty_share_pct": {
+        "clear": 18.373,
+        "cloudy": 47.6,
+        "mixed": 33.782,
+        "unknown": 0.245
+      },
+      "observation_history_cohorts": {
+        "180_to_729_days": {
+          "site_count": 91,
+          "suppressed": false,
+          "aligned_penalty_contribution": 66009027,
+          "prediction_actual_ratio": 1.0039
+        },
+        "730_days_or_more": {
+          "site_count": 45,
+          "suppressed": false,
+          "aligned_penalty_contribution": 13079132,
+          "prediction_actual_ratio": 1.0215
+        },
+        "under_180_days": {
+          "site_count": 69,
+          "suppressed": false,
+          "aligned_penalty_contribution": 53066238,
+          "prediction_actual_ratio": 1.0019
+        },
+        "unseen": {
+          "site_count": 48,
+          "suppressed": false,
+          "aligned_penalty_contribution": 34473147,
+          "prediction_actual_ratio": 1.0488
+        }
+      }
+    }
+  }
+}

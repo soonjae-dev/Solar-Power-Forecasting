@@ -1,0 +1,87 @@
+{
+  "summer_support": {
+    "sites": 205,
+    "rows": 452640,
+    "penalty": {
+      "official": 53925192,
+      "fixed": 46795923,
+      "asof": 46527873
+    },
+    "bias": {
+      "official": 0.973,
+      "fixed": 0.9649,
+      "asof": 0.9689
+    },
+    "normalized_fixed": 13.22,
+    "normalized_asof": 13.72,
+    "asof_vs_fixed_pct": -0.573
+  },
+  "autumn_support": {
+    "sites": 252,
+    "rows": 550368,
+    "penalty": {
+      "official": 61929308,
+      "fixed": 56239911,
+      "asof": 56121692
+    },
+    "bias": {
+      "official": 1.0043,
+      "fixed": 1.0309,
+      "asof": 1.0313
+    },
+    "normalized_fixed": 9.19,
+    "normalized_asof": 9.38,
+    "asof_vs_fixed_pct": -0.21
+  },
+  "development": {
+    "sites": 253,
+    "rows": 358248,
+    "penalty": {
+      "official": 30685978,
+      "fixed": 26047431,
+      "asof": 25759542
+    },
+    "bias": {
+      "official": 1.0399,
+      "fixed": 1.0312,
+      "asof": 1.0303
+    },
+    "normalized_fixed": 15.12,
+    "normalized_asof": 16.05,
+    "asof_vs_fixed_pct": -1.105
+  },
+  "selection": {
+    "sites": 253,
+    "rows": 370392,
+    "penalty": {
+      "official": 35631744,
+      "fixed": 27717985,
+      "asof": 27954798
+    },
+    "bias": {
+      "official": 0.9602,
+      "fixed": 0.9898,
+      "asof": 0.9908
+    },
+    "normalized_fixed": 22.21,
+    "normalized_asof": 21.55,
+    "asof_vs_fixed_pct": 0.854
+  },
+  "final_holdout": {
+    "sites": 253,
+    "rows": 188232,
+    "penalty": {
+      "official": 24226913,
+      "fixed": 20214871,
+      "asof": 20143342
+    },
+    "bias": {
+      "official": 1.0124,
+      "fixed": 1.0063,
+      "asof": 1.0067
+    },
+    "normalized_fixed": 16.56,
+    "normalized_asof": 16.86,
+    "asof_vs_fixed_pct": -0.354
+  }
+}

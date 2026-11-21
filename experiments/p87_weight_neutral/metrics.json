@@ -1,0 +1,122 @@
+{
+  "rule": "14.87",
+  "seed": 2026,
+  "results": {
+    "summer_support": {
+      "ctrl": {
+        "raw": 42881514,
+        "scale": 1.0201,
+        "neutral": 42583223
+      },
+      "capk": {
+        "raw": 42555725,
+        "scale": 1.0238,
+        "neutral": 42447549
+      },
+      "capsmpk": {
+        "raw": 43754505,
+        "scale": 1.0234,
+        "neutral": 43594439
+      }
+    },
+    "fold1_static": {
+      "ctrl": {
+        "raw": 165236619,
+        "scale": 0.9869,
+        "neutral": 163662751
+      },
+      "capk": {
+        "raw": 168831741,
+        "scale": 0.9861,
+        "neutral": 166829147
+      },
+      "capsmpk": {
+        "raw": 167747146,
+        "scale": 0.9867,
+        "neutral": 165984745
+      }
+    },
+    "autumn_support": {
+      "ctrl": {
+        "raw": 46410832,
+        "scale": 0.9925,
+        "neutral": 46481050
+      },
+      "capk": {
+        "raw": 46342841,
+        "scale": 0.9943,
+        "neutral": 46457722
+      },
+      "capsmpk": {
+        "raw": 45709345,
+        "scale": 0.9946,
+        "neutral": 45840323
+      }
+    },
+    "development": {
+      "ctrl": {
+        "raw": 25214413,
+        "scale": 0.9558,
+        "neutral": 23795053
+      },
+      "capk": {
+        "raw": 25362368,
+        "scale": 0.959,
+        "neutral": 24214575
+      },
+      "capsmpk": {
+        "raw": 25135726,
+        "scale": 0.957,
+        "neutral": 23696191
+      }
+    },
+    "selection": {
+      "ctrl": {
+        "raw": 25712272,
+        "scale": 0.9998,
+        "neutral": 25715323
+      },
+      "capk": {
+        "raw": 25138661,
+        "scale": 0.9971,
+        "neutral": 25174350
+      },
+      "capsmpk": {
+        "raw": 26391762,
+        "scale": 0.9988,
+        "neutral": 26394675
+      }
+    }
+  },
+  "summary": {
+    "capk_raw": {
+      "seasonal": -0.584,
+      "improved": 3,
+      "worst": 0.587,
+      "static": 2.176,
+      "passed": false
+    },
+    "capk_neutral": {
+      "seasonal": -0.202,
+      "improved": 3,
+      "worst": 1.763,
+      "static": 1.935,
+      "passed": false
+    },
+    "capsmpk_raw": {
+      "seasonal": 0.551,
+      "improved": 2,
+      "worst": 2.643,
+      "static": 1.519,
+      "passed": false
+    },
+    "capsmpk_neutral": {
+      "seasonal": 0.686,
+      "improved": 2,
+      "worst": 2.642,
+      "static": 1.419,
+      "passed": false
+    }
+  },
+  "complete": true
+}

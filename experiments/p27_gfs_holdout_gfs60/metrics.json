@@ -1,0 +1,24 @@
+{
+ "rule": "14.19",
+ "common": "gfs60",
+ "seeds": 3,
+ "train_cutoff": "2025-04-30T17:00:00+09:00",
+ "missing_gfs_days": 61,
+ "vs_v3_3seeds": {
+  "base_penalty": 20143342,
+  "direct_penalty": 17712661,
+  "change_pct": -12.067,
+  "change_ci90_pct": [
+   -23.18,
+   -0.079
+  ],
+  "peak_change_pct": -13.261,
+  "base_forecast_actual_ratio": 1.0067,
+  "direct_forecast_actual_ratio": 1.0037,
+  "group_change_pct": {
+   "A": -10.129,
+   "B": -13.716
+  }
+ },
+ "investigate_before_submission": false
+}

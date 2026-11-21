@@ -1,0 +1,114 @@
+{
+  "summer_support": {
+    "sites": 205,
+    "penalty": {
+      "official": 53925192,
+      "asof": 46527873,
+      "cs2": 46579991
+    },
+    "bias": {
+      "official": 0.973,
+      "asof": 0.9689,
+      "cs2": 0.9637
+    },
+    "asof_parts": {
+      "total": 46527872.54484443,
+      "k3": 36851417.732453085,
+      "k1": 9676454.812391348
+    },
+    "cs2_parts": {
+      "total": 46579990.89265105,
+      "k3": 36668068.580185965,
+      "k1": 9911922.312465083
+    },
+    "normalized_asof": 13.72,
+    "normalized_cs2": 13.62,
+    "change_pct": 0.112,
+    "k3_change_pct": -0.498,
+    "k1_change_pct": 2.433
+  },
+  "autumn_support": {
+    "sites": 252,
+    "penalty": {
+      "official": 61929308,
+      "asof": 56121692,
+      "cs2": 56305293
+    },
+    "bias": {
+      "official": 1.0043,
+      "asof": 1.0313,
+      "cs2": 1.0344
+    },
+    "asof_parts": {
+      "total": 56121691.99772209,
+      "k3": 47799315.65511673,
+      "k1": 8322376.342605359
+    },
+    "cs2_parts": {
+      "total": 56305293.38192763,
+      "k3": 47941016.97708768,
+      "k1": 8364276.40483995
+    },
+    "normalized_asof": 9.38,
+    "normalized_cs2": 9.08,
+    "change_pct": 0.327,
+    "k3_change_pct": 0.296,
+    "k1_change_pct": 0.503
+  },
+  "development": {
+    "sites": 253,
+    "penalty": {
+      "official": 30685978,
+      "asof": 25759542,
+      "cs2": 26644901
+    },
+    "bias": {
+      "official": 1.0399,
+      "asof": 1.0303,
+      "cs2": 1.0315
+    },
+    "asof_parts": {
+      "total": 25759542.23330993,
+      "k3": 22271088.139431544,
+      "k1": 3488454.0938783847
+    },
+    "cs2_parts": {
+      "total": 26644901.04354862,
+      "k3": 23076374.19940342,
+      "k1": 3568526.844145203
+    },
+    "normalized_asof": 16.05,
+    "normalized_cs2": 13.17,
+    "change_pct": 3.437,
+    "k3_change_pct": 3.616,
+    "k1_change_pct": 2.295
+  },
+  "selection": {
+    "sites": 253,
+    "penalty": {
+      "official": 35631744,
+      "asof": 27954798,
+      "cs2": 27887985
+    },
+    "bias": {
+      "official": 0.9602,
+      "asof": 0.9908,
+      "cs2": 0.9914
+    },
+    "asof_parts": {
+      "total": 27954797.704495464,
+      "k3": 22459268.181551926,
+      "k1": 5495529.522943536
+    },
+    "cs2_parts": {
+      "total": 27887985.19438231,
+      "k3": 22338402.90780835,
+      "k1": 5549582.2865739595
+    },
+    "normalized_asof": 21.55,
+    "normalized_cs2": 21.73,
+    "change_pct": -0.239,
+    "k3_change_pct": -0.538,
+    "k1_change_pct": 0.984
+  }
+}

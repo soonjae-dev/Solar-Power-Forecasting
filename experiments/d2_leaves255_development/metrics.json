@@ -1,0 +1,21 @@
+{
+  "name": "d2_leaves255",
+  "fold": "development",
+  "feats": "full",
+  "objective": "l2",
+  "alpha": 0.5,
+  "weight": "cap",
+  "target": "cf",
+  "train_start": "2021-01-01",
+  "n_estimators": 600,
+  "learning_rate": 0.06,
+  "num_leaves": 255,
+  "min_child_samples": 100,
+  "seed": 2026,
+  "n_feats": 84,
+  "train_rows": 1739344,
+  "penalty_ref": 26361463,
+  "penalty_lb": 25389247,
+  "weighted_bias_kwh": 374.7,
+  "seconds": 104.5
+}

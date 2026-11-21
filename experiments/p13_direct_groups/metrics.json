@@ -1,0 +1,174 @@
+{
+  "params": {
+    "objective": "regression_l1",
+    "n_estimators": 400,
+    "learning_rate": 0.03,
+    "num_leaves": 15,
+    "max_depth": 4,
+    "min_child_samples": 50,
+    "reg_lambda": 10,
+    "n_jobs": 4,
+    "random_state": 2026,
+    "deterministic": true,
+    "force_col_wise": true,
+    "verbosity": -1
+  },
+  "results": {
+    "stable": {
+      "summer_support": {
+        "base_penalty": 13241201,
+        "direct_penalty": 13850477,
+        "change_pct": 4.601,
+        "change_ci90_pct": [
+          -1.731,
+          14.424
+        ],
+        "peak_change_pct": 2.093,
+        "base_forecast_actual_ratio": 0.9822,
+        "direct_forecast_actual_ratio": 0.9926,
+        "group_change_pct": {
+          "A": 4.682,
+          "B": 3.799
+        },
+        "train_days": 366,
+        "train_group_hours": 8943,
+        "seeds": 1,
+        "sites": 106,
+        "capacity_kw": 8912.0,
+        "hours": 2208
+      },
+      "autumn_support": {
+        "base_penalty": 12267236,
+        "direct_penalty": 12455819,
+        "change_pct": 1.537,
+        "change_ci90_pct": [
+          -6.872,
+          8.647
+        ],
+        "peak_change_pct": 1.041,
+        "base_forecast_actual_ratio": 1.0279,
+        "direct_forecast_actual_ratio": 1.0305,
+        "group_change_pct": {
+          "A": 1.353,
+          "B": 3.859
+        },
+        "train_days": 458,
+        "train_group_hours": 11581,
+        "seeds": 1,
+        "sites": 106,
+        "capacity_kw": 8912.0,
+        "hours": 2184
+      },
+      "development": {
+        "base_penalty": 5021336,
+        "direct_penalty": 5855629,
+        "change_pct": 16.615,
+        "change_ci90_pct": [
+          10.92,
+          23.025
+        ],
+        "peak_change_pct": 16.202,
+        "base_forecast_actual_ratio": 1.0255,
+        "direct_forecast_actual_ratio": 1.0349,
+        "group_change_pct": {
+          "A": 16.73,
+          "B": 15.3
+        },
+        "train_days": 580,
+        "train_group_hours": 14232,
+        "seeds": 1,
+        "sites": 106,
+        "capacity_kw": 8912.0,
+        "hours": 1416
+      },
+      "selection": {
+        "base_penalty": 5779690,
+        "direct_penalty": 7725041,
+        "change_pct": 33.658,
+        "change_ci90_pct": [
+          21.221,
+          48.36
+        ],
+        "peak_change_pct": 33.599,
+        "base_forecast_actual_ratio": 0.9969,
+        "direct_forecast_actual_ratio": 1.0275,
+        "group_change_pct": {
+          "A": 35.264,
+          "B": 15.98
+        },
+        "train_days": 639,
+        "train_group_hours": 15445,
+        "seeds": 1,
+        "sites": 106,
+        "capacity_kw": 8912.0,
+        "hours": 1464
+      },
+      "fold1_static": {
+        "base_penalty": 39180107,
+        "direct_penalty": 42610223,
+        "change_pct": 8.755,
+        "change_ci90_pct": [
+          3.761,
+          13.709
+        ],
+        "peak_change_pct": 7.217,
+        "base_forecast_actual_ratio": 1.0044,
+        "direct_forecast_actual_ratio": 1.0091,
+        "group_change_pct": {
+          "A": 9.039,
+          "B": 5.617
+        },
+        "train_days": 366,
+        "train_group_hours": 8943,
+        "seeds": 1,
+        "sites": 106,
+        "capacity_kw": 8912.0,
+        "hours": 8016
+      }
+    },
+    "all253": {
+      "summer_support": {
+        "skipped": true,
+        "reason": "학습 시점에 253개소 관측 불가"
+      },
+      "autumn_support": {
+        "skipped": true,
+        "reason": "학습 시점에 253개소 관측 불가"
+      },
+      "development": {
+        "skipped": true,
+        "train_days": 8,
+        "reason": "학습 60일 미만"
+      },
+      "selection": {
+        "base_penalty": 27954798,
+        "direct_penalty": 57470496,
+        "change_pct": 105.584,
+        "change_ci90_pct": [
+          68.732,
+          131.697
+        ],
+        "peak_change_pct": 102.177,
+        "base_forecast_actual_ratio": 0.9908,
+        "direct_forecast_actual_ratio": 1.1361,
+        "group_change_pct": {
+          "A": 124.182,
+          "B": 89.453
+        },
+        "train_days": 67,
+        "train_group_hours": 1352,
+        "seeds": 1,
+        "sites": 253,
+        "capacity_kw": 42655.4,
+        "hours": 1464
+      },
+      "fold1_static": {
+        "skipped": true,
+        "reason": "학습 시점에 253개소 관측 불가"
+      }
+    }
+  },
+  "stable_seasonal_change_pct": 9.853,
+  "stable_screen_pass": false,
+  "note": "안정 집합 진단은 전체253개 공식점수가 아님. 전체253은 학습 이력 제한으로 별도 비교. 미통과 시 시드 확대·제출 안 함."
+}

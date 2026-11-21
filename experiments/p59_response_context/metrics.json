@@ -1,0 +1,197 @@
+{
+  "spec": {
+    "rule": "14.53",
+    "basis": 8,
+    "global_ridge": 0.001,
+    "site_ridge": 60.0,
+    "min_cosz": 0.1,
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "context": "evaluation_month_day_annual_blocks_previous_day_17KST"
+  },
+  "baseline_config": {
+    "fold": "development",
+    "feats": "fullc",
+    "objective": "l2",
+    "alpha": 0.5,
+    "weight": "cap",
+    "target": "kt",
+    "train_start": "2021-01-01",
+    "n_estimators": 600,
+    "learning_rate": 0.06,
+    "num_leaves": 127,
+    "min_child_samples": 200,
+    "seed": 2026,
+    "model": "lgbm",
+    "depth": 8,
+    "outage": "keep",
+    "nbrc_asof": "fold",
+    "kt_weight": "cs"
+  },
+  "cache_name": "cache",
+  "results": {
+    "summer_support": {
+      "vs_v6_3seeds": {
+        "base_penalty": 42781408,
+        "direct_penalty": 44820164,
+        "change_pct": 4.766,
+        "change_ci90_pct": [
+          1.142,
+          8.072
+        ],
+        "peak_change_pct": 4.812,
+        "base_forecast_actual_ratio": 0.9749,
+        "direct_forecast_actual_ratio": 0.96,
+        "group_change_pct": {
+          "A": 8.43,
+          "B": 0.091
+        }
+      },
+      "features": 156,
+      "train_rows": 1106282,
+      "train_cutoff": "2024-05-31T17:00:00+09:00",
+      "annual_contexts": [
+        {
+          "origin": "2020-06-01T00:00:00+09:00",
+          "cutoff": "2020-05-31T17:00:00+09:00",
+          "history_rows": 0,
+          "sites_with_history": 0,
+          "query_rows": 2219
+        },
+        {
+          "origin": "2021-06-01T00:00:00+09:00",
+          "cutoff": "2021-05-31T17:00:00+09:00",
+          "history_rows": 2012,
+          "sites_with_history": 7,
+          "query_rows": 141150
+        },
+        {
+          "origin": "2022-06-01T00:00:00+09:00",
+          "cutoff": "2022-05-31T17:00:00+09:00",
+          "history_rows": 130818,
+          "sites_with_history": 45,
+          "query_rows": 335801
+        },
+        {
+          "origin": "2023-06-01T00:00:00+09:00",
+          "cutoff": "2023-05-31T17:00:00+09:00",
+          "history_rows": 439510,
+          "sites_with_history": 106,
+          "query_rows": 627112
+        }
+      ],
+      "training_context": {
+        "rows": 1106282,
+        "history_share": 0.6292220247640294,
+        "valid_query_share": 0.9982698559761047,
+        "query_quantiles": {
+          "0.1": -0.06667901575565338,
+          "0.5": 0.0,
+          "0.9": 0.05810205303132537
+        },
+        "max_age_years": 0.9993155598640442
+      },
+      "validation_context": {
+        "rows": 303411,
+        "history_share": 0.880917303591498,
+        "valid_query_share": 1.0,
+        "query_quantiles": {
+          "0.1": -0.07063034921884537,
+          "0.5": 0.0,
+          "0.9": 0.06865967810153961
+        },
+        "max_age_years": 0.24914442002773285
+      },
+      "seconds": 851.97
+    },
+    "fold1_static": {
+      "vs_v6_3seeds": {
+        "base_penalty": 166627544,
+        "direct_penalty": 167278949,
+        "change_pct": 0.391,
+        "change_ci90_pct": [
+          -1.425,
+          2.307
+        ],
+        "peak_change_pct": 0.384,
+        "base_forecast_actual_ratio": 1.0132,
+        "direct_forecast_actual_ratio": 0.9971,
+        "group_change_pct": {
+          "A": 2.486,
+          "B": -1.496
+        }
+      },
+      "features": 156,
+      "train_rows": 1106282,
+      "train_cutoff": "2024-05-31T17:00:00+09:00",
+      "annual_contexts": [
+        {
+          "origin": "2020-06-01T00:00:00+09:00",
+          "cutoff": "2020-05-31T17:00:00+09:00",
+          "history_rows": 0,
+          "sites_with_history": 0,
+          "query_rows": 2219
+        },
+        {
+          "origin": "2021-06-01T00:00:00+09:00",
+          "cutoff": "2021-05-31T17:00:00+09:00",
+          "history_rows": 2012,
+          "sites_with_history": 7,
+          "query_rows": 141150
+        },
+        {
+          "origin": "2022-06-01T00:00:00+09:00",
+          "cutoff": "2022-05-31T17:00:00+09:00",
+          "history_rows": 130818,
+          "sites_with_history": 45,
+          "query_rows": 335801
+        },
+        {
+          "origin": "2023-06-01T00:00:00+09:00",
+          "cutoff": "2023-05-31T17:00:00+09:00",
+          "history_rows": 439510,
+          "sites_with_history": 106,
+          "query_rows": 627112
+        }
+      ],
+      "training_context": {
+        "rows": 1106282,
+        "history_share": 0.6292220247640294,
+        "valid_query_share": 0.9982698559761047,
+        "query_quantiles": {
+          "0.1": -0.06667901575565338,
+          "0.5": 0.0,
+          "0.9": 0.05810205303132537
+        },
+        "max_age_years": 0.9993155598640442
+      },
+      "validation_context": {
+        "rows": 974992,
+        "history_share": 0.833418120353808,
+        "valid_query_share": 1.0,
+        "query_quantiles": {
+          "0.1": -0.07354167997837066,
+          "0.5": 0.0,
+          "0.9": 0.07050223425030708
+        },
+        "max_age_years": 0.9117043018341064
+      },
+      "seconds": 853.72
+    }
+  },
+  "complete": true,
+  "selected": false,
+  "verdict": {
+    "passed": false,
+    "early_rejected": true,
+    "reason": "fixed_11_months_worse",
+    "uncompleted_windows": [
+      "autumn_support",
+      "development",
+      "selection"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "schema": "gfs_sflux_optics20_3hour_v1",
+ "first": "2021-01-02",
+ "last": "2025-04-30",
+ "eligible_days": 1521,
+ "completed": 1521,
+ "counts": {
+  "downloaded": 1521
+ },
+ "error_codes": {},
+ "elapsed_seconds": 33874.0,
+ "eta_minutes": 0.0,
+ "complete": true
+}

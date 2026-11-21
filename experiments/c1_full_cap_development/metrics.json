@@ -1,0 +1,20 @@
+{
+  "name": "c1_full_cap",
+  "fold": "development",
+  "feats": "full",
+  "objective": "l2",
+  "alpha": 0.5,
+  "weight": "cap",
+  "train_start": "2023-06-01",
+  "n_estimators": 600,
+  "learning_rate": 0.06,
+  "num_leaves": 127,
+  "min_child_samples": 200,
+  "seed": 2026,
+  "n_feats": 81,
+  "train_rows": 1260174,
+  "penalty_ref": 26999152,
+  "penalty_lb": 25714077,
+  "weighted_bias_kwh": 221.9,
+  "seconds": 54.4
+}

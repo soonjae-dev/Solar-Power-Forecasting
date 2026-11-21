@@ -1,0 +1,315 @@
+{
+  "teacher_params": {
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_child_samples": 100,
+    "reg_lambda": 10,
+    "n_jobs": 4,
+    "verbosity": -1,
+    "random_state": 2026,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "generation_config": {
+    "fold": "development",
+    "feats": "fullc",
+    "objective": "l2",
+    "alpha": 0.5,
+    "weight": "cap",
+    "target": "kt",
+    "train_start": "2021-01-01",
+    "n_estimators": 600,
+    "learning_rate": 0.06,
+    "num_leaves": 127,
+    "min_child_samples": 200,
+    "seed": 2026,
+    "model": "lgbm",
+    "depth": 8,
+    "outage": "keep",
+    "nbrc_asof": "fold",
+    "kt_weight": "cs"
+  },
+  "results": {
+    "summer_support": {
+      "weather": {
+        "wa_cloud": {
+          "count": 78568,
+          "raw_rmse": 26.1706,
+          "corrected_rmse": 23.4264
+        },
+        "wb_cloud": {
+          "count": 94024,
+          "raw_rmse": 39.7121,
+          "corrected_rmse": 27.3924
+        },
+        "wb_uv_idx": {
+          "count": 94024,
+          "raw_rmse": 1.7257,
+          "corrected_rmse": 1.1124
+        }
+      },
+      "train_rows": 1106282,
+      "feature_count": 84,
+      "teacher_features": 6,
+      "teacher_initial_missing_pct": 0.943,
+      "matched_comparison": {
+        "base_penalty": 47116915,
+        "direct_penalty": 46686526,
+        "change_pct": -0.913,
+        "change_ci90_pct": [
+          -2.469,
+          1.102
+        ],
+        "peak_change_pct": -0.967,
+        "base_forecast_actual_ratio": 0.9684,
+        "direct_forecast_actual_ratio": 0.9706,
+        "group_change_pct": {
+          "A": -2.359,
+          "B": 0.965
+        }
+      },
+      "vs_v3_3seeds": {
+        "base_penalty": 46527873,
+        "direct_penalty": 46686526,
+        "change_pct": 0.341,
+        "change_ci90_pct": [
+          -1.154,
+          1.994
+        ],
+        "peak_change_pct": 0.405,
+        "base_forecast_actual_ratio": 0.9689,
+        "direct_forecast_actual_ratio": 0.9706,
+        "group_change_pct": {
+          "A": -0.741,
+          "B": 1.733
+        }
+      }
+    },
+    "autumn_support": {
+      "weather": {
+        "wa_cloud": {
+          "count": 77714,
+          "raw_rmse": 23.9199,
+          "corrected_rmse": 21.6656
+        },
+        "wb_cloud": {
+          "count": 93002,
+          "raw_rmse": 34.768,
+          "corrected_rmse": 25.8985
+        },
+        "wb_uv_idx": {
+          "count": 93002,
+          "raw_rmse": 0.7812,
+          "corrected_rmse": 0.6177
+        }
+      },
+      "train_rows": 1409736,
+      "feature_count": 84,
+      "teacher_features": 6,
+      "teacher_initial_missing_pct": 0.74,
+      "matched_comparison": {
+        "base_penalty": 55517097,
+        "direct_penalty": 56163572,
+        "change_pct": 1.164,
+        "change_ci90_pct": [
+          -0.275,
+          2.782
+        ],
+        "peak_change_pct": 1.225,
+        "base_forecast_actual_ratio": 1.027,
+        "direct_forecast_actual_ratio": 1.0338,
+        "group_change_pct": {
+          "A": 1.362,
+          "B": 0.98
+        }
+      },
+      "vs_v3_3seeds": {
+        "base_penalty": 56121692,
+        "direct_penalty": 56163572,
+        "change_pct": 0.075,
+        "change_ci90_pct": [
+          -1.701,
+          1.693
+        ],
+        "peak_change_pct": -0.028,
+        "base_forecast_actual_ratio": 1.0313,
+        "direct_forecast_actual_ratio": 1.0338,
+        "group_change_pct": {
+          "A": 0.387,
+          "B": -0.217
+        }
+      }
+    },
+    "development": {
+      "weather": {
+        "wa_cloud": {
+          "count": 50386,
+          "raw_rmse": 27.8278,
+          "corrected_rmse": 24.6314
+        },
+        "wb_cloud": {
+          "count": 60298,
+          "raw_rmse": 33.0912,
+          "corrected_rmse": 23.7785
+        },
+        "wb_uv_idx": {
+          "count": 60298,
+          "raw_rmse": 0.4315,
+          "corrected_rmse": 0.4151
+        }
+      },
+      "train_rows": 1739344,
+      "feature_count": 84,
+      "teacher_features": 6,
+      "teacher_initial_missing_pct": 0.6,
+      "matched_comparison": {
+        "base_penalty": 25438897,
+        "direct_penalty": 26375099,
+        "change_pct": 3.68,
+        "change_ci90_pct": [
+          1.64,
+          6.004
+        ],
+        "peak_change_pct": 4.377,
+        "base_forecast_actual_ratio": 1.0307,
+        "direct_forecast_actual_ratio": 1.0302,
+        "group_change_pct": {
+          "A": 3.574,
+          "B": 3.765
+        }
+      },
+      "vs_v3_3seeds": {
+        "base_penalty": 25759542,
+        "direct_penalty": 26375099,
+        "change_pct": 2.39,
+        "change_ci90_pct": [
+          0.785,
+          4.283
+        ],
+        "peak_change_pct": 2.854,
+        "base_forecast_actual_ratio": 1.0303,
+        "direct_forecast_actual_ratio": 1.0302,
+        "group_change_pct": {
+          "A": 3.076,
+          "B": 1.853
+        }
+      }
+    },
+    "selection": {
+      "weather": {
+        "wa_cloud": {
+          "count": 52094,
+          "raw_rmse": 30.9386,
+          "corrected_rmse": 26.5085
+        },
+        "wb_cloud": {
+          "count": 62342,
+          "raw_rmse": 35.878,
+          "corrected_rmse": 23.7928
+        },
+        "wb_uv_idx": {
+          "count": 62342,
+          "raw_rmse": 0.8725,
+          "corrected_rmse": 0.7218
+        }
+      },
+      "train_rows": 1890847,
+      "feature_count": 84,
+      "teacher_features": 6,
+      "teacher_initial_missing_pct": 0.552,
+      "matched_comparison": {
+        "base_penalty": 28089326,
+        "direct_penalty": 28597853,
+        "change_pct": 1.81,
+        "change_ci90_pct": [
+          -0.097,
+          4.574
+        ],
+        "peak_change_pct": 2.027,
+        "base_forecast_actual_ratio": 0.9922,
+        "direct_forecast_actual_ratio": 0.989,
+        "group_change_pct": {
+          "A": 0.16,
+          "B": 3.261
+        }
+      },
+      "vs_v3_3seeds": {
+        "base_penalty": 27954798,
+        "direct_penalty": 28597853,
+        "change_pct": 2.3,
+        "change_ci90_pct": [
+          -0.0,
+          4.787
+        ],
+        "peak_change_pct": 2.299,
+        "base_forecast_actual_ratio": 0.9908,
+        "direct_forecast_actual_ratio": 0.989,
+        "group_change_pct": {
+          "A": 1.36,
+          "B": 3.116
+        }
+      }
+    },
+    "fold1_static": {
+      "weather": {
+        "wa_cloud": {
+          "count": 285236,
+          "raw_rmse": 27.0882,
+          "corrected_rmse": 24.0713
+        },
+        "wb_cloud": {
+          "count": 341348,
+          "raw_rmse": 36.3131,
+          "corrected_rmse": 26.011
+        },
+        "wb_uv_idx": {
+          "count": 341348,
+          "raw_rmse": 1.0822,
+          "corrected_rmse": 0.7676
+        }
+      },
+      "train_rows": 1106282,
+      "feature_count": 84,
+      "teacher_features": 6,
+      "teacher_initial_missing_pct": 0.943,
+      "matched_comparison": {
+        "base_penalty": 179603446,
+        "direct_penalty": 179356975,
+        "change_pct": -0.137,
+        "change_ci90_pct": [
+          -1.202,
+          1.084
+        ],
+        "peak_change_pct": 0.02,
+        "base_forecast_actual_ratio": 1.0049,
+        "direct_forecast_actual_ratio": 1.0051,
+        "group_change_pct": {
+          "A": -0.128,
+          "B": -0.145
+        }
+      },
+      "vs_v3_3seeds": {
+        "base_penalty": 179141150,
+        "direct_penalty": 179356975,
+        "change_pct": 0.12,
+        "change_ci90_pct": [
+          -0.713,
+          1.078
+        ],
+        "peak_change_pct": 0.169,
+        "base_forecast_actual_ratio": 1.0048,
+        "direct_forecast_actual_ratio": 1.0051,
+        "group_change_pct": {
+          "A": 0.033,
+          "B": 0.199
+        }
+      }
+    }
+  },
+  "neighbor_numeric_audit": {
+    "values": 31417632,
+    "infinite": 0,
+    "missing": 70416
+  }
+}

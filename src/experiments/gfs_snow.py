@@ -1,0 +1,78 @@
+"""gfs60에 GFS 적설 깊이 10열을 더해 재학습 검증한다. 집계만 저장한다.
+
+    .venv/bin/python -m src.experiments.gfs_snow
+
+판정 기준은 실행 전에 고정했다(docs/validation.md). 2025-05 holdout은 쓰지 않는다.
+"""
+import json
+
+import numpy as np
+import pandas as pd
+
+from .. import train as T
+from ..config import CACHE_DIR, EXP_DIR, TZ
+from ..data import load_generation, load_sites, load_smp
+from ..gfs_fetch import FIRST_STEP, LAST_STEP, SNOW_DIR
+from ..gfs_more import load_more
+from ..gfs_pca import three_seed_verdict, verdict
+from ..gfs_pilot import FIRST_TS_HOUR, region_masks
+from ..gfs_v3 import FIRST_DAY, LAST_DAY, checked_gfs
+from ..tune_v3 import END, run_stage, save
+from ..weather_teacher import CFG
+
+CANDIDATES = {"snow10": {}}
+HOURS = LAST_STEP - FIRST_STEP + 1
+
+
+def load_snow(first=FIRST_DAY, last=LAST_DAY):
+    """대상일 12시 적설 깊이의 육지 격자 영역 평균을 그날 ts 04~20시에 같은 값으로 편다."""
+    masks = region_masks()
+    rows, missing = [], []
+    for day in pd.date_range(first, last):
+        path = SNOW_DIR / f"{day:%Y%m%d}.npz"
+        if not path.exists():
+            missing.append(day.date().isoformat())
+            continue
+        field = np.load(path)["snod"][0]
+        values = {f"gfs_snod_{name}": np.nanmean(np.where(mask, field, np.nan)) if np.isfinite(field[mask]).any() else np.nan
+                  for name, mask in masks.items()}
+        index = pd.DatetimeIndex([day + pd.Timedelta(hours=FIRST_TS_HOUR + i) for i in range(HOURS)]).tz_localize(TZ)
+        rows.append(pd.DataFrame({k: np.full(HOURS, v) for k, v in values.items()}, index=index))
+    return pd.concat(rows).astype("float32").sort_index(), missing
+
+
+def main():
+    print("gfs60+적설 깊이 재학습 검증, holdout 제외", flush=True)
+    gfs, _ = checked_gfs()
+    base = pd.concat([gfs, load_more()[0]], axis=1)
+    snow, missing = load_snow()
+    if snow.shape[1] != 10 or not snow.index.is_unique or snow.index.max() > END:
+        raise ValueError("적설 열·시각 조건 위반")
+    print(f"적설 {len(snow)}시각, 빠진 날 {len(missing)}, 전부 결측인 열 {int(snow.isna().all().sum())}", flush=True)
+    common = pd.concat([base, snow], axis=1)
+    sites = load_sites().set_index("site_id")
+    smp = load_smp("train").set_index("ts")
+    gen = load_generation()
+    gen = gen[gen.ts <= END]
+    d = T.load_train_features()
+    cols = ["site_id", "ts", "energy", *T.select_features(d, CFG["feats"])]
+    d = d.loc[d.ts <= END, cols].copy()
+    T._cache.clear()
+    out = EXP_DIR / "p30_gfs_snow"
+    out.mkdir(parents=True, exist_ok=True)
+    path = out / "metrics.json"
+    result = json.loads(path.read_text()) if path.exists() else dict(baseline_config=CFG, candidates=CANDIDATES, cache_name=CACHE_DIR.name, control="gfs60")
+    run_stage(d, gen, sites, smp, result, path, 1, list(CANDIDATES), variants=CANDIDATES, added=common, control_columns=list(base))
+    result["verdict_vs_control"] = verdict(result["seeds1"]["snow10"])
+    save(path, result)
+    print("판정", json.dumps(result["verdict_vs_control"], ensure_ascii=False), flush=True)
+    if result["verdict_vs_control"]["passed"]:
+        run_stage(d, gen, sites, smp, result, path, 3, list(CANDIDATES), variants=CANDIDATES, added=common, control_columns=list(base))
+        ctrl = json.loads((EXP_DIR / "p26_gfs_more" / "metrics.json").read_text())["seeds3"]["gfs60"]
+        result["verdict3_vs_control"] = three_seed_verdict(result["seeds3"]["snow10"], ctrl)
+        save(path, result)
+        print("3시드 판정", json.dumps(result["verdict3_vs_control"], ensure_ascii=False), flush=True)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,1891 @@
+{
+  "rule": "14.58",
+  "windows": {
+    "summer_support": {
+      "penalty": 42781408,
+      "group_share": {
+        "A": 0.5606,
+        "B": 0.4394
+      },
+      "group_ratio": {
+        "A": 0.9704,
+        "B": 0.9809
+      },
+      "cohorts": {
+        "age:180_to_729_days": {
+          "site_count": 91,
+          "suppressed": false,
+          "capacity_share": 0.5213,
+          "contribution_share": 0.4725,
+          "contribution_won": 20212808,
+          "ratio": 0.9786,
+          "bias_per_cap": -0.005224,
+          "oracle_reduction_won": 18335024
+        },
+        "age:180_to_729_days:A": {
+          "site_count": 83,
+          "suppressed": false,
+          "capacity_share": 0.4436,
+          "contribution_share": 0.3949,
+          "contribution_won": 16892385,
+          "ratio": 0.9809,
+          "bias_per_cap": -0.004734,
+          "oracle_reduction_won": 15634643
+        },
+        "age:180_to_729_days:B": {
+          "site_count": 8,
+          "suppressed": false,
+          "capacity_share": 0.0776,
+          "contribution_share": 0.0776,
+          "contribution_won": 3320423,
+          "ratio": 0.9664,
+          "bias_per_cap": -0.008023,
+          "oracle_reduction_won": 2700381
+        },
+        "age:730_days_or_more": {
+          "site_count": 45,
+          "suppressed": false,
+          "capacity_share": 0.1024,
+          "contribution_share": 0.0997,
+          "contribution_won": 4264817,
+          "ratio": 1.0181,
+          "bias_per_cap": 0.005737,
+          "oracle_reduction_won": 3905043
+        },
+        "age:730_days_or_more:A": {
+          "site_count": 41,
+          "suppressed": false,
+          "capacity_share": 0.0907,
+          "contribution_share": 0.0912,
+          "contribution_won": 3903067,
+          "ratio": 1.0102,
+          "bias_per_cap": 0.003267,
+          "oracle_reduction_won": 3585188
+        },
+        "age:730_days_or_more:B": {
+          "site_count": 4,
+          "suppressed": true
+        },
+        "age:under_180_days": {
+          "site_count": 69,
+          "suppressed": false,
+          "capacity_share": 0.3764,
+          "contribution_share": 0.4278,
+          "contribution_won": 18303784,
+          "ratio": 0.9591,
+          "bias_per_cap": -0.011055,
+          "oracle_reduction_won": 16586427
+        },
+        "age:under_180_days:A": {
+          "site_count": 6,
+          "suppressed": false,
+          "capacity_share": 0.0466,
+          "contribution_share": 0.0745,
+          "contribution_won": 3186826,
+          "ratio": 0.8032,
+          "bias_per_cap": -0.058957,
+          "oracle_reduction_won": 2844535
+        },
+        "age:under_180_days:B": {
+          "site_count": 63,
+          "suppressed": false,
+          "capacity_share": 0.3297,
+          "contribution_share": 0.3534,
+          "contribution_won": 15116958,
+          "ratio": 0.981,
+          "bias_per_cap": -0.004281,
+          "oracle_reduction_won": 13741892
+        },
+        "recent:normal": {
+          "site_count": 174,
+          "suppressed": false,
+          "capacity_share": 0.8082,
+          "contribution_share": 0.7683,
+          "contribution_won": 32869617,
+          "ratio": 0.9861,
+          "bias_per_cap": -0.003101,
+          "oracle_reduction_won": 29992339
+        },
+        "recent:normal:A": {
+          "site_count": 127,
+          "suppressed": false,
+          "capacity_share": 0.54,
+          "contribution_share": 0.492,
+          "contribution_won": 21046410,
+          "ratio": 0.9864,
+          "bias_per_cap": -0.003206,
+          "oracle_reduction_won": 18749398
+        },
+        "recent:normal:B": {
+          "site_count": 47,
+          "suppressed": false,
+          "capacity_share": 0.2682,
+          "contribution_share": 0.2764,
+          "contribution_won": 11823206,
+          "ratio": 0.9855,
+          "bias_per_cap": -0.002888,
+          "oracle_reduction_won": 11242942
+        },
+        "recent:unknown": {
+          "site_count": 31,
+          "suppressed": false,
+          "capacity_share": 0.1918,
+          "contribution_share": 0.2317,
+          "contribution_won": 9911791,
+          "ratio": 0.9294,
+          "bias_per_cap": -0.019761,
+          "oracle_reduction_won": 9222061
+        },
+        "recent:unknown:A": {
+          "site_count": 3,
+          "suppressed": true
+        },
+        "recent:unknown:B": {
+          "site_count": 28,
+          "suppressed": false,
+          "capacity_share": 0.1508,
+          "contribution_share": 0.1631,
+          "contribution_won": 6975924,
+          "ratio": 0.9726,
+          "bias_per_cap": -0.006424,
+          "oracle_reduction_won": 6626316
+        },
+        "zero_days:many": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:many:A": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:many:B": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "zero_days:none": {
+          "site_count": 202,
+          "suppressed": false,
+          "capacity_share": 0.9846,
+          "contribution_share": 0.9793,
+          "contribution_won": 41897090,
+          "ratio": 0.9769,
+          "bias_per_cap": -0.005694,
+          "oracle_reduction_won": 41241639
+        },
+        "zero_days:none:A": {
+          "site_count": 127,
+          "suppressed": false,
+          "capacity_share": 0.5655,
+          "contribution_share": 0.5399,
+          "contribution_won": 23097959,
+          "ratio": 0.9737,
+          "bias_per_cap": -0.006829,
+          "oracle_reduction_won": 22442508
+        },
+        "zero_days:none:B": {
+          "site_count": 75,
+          "suppressed": false,
+          "capacity_share": 0.419,
+          "contribution_share": 0.4394,
+          "contribution_won": 18799130,
+          "ratio": 0.9809,
+          "bias_per_cap": -0.004161,
+          "oracle_reduction_won": 18799130
+        },
+        "zero_days:some": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "zero_days:some:A": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "zero_days:some:B": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "capacity:q1": {
+          "site_count": 56,
+          "suppressed": false,
+          "capacity_share": 0.0969,
+          "contribution_share": 0.0934,
+          "contribution_won": 3997862,
+          "ratio": 0.98,
+          "bias_per_cap": -0.004992,
+          "oracle_reduction_won": 3918206
+        },
+        "capacity:q1:A": {
+          "site_count": 39,
+          "suppressed": false,
+          "capacity_share": 0.0635,
+          "contribution_share": 0.0622,
+          "contribution_won": 2662417,
+          "ratio": 0.9799,
+          "bias_per_cap": -0.005397,
+          "oracle_reduction_won": 2602473
+        },
+        "capacity:q1:B": {
+          "site_count": 17,
+          "suppressed": false,
+          "capacity_share": 0.0334,
+          "contribution_share": 0.0312,
+          "contribution_won": 1335444,
+          "ratio": 0.9802,
+          "bias_per_cap": -0.004222,
+          "oracle_reduction_won": 1315733
+        },
+        "capacity:q2": {
+          "site_count": 73,
+          "suppressed": false,
+          "capacity_share": 0.2149,
+          "contribution_share": 0.1942,
+          "contribution_won": 8308027,
+          "ratio": 0.9941,
+          "bias_per_cap": -0.000619,
+          "oracle_reduction_won": 7784955
+        },
+        "capacity:q2:A": {
+          "site_count": 59,
+          "suppressed": false,
+          "capacity_share": 0.1745,
+          "contribution_share": 0.156,
+          "contribution_won": 6675483,
+          "ratio": 0.9918,
+          "bias_per_cap": -0.001675,
+          "oracle_reduction_won": 6216876
+        },
+        "capacity:q2:B": {
+          "site_count": 14,
+          "suppressed": false,
+          "capacity_share": 0.0404,
+          "contribution_share": 0.0382,
+          "contribution_won": 1632544,
+          "ratio": 1.0042,
+          "bias_per_cap": 0.003941,
+          "oracle_reduction_won": 1568079
+        },
+        "capacity:q3": {
+          "site_count": 42,
+          "suppressed": false,
+          "capacity_share": 0.1265,
+          "contribution_share": 0.1249,
+          "contribution_won": 5343048,
+          "ratio": 1.0054,
+          "bias_per_cap": 0.002724,
+          "oracle_reduction_won": 5093899
+        },
+        "capacity:q3:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.0541,
+          "contribution_share": 0.0499,
+          "contribution_won": 2135101,
+          "ratio": 1.0165,
+          "bias_per_cap": 0.005998,
+          "oracle_reduction_won": 2009411
+        },
+        "capacity:q3:B": {
+          "site_count": 24,
+          "suppressed": false,
+          "capacity_share": 0.0723,
+          "contribution_share": 0.075,
+          "contribution_won": 3207947,
+          "ratio": 0.9975,
+          "bias_per_cap": 0.000272,
+          "oracle_reduction_won": 3084488
+        },
+        "capacity:q4": {
+          "site_count": 34,
+          "suppressed": false,
+          "capacity_share": 0.5617,
+          "contribution_share": 0.5875,
+          "contribution_won": 25132471,
+          "ratio": 0.9592,
+          "bias_per_cap": -0.010725,
+          "oracle_reduction_won": 22686338
+        },
+        "capacity:q4:A": {
+          "site_count": 14,
+          "suppressed": false,
+          "capacity_share": 0.2888,
+          "contribution_share": 0.2924,
+          "contribution_won": 12509276,
+          "ratio": 0.9452,
+          "bias_per_cap": -0.014691,
+          "oracle_reduction_won": 11158901
+        },
+        "capacity:q4:B": {
+          "site_count": 20,
+          "suppressed": false,
+          "capacity_share": 0.2729,
+          "contribution_share": 0.2951,
+          "contribution_won": 12623195,
+          "ratio": 0.973,
+          "bias_per_cap": -0.006528,
+          "oracle_reduction_won": 11527436
+        }
+      }
+    },
+    "autumn_support": {
+      "penalty": 48555811,
+      "group_share": {
+        "A": 0.4839,
+        "B": 0.5161
+      },
+      "group_ratio": {
+        "A": 1.0076,
+        "B": 0.9996
+      },
+      "cohorts": {
+        "age:180_to_729_days": {
+          "site_count": 115,
+          "suppressed": false,
+          "capacity_share": 0.5355,
+          "contribution_share": 0.5598,
+          "contribution_won": 27180036,
+          "ratio": 1.0022,
+          "bias_per_cap": 0.000101,
+          "oracle_reduction_won": 26171867
+        },
+        "age:180_to_729_days:A": {
+          "site_count": 73,
+          "suppressed": false,
+          "capacity_share": 0.3319,
+          "contribution_share": 0.3398,
+          "contribution_won": 16498368,
+          "ratio": 1.0079,
+          "bias_per_cap": 0.00077,
+          "oracle_reduction_won": 15843716
+        },
+        "age:180_to_729_days:B": {
+          "site_count": 42,
+          "suppressed": false,
+          "capacity_share": 0.2036,
+          "contribution_share": 0.22,
+          "contribution_won": 10681669,
+          "ratio": 0.9935,
+          "bias_per_cap": -0.000988,
+          "oracle_reduction_won": 10328151
+        },
+        "age:730_days_or_more": {
+          "site_count": 58,
+          "suppressed": false,
+          "capacity_share": 0.1102,
+          "contribution_share": 0.1067,
+          "contribution_won": 5181735,
+          "ratio": 1.0066,
+          "bias_per_cap": 0.000538,
+          "oracle_reduction_won": 5068721
+        },
+        "age:730_days_or_more:A": {
+          "site_count": 54,
+          "suppressed": false,
+          "capacity_share": 0.1009,
+          "contribution_share": 0.0986,
+          "contribution_won": 4785851,
+          "ratio": 1.0092,
+          "bias_per_cap": 0.000964,
+          "oracle_reduction_won": 4674493
+        },
+        "age:730_days_or_more:B": {
+          "site_count": 4,
+          "suppressed": true
+        },
+        "age:under_180_days": {
+          "site_count": 79,
+          "suppressed": false,
+          "capacity_share": 0.3543,
+          "contribution_share": 0.3335,
+          "contribution_won": 16194039,
+          "ratio": 1.0044,
+          "bias_per_cap": 0.000709,
+          "oracle_reduction_won": 15609659
+        },
+        "age:under_180_days:A": {
+          "site_count": 7,
+          "suppressed": false,
+          "capacity_share": 0.0618,
+          "contribution_share": 0.0455,
+          "contribution_won": 2210721,
+          "ratio": 1.0038,
+          "bias_per_cap": -0.000336,
+          "oracle_reduction_won": 2071992
+        },
+        "age:under_180_days:B": {
+          "site_count": 72,
+          "suppressed": false,
+          "capacity_share": 0.2925,
+          "contribution_share": 0.288,
+          "contribution_won": 13983318,
+          "ratio": 1.0045,
+          "bias_per_cap": 0.000929,
+          "oracle_reduction_won": 13537667
+        },
+        "recent:normal": {
+          "site_count": 223,
+          "suppressed": false,
+          "capacity_share": 0.8721,
+          "contribution_share": 0.8788,
+          "contribution_won": 42670329,
+          "ratio": 0.9992,
+          "bias_per_cap": -0.000694,
+          "oracle_reduction_won": 41148161
+        },
+        "recent:normal:A": {
+          "site_count": 122,
+          "suppressed": false,
+          "capacity_share": 0.4653,
+          "contribution_share": 0.4586,
+          "contribution_won": 22266854,
+          "ratio": 1.0023,
+          "bias_per_cap": -0.000601,
+          "oracle_reduction_won": 21526603
+        },
+        "recent:normal:B": {
+          "site_count": 101,
+          "suppressed": false,
+          "capacity_share": 0.4068,
+          "contribution_share": 0.4202,
+          "contribution_won": 20403475,
+          "ratio": 0.9959,
+          "bias_per_cap": -0.0008,
+          "oracle_reduction_won": 19621558
+        },
+        "recent:recent_dip": {
+          "site_count": 17,
+          "suppressed": false,
+          "capacity_share": 0.0491,
+          "contribution_share": 0.0435,
+          "contribution_won": 2114390,
+          "ratio": 1.0683,
+          "bias_per_cap": 0.015722,
+          "oracle_reduction_won": 2040668
+        },
+        "recent:recent_dip:A": {
+          "site_count": 12,
+          "suppressed": false,
+          "capacity_share": 0.0293,
+          "contribution_share": 0.0253,
+          "contribution_won": 1228086,
+          "ratio": 1.1001,
+          "bias_per_cap": 0.020893,
+          "oracle_reduction_won": 1169059
+        },
+        "recent:recent_dip:B": {
+          "site_count": 5,
+          "suppressed": false,
+          "capacity_share": 0.0199,
+          "contribution_share": 0.0183,
+          "contribution_won": 886305,
+          "ratio": 1.0252,
+          "bias_per_cap": 0.008109,
+          "oracle_reduction_won": 871608
+        },
+        "recent:unknown": {
+          "site_count": 12,
+          "suppressed": false,
+          "capacity_share": 0.0788,
+          "contribution_share": 0.0777,
+          "contribution_won": 3771091,
+          "ratio": 1.013,
+          "bias_per_cap": 0.002498,
+          "oracle_reduction_won": 3640805
+        },
+        "recent:unknown:A": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "recent:unknown:B": {
+          "site_count": 12,
+          "suppressed": false,
+          "capacity_share": 0.0788,
+          "contribution_share": 0.0777,
+          "contribution_won": 3771091,
+          "ratio": 1.013,
+          "bias_per_cap": 0.002498,
+          "oracle_reduction_won": 3640805
+        },
+        "zero_days:many": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "zero_days:many:A": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:many:B": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:none": {
+          "site_count": 246,
+          "suppressed": false,
+          "capacity_share": 0.9519,
+          "contribution_share": 0.9578,
+          "contribution_won": 46504516,
+          "ratio": 1.004,
+          "bias_per_cap": 0.000466,
+          "oracle_reduction_won": 45397551
+        },
+        "zero_days:none:A": {
+          "site_count": 131,
+          "suppressed": false,
+          "capacity_share": 0.4574,
+          "contribution_share": 0.4546,
+          "contribution_won": 22072914,
+          "ratio": 1.0083,
+          "bias_per_cap": 0.000749,
+          "oracle_reduction_won": 21126785
+        },
+        "zero_days:none:B": {
+          "site_count": 115,
+          "suppressed": false,
+          "capacity_share": 0.4944,
+          "contribution_share": 0.5032,
+          "contribution_won": 24431602,
+          "ratio": 1.0003,
+          "bias_per_cap": 0.000205,
+          "oracle_reduction_won": 24270766
+        },
+        "zero_days:some": {
+          "site_count": 4,
+          "suppressed": true
+        },
+        "zero_days:some:A": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "zero_days:some:B": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "capacity:q1": {
+          "site_count": 64,
+          "suppressed": false,
+          "capacity_share": 0.0878,
+          "contribution_share": 0.0872,
+          "contribution_won": 4235257,
+          "ratio": 0.9872,
+          "bias_per_cap": -0.003799,
+          "oracle_reduction_won": 4197739
+        },
+        "capacity:q1:A": {
+          "site_count": 39,
+          "suppressed": false,
+          "capacity_share": 0.0509,
+          "contribution_share": 0.0516,
+          "contribution_won": 2507555,
+          "ratio": 0.9986,
+          "bias_per_cap": -0.000889,
+          "oracle_reduction_won": 2487680
+        },
+        "capacity:q1:B": {
+          "site_count": 25,
+          "suppressed": false,
+          "capacity_share": 0.037,
+          "contribution_share": 0.0356,
+          "contribution_won": 1727702,
+          "ratio": 0.9724,
+          "bias_per_cap": -0.007802,
+          "oracle_reduction_won": 1710059
+        },
+        "capacity:q2": {
+          "site_count": 89,
+          "suppressed": false,
+          "capacity_share": 0.2087,
+          "contribution_share": 0.1948,
+          "contribution_won": 9460732,
+          "ratio": 0.9994,
+          "bias_per_cap": -0.000541,
+          "oracle_reduction_won": 9227959
+        },
+        "capacity:q2:A": {
+          "site_count": 59,
+          "suppressed": false,
+          "capacity_share": 0.1399,
+          "contribution_share": 0.1238,
+          "contribution_won": 6010767,
+          "ratio": 1.0059,
+          "bias_per_cap": 0.000767,
+          "oracle_reduction_won": 5830214
+        },
+        "capacity:q2:B": {
+          "site_count": 30,
+          "suppressed": false,
+          "capacity_share": 0.0689,
+          "contribution_share": 0.0711,
+          "contribution_won": 3449965,
+          "ratio": 0.987,
+          "bias_per_cap": -0.003198,
+          "oracle_reduction_won": 3397745
+        },
+        "capacity:q3": {
+          "site_count": 50,
+          "suppressed": false,
+          "capacity_share": 0.1206,
+          "contribution_share": 0.1237,
+          "contribution_won": 6005782,
+          "ratio": 0.9851,
+          "bias_per_cap": -0.004328,
+          "oracle_reduction_won": 5903261
+        },
+        "capacity:q3:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.0434,
+          "contribution_share": 0.0478,
+          "contribution_won": 2321439,
+          "ratio": 0.9921,
+          "bias_per_cap": -0.003619,
+          "oracle_reduction_won": 2278186
+        },
+        "capacity:q3:B": {
+          "site_count": 32,
+          "suppressed": false,
+          "capacity_share": 0.0772,
+          "contribution_share": 0.0759,
+          "contribution_won": 3684344,
+          "ratio": 0.9814,
+          "bias_per_cap": -0.004727,
+          "oracle_reduction_won": 3625075
+        },
+        "capacity:q4": {
+          "site_count": 49,
+          "suppressed": false,
+          "capacity_share": 0.5828,
+          "contribution_share": 0.5942,
+          "contribution_won": 28854039,
+          "ratio": 1.0115,
+          "bias_per_cap": 0.002288,
+          "oracle_reduction_won": 27846968
+        },
+        "capacity:q4:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.2604,
+          "contribution_share": 0.2606,
+          "contribution_won": 12655178,
+          "ratio": 1.0132,
+          "bias_per_cap": 0.001639,
+          "oracle_reduction_won": 12220537
+        },
+        "capacity:q4:B": {
+          "site_count": 31,
+          "suppressed": false,
+          "capacity_share": 0.3224,
+          "contribution_share": 0.3336,
+          "contribution_won": 16198861,
+          "ratio": 1.0103,
+          "bias_per_cap": 0.002812,
+          "oracle_reduction_won": 15626431
+        }
+      }
+    },
+    "development": {
+      "penalty": 25519629,
+      "group_share": {
+        "A": 0.4441,
+        "B": 0.5559
+      },
+      "group_ratio": {
+        "A": 1.0333,
+        "B": 1.055
+      },
+      "cohorts": {
+        "age:180_to_729_days": {
+          "site_count": 144,
+          "suppressed": false,
+          "capacity_share": 0.6968,
+          "contribution_share": 0.6731,
+          "contribution_won": 17178219,
+          "ratio": 1.0315,
+          "bias_per_cap": 0.008829,
+          "oracle_reduction_won": 15714977
+        },
+        "age:180_to_729_days:A": {
+          "site_count": 58,
+          "suppressed": false,
+          "capacity_share": 0.3271,
+          "contribution_share": 0.3173,
+          "contribution_won": 8097066,
+          "ratio": 1.0317,
+          "bias_per_cap": 0.008747,
+          "oracle_reduction_won": 7752559
+        },
+        "age:180_to_729_days:B": {
+          "site_count": 86,
+          "suppressed": false,
+          "capacity_share": 0.3697,
+          "contribution_share": 0.3558,
+          "contribution_won": 9081153,
+          "ratio": 1.0314,
+          "bias_per_cap": 0.008902,
+          "oracle_reduction_won": 7962418
+        },
+        "age:730_days_or_more": {
+          "site_count": 80,
+          "suppressed": false,
+          "capacity_share": 0.1542,
+          "contribution_share": 0.1314,
+          "contribution_won": 3353744,
+          "ratio": 1.0398,
+          "bias_per_cap": 0.01177,
+          "oracle_reduction_won": 3296551
+        },
+        "age:730_days_or_more:A": {
+          "site_count": 74,
+          "suppressed": false,
+          "capacity_share": 0.1406,
+          "contribution_share": 0.1181,
+          "contribution_won": 3014300,
+          "ratio": 1.0389,
+          "bias_per_cap": 0.01153,
+          "oracle_reduction_won": 2958089
+        },
+        "age:730_days_or_more:B": {
+          "site_count": 6,
+          "suppressed": false,
+          "capacity_share": 0.0136,
+          "contribution_share": 0.0133,
+          "contribution_won": 339444,
+          "ratio": 1.0491,
+          "bias_per_cap": 0.01425,
+          "oracle_reduction_won": 338462
+        },
+        "age:under_180_days": {
+          "site_count": 29,
+          "suppressed": false,
+          "capacity_share": 0.149,
+          "contribution_share": 0.1954,
+          "contribution_won": 4987666,
+          "ratio": 1.1177,
+          "bias_per_cap": 0.027866,
+          "oracle_reduction_won": 4349919
+        },
+        "age:under_180_days:A": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "age:under_180_days:B": {
+          "site_count": 27,
+          "suppressed": false,
+          "capacity_share": 0.1369,
+          "contribution_share": 0.1868,
+          "contribution_won": 4767002,
+          "ratio": 1.1268,
+          "bias_per_cap": 0.029925,
+          "oracle_reduction_won": 4129908
+        },
+        "recent:normal": {
+          "site_count": 251,
+          "suppressed": false,
+          "capacity_share": 0.9678,
+          "contribution_share": 0.909,
+          "contribution_won": 23197551,
+          "ratio": 1.0332,
+          "bias_per_cap": 0.009446,
+          "oracle_reduction_won": 21437464
+        },
+        "recent:normal:A": {
+          "site_count": 133,
+          "suppressed": false,
+          "capacity_share": 0.4775,
+          "contribution_share": 0.442,
+          "contribution_won": 11279200,
+          "ratio": 1.0337,
+          "bias_per_cap": 0.009567,
+          "oracle_reduction_won": 11204861
+        },
+        "recent:normal:B": {
+          "site_count": 118,
+          "suppressed": false,
+          "capacity_share": 0.4903,
+          "contribution_share": 0.467,
+          "contribution_won": 11918351,
+          "ratio": 1.0327,
+          "bias_per_cap": 0.009328,
+          "oracle_reduction_won": 10232603
+        },
+        "recent:recent_dip": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "recent:recent_dip:A": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "recent:recent_dip:B": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "recent:unknown": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "recent:unknown:A": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "recent:unknown:B": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:none": {
+          "site_count": 181,
+          "suppressed": false,
+          "capacity_share": 0.8057,
+          "contribution_share": 0.8226,
+          "contribution_won": 20993393,
+          "ratio": 1.0468,
+          "bias_per_cap": 0.012365,
+          "oracle_reduction_won": 20204373
+        },
+        "zero_days:none:A": {
+          "site_count": 96,
+          "suppressed": false,
+          "capacity_share": 0.4067,
+          "contribution_share": 0.3821,
+          "contribution_won": 9752227,
+          "ratio": 1.0334,
+          "bias_per_cap": 0.009371,
+          "oracle_reduction_won": 9403786
+        },
+        "zero_days:none:B": {
+          "site_count": 85,
+          "suppressed": false,
+          "capacity_share": 0.399,
+          "contribution_share": 0.4405,
+          "contribution_won": 11241165,
+          "ratio": 1.0605,
+          "bias_per_cap": 0.015417,
+          "oracle_reduction_won": 10800586
+        },
+        "zero_days:some": {
+          "site_count": 72,
+          "suppressed": false,
+          "capacity_share": 0.1943,
+          "contribution_share": 0.1774,
+          "contribution_won": 4526236,
+          "ratio": 1.0364,
+          "bias_per_cap": 0.011097,
+          "oracle_reduction_won": 4351008
+        },
+        "zero_days:some:A": {
+          "site_count": 38,
+          "suppressed": false,
+          "capacity_share": 0.0731,
+          "contribution_share": 0.0619,
+          "contribution_won": 1579803,
+          "ratio": 1.0332,
+          "bias_per_cap": 0.009923,
+          "oracle_reduction_won": 1558842
+        },
+        "zero_days:some:B": {
+          "site_count": 34,
+          "suppressed": false,
+          "capacity_share": 0.1212,
+          "contribution_share": 0.1155,
+          "contribution_won": 2946433,
+          "ratio": 1.0382,
+          "bias_per_cap": 0.011804,
+          "oracle_reduction_won": 2792166
+        },
+        "capacity:q1": {
+          "site_count": 64,
+          "suppressed": false,
+          "capacity_share": 0.0852,
+          "contribution_share": 0.0773,
+          "contribution_won": 1971994,
+          "ratio": 1.0426,
+          "bias_per_cap": 0.012605,
+          "oracle_reduction_won": 1963510
+        },
+        "capacity:q1:A": {
+          "site_count": 39,
+          "suppressed": false,
+          "capacity_share": 0.0493,
+          "contribution_share": 0.0442,
+          "contribution_won": 1127320,
+          "ratio": 1.0489,
+          "bias_per_cap": 0.014671,
+          "oracle_reduction_won": 1121088
+        },
+        "capacity:q1:B": {
+          "site_count": 25,
+          "suppressed": false,
+          "capacity_share": 0.0359,
+          "contribution_share": 0.0331,
+          "contribution_won": 844674,
+          "ratio": 1.0341,
+          "bias_per_cap": 0.009762,
+          "oracle_reduction_won": 842422
+        },
+        "capacity:q2": {
+          "site_count": 89,
+          "suppressed": false,
+          "capacity_share": 0.2025,
+          "contribution_share": 0.1733,
+          "contribution_won": 4421583,
+          "ratio": 1.0294,
+          "bias_per_cap": 0.008774,
+          "oracle_reduction_won": 4356048
+        },
+        "capacity:q2:A": {
+          "site_count": 59,
+          "suppressed": false,
+          "capacity_share": 0.1357,
+          "contribution_share": 0.1117,
+          "contribution_won": 2851404,
+          "ratio": 1.0334,
+          "bias_per_cap": 0.009966,
+          "oracle_reduction_won": 2822905
+        },
+        "capacity:q2:B": {
+          "site_count": 30,
+          "suppressed": false,
+          "capacity_share": 0.0668,
+          "contribution_share": 0.0615,
+          "contribution_won": 1570179,
+          "ratio": 1.0216,
+          "bias_per_cap": 0.006351,
+          "oracle_reduction_won": 1533143
+        },
+        "capacity:q3": {
+          "site_count": 50,
+          "suppressed": false,
+          "capacity_share": 0.117,
+          "contribution_share": 0.1065,
+          "contribution_won": 2717831,
+          "ratio": 1.0385,
+          "bias_per_cap": 0.012343,
+          "oracle_reduction_won": 2642672
+        },
+        "capacity:q3:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.0421,
+          "contribution_share": 0.0389,
+          "contribution_won": 992113,
+          "ratio": 1.0568,
+          "bias_per_cap": 0.016551,
+          "oracle_reduction_won": 953452
+        },
+        "capacity:q3:B": {
+          "site_count": 32,
+          "suppressed": false,
+          "capacity_share": 0.0749,
+          "contribution_share": 0.0676,
+          "contribution_won": 1725717,
+          "ratio": 1.029,
+          "bias_per_cap": 0.009978,
+          "oracle_reduction_won": 1689220
+        },
+        "capacity:q4": {
+          "site_count": 50,
+          "suppressed": false,
+          "capacity_share": 0.5953,
+          "contribution_share": 0.643,
+          "contribution_won": 16408221,
+          "ratio": 1.052,
+          "bias_per_cap": 0.013143,
+          "oracle_reduction_won": 15638190
+        },
+        "capacity:q4:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.2527,
+          "contribution_share": 0.2493,
+          "contribution_won": 6361193,
+          "ratio": 1.0256,
+          "bias_per_cap": 0.00698,
+          "oracle_reduction_won": 5935397
+        },
+        "capacity:q4:B": {
+          "site_count": 32,
+          "suppressed": false,
+          "capacity_share": 0.3426,
+          "contribution_share": 0.3937,
+          "contribution_won": 10047029,
+          "ratio": 1.0711,
+          "bias_per_cap": 0.017687,
+          "oracle_reduction_won": 9702792
+        }
+      }
+    },
+    "selection": {
+      "penalty": 25506539,
+      "group_share": {
+        "A": 0.4836,
+        "B": 0.5164
+      },
+      "group_ratio": {
+        "A": 0.9971,
+        "B": 1.001
+      },
+      "cohorts": {
+        "age:180_to_729_days": {
+          "site_count": 159,
+          "suppressed": false,
+          "capacity_share": 0.7894,
+          "contribution_share": 0.7975,
+          "contribution_won": 20341259,
+          "ratio": 1.0041,
+          "bias_per_cap": -5.9e-05,
+          "oracle_reduction_won": 17571106
+        },
+        "age:180_to_729_days:A": {
+          "site_count": 47,
+          "suppressed": false,
+          "capacity_share": 0.3126,
+          "contribution_share": 0.3288,
+          "contribution_won": 8385618,
+          "ratio": 0.9945,
+          "bias_per_cap": -0.002964,
+          "oracle_reduction_won": 7896088
+        },
+        "age:180_to_729_days:B": {
+          "site_count": 112,
+          "suppressed": false,
+          "capacity_share": 0.4767,
+          "contribution_share": 0.4687,
+          "contribution_won": 11955640,
+          "ratio": 1.01,
+          "bias_per_cap": 0.001847,
+          "oracle_reduction_won": 9675017
+        },
+        "age:730_days_or_more": {
+          "site_count": 93,
+          "suppressed": false,
+          "capacity_share": 0.1807,
+          "contribution_share": 0.169,
+          "contribution_won": 4311819,
+          "ratio": 1.0034,
+          "bias_per_cap": 6e-05,
+          "oracle_reduction_won": 4131449
+        },
+        "age:730_days_or_more:A": {
+          "site_count": 87,
+          "suppressed": false,
+          "capacity_share": 0.1672,
+          "contribution_share": 0.1549,
+          "contribution_won": 3949774,
+          "ratio": 1.0019,
+          "bias_per_cap": -0.000456,
+          "oracle_reduction_won": 3770683
+        },
+        "age:730_days_or_more:B": {
+          "site_count": 6,
+          "suppressed": false,
+          "capacity_share": 0.0136,
+          "contribution_share": 0.0142,
+          "contribution_won": 362045,
+          "ratio": 1.0223,
+          "bias_per_cap": 0.006413,
+          "oracle_reduction_won": 360767
+        },
+        "age:under_180_days": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "age:under_180_days:A": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "age:under_180_days:B": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "recent:normal": {
+          "site_count": 250,
+          "suppressed": false,
+          "capacity_share": 0.9671,
+          "contribution_share": 0.9639,
+          "contribution_won": 24585067,
+          "ratio": 1.0038,
+          "bias_per_cap": -8.4e-05,
+          "oracle_reduction_won": 21912582
+        },
+        "recent:normal:A": {
+          "site_count": 132,
+          "suppressed": false,
+          "capacity_share": 0.4768,
+          "contribution_share": 0.481,
+          "contribution_won": 12267382,
+          "ratio": 0.9967,
+          "bias_per_cap": -0.0022,
+          "oracle_reduction_won": 12201771
+        },
+        "recent:normal:B": {
+          "site_count": 118,
+          "suppressed": false,
+          "capacity_share": 0.4903,
+          "contribution_share": 0.4829,
+          "contribution_won": 12317685,
+          "ratio": 1.0104,
+          "bias_per_cap": 0.001973,
+          "oracle_reduction_won": 9710811
+        },
+        "recent:recent_dip": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "recent:recent_dip:A": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "recent:recent_dip:B": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "recent:recent_low": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "recent:recent_low:A": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "recent:recent_low:B": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:many": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "zero_days:many:A": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:many:B": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:none": {
+          "site_count": 211,
+          "suppressed": false,
+          "capacity_share": 0.8866,
+          "contribution_share": 0.8904,
+          "contribution_won": 22711546,
+          "ratio": 1.0039,
+          "bias_per_cap": -5e-06,
+          "oracle_reduction_won": 20575216
+        },
+        "zero_days:none:A": {
+          "site_count": 109,
+          "suppressed": false,
+          "capacity_share": 0.441,
+          "contribution_share": 0.4465,
+          "contribution_won": 11387519,
+          "ratio": 0.9959,
+          "bias_per_cap": -0.002373,
+          "oracle_reduction_won": 11036916
+        },
+        "zero_days:none:B": {
+          "site_count": 102,
+          "suppressed": false,
+          "capacity_share": 0.4456,
+          "contribution_share": 0.444,
+          "contribution_won": 11324027,
+          "ratio": 1.0114,
+          "bias_per_cap": 0.002339,
+          "oracle_reduction_won": 9538301
+        },
+        "zero_days:some": {
+          "site_count": 40,
+          "suppressed": false,
+          "capacity_share": 0.0811,
+          "contribution_share": 0.0747,
+          "contribution_won": 1905283,
+          "ratio": 1.0064,
+          "bias_per_cap": 1.5e-05,
+          "oracle_reduction_won": 1838178
+        },
+        "zero_days:some:A": {
+          "site_count": 24,
+          "suppressed": false,
+          "capacity_share": 0.0364,
+          "contribution_share": 0.0357,
+          "contribution_won": 911625,
+          "ratio": 1.0145,
+          "bias_per_cap": 0.002079,
+          "oracle_reduction_won": 884305
+        },
+        "zero_days:some:B": {
+          "site_count": 16,
+          "suppressed": false,
+          "capacity_share": 0.0447,
+          "contribution_share": 0.039,
+          "contribution_won": 993658,
+          "ratio": 1.0,
+          "bias_per_cap": -0.001669,
+          "oracle_reduction_won": 953873
+        },
+        "capacity:q1": {
+          "site_count": 64,
+          "suppressed": false,
+          "capacity_share": 0.0852,
+          "contribution_share": 0.0784,
+          "contribution_won": 2000673,
+          "ratio": 1.0027,
+          "bias_per_cap": -0.000526,
+          "oracle_reduction_won": 1981841
+        },
+        "capacity:q1:A": {
+          "site_count": 39,
+          "suppressed": false,
+          "capacity_share": 0.0493,
+          "contribution_share": 0.0474,
+          "contribution_won": 1207778,
+          "ratio": 1.0031,
+          "bias_per_cap": -2.3e-05,
+          "oracle_reduction_won": 1189535
+        },
+        "capacity:q1:B": {
+          "site_count": 25,
+          "suppressed": false,
+          "capacity_share": 0.0359,
+          "contribution_share": 0.0311,
+          "contribution_won": 792895,
+          "ratio": 1.0021,
+          "bias_per_cap": -0.001219,
+          "oracle_reduction_won": 792306
+        },
+        "capacity:q2": {
+          "site_count": 89,
+          "suppressed": false,
+          "capacity_share": 0.2025,
+          "contribution_share": 0.1861,
+          "contribution_won": 4746146,
+          "ratio": 1.002,
+          "bias_per_cap": -0.000255,
+          "oracle_reduction_won": 4553343
+        },
+        "capacity:q2:A": {
+          "site_count": 59,
+          "suppressed": false,
+          "capacity_share": 0.1357,
+          "contribution_share": 0.1217,
+          "contribution_won": 3103205,
+          "ratio": 0.9978,
+          "bias_per_cap": -0.001437,
+          "oracle_reduction_won": 2969257
+        },
+        "capacity:q2:B": {
+          "site_count": 30,
+          "suppressed": false,
+          "capacity_share": 0.0668,
+          "contribution_share": 0.0644,
+          "contribution_won": 1642940,
+          "ratio": 1.0101,
+          "bias_per_cap": 0.002146,
+          "oracle_reduction_won": 1584086
+        },
+        "capacity:q3": {
+          "site_count": 50,
+          "suppressed": false,
+          "capacity_share": 0.117,
+          "contribution_share": 0.1182,
+          "contribution_won": 3014471,
+          "ratio": 1.0118,
+          "bias_per_cap": 0.001871,
+          "oracle_reduction_won": 2938136
+        },
+        "capacity:q3:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.0421,
+          "contribution_share": 0.0447,
+          "contribution_won": 1141319,
+          "ratio": 1.0112,
+          "bias_per_cap": 0.002084,
+          "oracle_reduction_won": 1131878
+        },
+        "capacity:q3:B": {
+          "site_count": 32,
+          "suppressed": false,
+          "capacity_share": 0.0749,
+          "contribution_share": 0.0734,
+          "contribution_won": 1873152,
+          "ratio": 1.0121,
+          "bias_per_cap": 0.001752,
+          "oracle_reduction_won": 1806258
+        },
+        "capacity:q4": {
+          "site_count": 50,
+          "suppressed": false,
+          "capacity_share": 0.5953,
+          "contribution_share": 0.6173,
+          "contribution_won": 15745248,
+          "ratio": 0.995,
+          "bias_per_cap": -0.002865,
+          "oracle_reduction_won": 14613583
+        },
+        "capacity:q4:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.2527,
+          "contribution_share": 0.2699,
+          "contribution_won": 6883089,
+          "ratio": 0.993,
+          "bias_per_cap": -0.003541,
+          "oracle_reduction_won": 6307752
+        },
+        "capacity:q4:B": {
+          "site_count": 32,
+          "suppressed": false,
+          "capacity_share": 0.3426,
+          "contribution_share": 0.3474,
+          "contribution_won": 8862159,
+          "ratio": 0.9964,
+          "bias_per_cap": -0.002366,
+          "oracle_reduction_won": 8305832
+        }
+      }
+    },
+    "fold1_static": {
+      "penalty": 166627544,
+      "group_share": {
+        "A": 0.4738,
+        "B": 0.5262
+      },
+      "group_ratio": {
+        "A": 1.0059,
+        "B": 1.02
+      },
+      "cohorts": {
+        "age:180_to_729_days": {
+          "site_count": 91,
+          "suppressed": false,
+          "capacity_share": 0.4053,
+          "contribution_share": 0.3961,
+          "contribution_won": 66009027,
+          "ratio": 1.0039,
+          "bias_per_cap": 0.001119,
+          "oracle_reduction_won": 62214324
+        },
+        "age:180_to_729_days:A": {
+          "site_count": 83,
+          "suppressed": false,
+          "capacity_share": 0.3449,
+          "contribution_share": 0.3379,
+          "contribution_won": 56300326,
+          "ratio": 1.0057,
+          "bias_per_cap": 0.001508,
+          "oracle_reduction_won": 53501414
+        },
+        "age:180_to_729_days:B": {
+          "site_count": 8,
+          "suppressed": false,
+          "capacity_share": 0.0604,
+          "contribution_share": 0.0583,
+          "contribution_won": 9708701,
+          "ratio": 0.9942,
+          "bias_per_cap": -0.001108,
+          "oracle_reduction_won": 8712911
+        },
+        "age:730_days_or_more": {
+          "site_count": 45,
+          "suppressed": false,
+          "capacity_share": 0.0796,
+          "contribution_share": 0.0785,
+          "contribution_won": 13079132,
+          "ratio": 1.0215,
+          "bias_per_cap": 0.005551,
+          "oracle_reduction_won": 12559083
+        },
+        "age:730_days_or_more:A": {
+          "site_count": 41,
+          "suppressed": false,
+          "capacity_share": 0.0705,
+          "contribution_share": 0.0702,
+          "contribution_won": 11703463,
+          "ratio": 1.0188,
+          "bias_per_cap": 0.004703,
+          "oracle_reduction_won": 11216361
+        },
+        "age:730_days_or_more:B": {
+          "site_count": 4,
+          "suppressed": true
+        },
+        "age:under_180_days": {
+          "site_count": 69,
+          "suppressed": false,
+          "capacity_share": 0.2926,
+          "contribution_share": 0.3185,
+          "contribution_won": 53066238,
+          "ratio": 1.0019,
+          "bias_per_cap": 0.000734,
+          "oracle_reduction_won": 50067080
+        },
+        "age:under_180_days:A": {
+          "site_count": 6,
+          "suppressed": false,
+          "capacity_share": 0.0363,
+          "contribution_share": 0.042,
+          "contribution_won": 6990306,
+          "ratio": 0.9193,
+          "bias_per_cap": -0.022572,
+          "oracle_reduction_won": 6476366
+        },
+        "age:under_180_days:B": {
+          "site_count": 63,
+          "suppressed": false,
+          "capacity_share": 0.2564,
+          "contribution_share": 0.2765,
+          "contribution_won": 46075932,
+          "ratio": 1.0135,
+          "bias_per_cap": 0.00403,
+          "oracle_reduction_won": 43590714
+        },
+        "age:unseen": {
+          "site_count": 48,
+          "suppressed": false,
+          "capacity_share": 0.2225,
+          "contribution_share": 0.2069,
+          "contribution_won": 34473147,
+          "ratio": 1.0488,
+          "bias_per_cap": 0.012303,
+          "oracle_reduction_won": 32450335
+        },
+        "age:unseen:A": {
+          "site_count": 4,
+          "suppressed": true
+        },
+        "age:unseen:B": {
+          "site_count": 44,
+          "suppressed": false,
+          "capacity_share": 0.1944,
+          "contribution_share": 0.1831,
+          "contribution_won": 30515030,
+          "ratio": 1.0397,
+          "bias_per_cap": 0.009754,
+          "oracle_reduction_won": 28850094
+        },
+        "recent:normal": {
+          "site_count": 174,
+          "suppressed": false,
+          "capacity_share": 0.6284,
+          "contribution_share": 0.624,
+          "contribution_won": 103974086,
+          "ratio": 1.0059,
+          "bias_per_cap": 0.001772,
+          "oracle_reduction_won": 97384245
+        },
+        "recent:normal:A": {
+          "site_count": 127,
+          "suppressed": false,
+          "capacity_share": 0.4198,
+          "contribution_share": 0.4132,
+          "contribution_won": 68846425,
+          "ratio": 1.0085,
+          "bias_per_cap": 0.002194,
+          "oracle_reduction_won": 63971166
+        },
+        "recent:normal:B": {
+          "site_count": 47,
+          "suppressed": false,
+          "capacity_share": 0.2085,
+          "contribution_share": 0.2108,
+          "contribution_won": 35127661,
+          "ratio": 1.0012,
+          "bias_per_cap": 0.000922,
+          "oracle_reduction_won": 33413079
+        },
+        "recent:unknown": {
+          "site_count": 79,
+          "suppressed": false,
+          "capacity_share": 0.3716,
+          "contribution_share": 0.376,
+          "contribution_won": 62653458,
+          "ratio": 1.0268,
+          "bias_per_cap": 0.006711,
+          "oracle_reduction_won": 58624043
+        },
+        "recent:unknown:A": {
+          "site_count": 7,
+          "suppressed": false,
+          "capacity_share": 0.06,
+          "contribution_share": 0.0606,
+          "contribution_won": 10105787,
+          "ratio": 0.9877,
+          "bias_per_cap": -0.00319,
+          "oracle_reduction_won": 9311255
+        },
+        "recent:unknown:B": {
+          "site_count": 72,
+          "suppressed": false,
+          "capacity_share": 0.3117,
+          "contribution_share": 0.3154,
+          "contribution_won": 52547671,
+          "ratio": 1.0349,
+          "bias_per_cap": 0.008798,
+          "oracle_reduction_won": 49312788
+        },
+        "zero_days:many": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:many:A": {
+          "site_count": 1,
+          "suppressed": true
+        },
+        "zero_days:many:B": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "zero_days:none": {
+          "site_count": 202,
+          "suppressed": false,
+          "capacity_share": 0.7655,
+          "contribution_share": 0.7814,
+          "contribution_won": 130209516,
+          "ratio": 1.0066,
+          "bias_per_cap": 0.001873,
+          "oracle_reduction_won": 125345676
+        },
+        "zero_days:none:A": {
+          "site_count": 127,
+          "suppressed": false,
+          "capacity_share": 0.4397,
+          "contribution_share": 0.4384,
+          "contribution_won": 73049214,
+          "ratio": 1.0032,
+          "bias_per_cap": 0.000812,
+          "oracle_reduction_won": 70296960
+        },
+        "zero_days:none:B": {
+          "site_count": 75,
+          "suppressed": false,
+          "capacity_share": 0.3258,
+          "contribution_share": 0.343,
+          "contribution_won": 57160302,
+          "ratio": 1.0108,
+          "bias_per_cap": 0.003304,
+          "oracle_reduction_won": 55048716
+        },
+        "zero_days:some": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "zero_days:some:A": {
+          "site_count": 2,
+          "suppressed": true
+        },
+        "zero_days:some:B": {
+          "site_count": 0,
+          "suppressed": true
+        },
+        "zero_days:unknown": {
+          "site_count": 48,
+          "suppressed": false,
+          "capacity_share": 0.2225,
+          "contribution_share": 0.2069,
+          "contribution_won": 34473147,
+          "ratio": 1.0488,
+          "bias_per_cap": 0.012303,
+          "oracle_reduction_won": 32450335
+        },
+        "zero_days:unknown:A": {
+          "site_count": 4,
+          "suppressed": true
+        },
+        "zero_days:unknown:B": {
+          "site_count": 44,
+          "suppressed": false,
+          "capacity_share": 0.1944,
+          "contribution_share": 0.1831,
+          "contribution_won": 30515030,
+          "ratio": 1.0397,
+          "bias_per_cap": 0.009754,
+          "oracle_reduction_won": 28850094
+        },
+        "capacity:q1": {
+          "site_count": 64,
+          "suppressed": false,
+          "capacity_share": 0.0852,
+          "contribution_share": 0.0804,
+          "contribution_won": 13398506,
+          "ratio": 0.9994,
+          "bias_per_cap": -0.000283,
+          "oracle_reduction_won": 13209745
+        },
+        "capacity:q1:A": {
+          "site_count": 39,
+          "suppressed": false,
+          "capacity_share": 0.0493,
+          "contribution_share": 0.0492,
+          "contribution_won": 8204063,
+          "ratio": 1.0074,
+          "bias_per_cap": 0.002124,
+          "oracle_reduction_won": 8084743
+        },
+        "capacity:q1:B": {
+          "site_count": 25,
+          "suppressed": false,
+          "capacity_share": 0.0359,
+          "contribution_share": 0.0312,
+          "contribution_won": 5194444,
+          "ratio": 0.9885,
+          "bias_per_cap": -0.00372,
+          "oracle_reduction_won": 5125002
+        },
+        "capacity:q2": {
+          "site_count": 89,
+          "suppressed": false,
+          "capacity_share": 0.2025,
+          "contribution_share": 0.1831,
+          "contribution_won": 30504040,
+          "ratio": 1.0041,
+          "bias_per_cap": 0.001438,
+          "oracle_reduction_won": 29409020
+        },
+        "capacity:q2:A": {
+          "site_count": 59,
+          "suppressed": false,
+          "capacity_share": 0.1357,
+          "contribution_share": 0.1223,
+          "contribution_won": 20380429,
+          "ratio": 1.008,
+          "bias_per_cap": 0.002431,
+          "oracle_reduction_won": 19583272
+        },
+        "capacity:q2:B": {
+          "site_count": 30,
+          "suppressed": false,
+          "capacity_share": 0.0668,
+          "contribution_share": 0.0608,
+          "contribution_won": 10123611,
+          "ratio": 0.9957,
+          "bias_per_cap": -0.000718,
+          "oracle_reduction_won": 9825748
+        },
+        "capacity:q3": {
+          "site_count": 50,
+          "suppressed": false,
+          "capacity_share": 0.117,
+          "contribution_share": 0.1175,
+          "contribution_won": 19585109,
+          "ratio": 1.0093,
+          "bias_per_cap": 0.002627,
+          "oracle_reduction_won": 18963105
+        },
+        "capacity:q3:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.0421,
+          "contribution_share": 0.0434,
+          "contribution_won": 7233274,
+          "ratio": 1.0201,
+          "bias_per_cap": 0.005416,
+          "oracle_reduction_won": 7035938
+        },
+        "capacity:q3:B": {
+          "site_count": 32,
+          "suppressed": false,
+          "capacity_share": 0.0749,
+          "contribution_share": 0.0741,
+          "contribution_won": 12351835,
+          "ratio": 1.0034,
+          "bias_per_cap": 0.001029,
+          "oracle_reduction_won": 11927167
+        },
+        "capacity:q4": {
+          "site_count": 50,
+          "suppressed": false,
+          "capacity_share": 0.5953,
+          "contribution_share": 0.619,
+          "contribution_won": 103139889,
+          "ratio": 1.0196,
+          "bias_per_cap": 0.004924,
+          "oracle_reduction_won": 97116185
+        },
+        "capacity:q4:A": {
+          "site_count": 18,
+          "suppressed": false,
+          "capacity_share": 0.2527,
+          "contribution_share": 0.2589,
+          "contribution_won": 43134446,
+          "ratio": 1.0019,
+          "bias_per_cap": 0.000303,
+          "oracle_reduction_won": 40398805
+        },
+        "capacity:q4:B": {
+          "site_count": 32,
+          "suppressed": false,
+          "capacity_share": 0.3426,
+          "contribution_share": 0.3601,
+          "contribution_won": 60005443,
+          "ratio": 1.0331,
+          "bias_per_cap": 0.008654,
+          "oracle_reduction_won": 56717380
+        }
+      }
+    }
+  },
+  "promotion": {
+    "age:180_to_729_days": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 54.644,
+      "contribution_share": 0.5964,
+      "capacity_share": 0.6358,
+      "promote": false
+    },
+    "age:180_to_729_days:A": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 33.103,
+      "contribution_share": 0.3503,
+      "capacity_share": 0.3538,
+      "promote": false
+    },
+    "age:180_to_729_days:B": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 21.541,
+      "contribution_share": 0.2461,
+      "capacity_share": 0.2819,
+      "promote": false
+    },
+    "age:730_days_or_more": {
+      "same_sign_seasons": 4,
+      "oracle_reduction_pct": 11.521,
+      "contribution_share": 0.1202,
+      "capacity_share": 0.1369,
+      "promote": false
+    },
+    "age:730_days_or_more:A": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 10.528,
+      "contribution_share": 0.11,
+      "capacity_share": 0.1248,
+      "promote": false
+    },
+    "capacity:q1": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 8.472,
+      "contribution_share": 0.0857,
+      "capacity_share": 0.0888,
+      "promote": false
+    },
+    "capacity:q1:A": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 5.199,
+      "contribution_share": 0.0527,
+      "capacity_share": 0.0533,
+      "promote": false
+    },
+    "capacity:q1:B": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 3.274,
+      "contribution_share": 0.033,
+      "capacity_share": 0.0355,
+      "promote": false
+    },
+    "capacity:q2": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 18.209,
+      "contribution_share": 0.1892,
+      "capacity_share": 0.2072,
+      "promote": false
+    },
+    "capacity:q2:A": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 12.531,
+      "contribution_share": 0.1309,
+      "capacity_share": 0.1464,
+      "promote": false
+    },
+    "capacity:q2:B": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 5.678,
+      "contribution_share": 0.0583,
+      "capacity_share": 0.0607,
+      "promote": false
+    },
+    "capacity:q3": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 11.645,
+      "contribution_share": 0.12,
+      "capacity_share": 0.1203,
+      "promote": false
+    },
+    "capacity:q3:A": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 4.477,
+      "contribution_share": 0.0463,
+      "capacity_share": 0.0454,
+      "promote": false
+    },
+    "capacity:q3:B": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 7.168,
+      "contribution_share": 0.0737,
+      "capacity_share": 0.0748,
+      "promote": false
+    },
+    "capacity:q4": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 56.746,
+      "contribution_share": 0.6051,
+      "capacity_share": 0.5838,
+      "promote": false
+    },
+    "capacity:q4:A": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 25.022,
+      "contribution_share": 0.2698,
+      "capacity_share": 0.2636,
+      "promote": false
+    },
+    "capacity:q4:B": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 31.723,
+      "contribution_share": 0.3353,
+      "capacity_share": 0.3201,
+      "promote": false
+    },
+    "recent:normal": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 80.421,
+      "contribution_share": 0.8663,
+      "capacity_share": 0.9038,
+      "promote": false
+    },
+    "recent:normal:A": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 44.732,
+      "contribution_share": 0.4696,
+      "capacity_share": 0.4899,
+      "promote": false
+    },
+    "recent:normal:B": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 35.689,
+      "contribution_share": 0.3966,
+      "capacity_share": 0.4139,
+      "promote": false
+    },
+    "zero_days:none": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 89.502,
+      "contribution_share": 0.928,
+      "capacity_share": 0.9072,
+      "promote": false
+    },
+    "zero_days:none:A": {
+      "same_sign_seasons": 2,
+      "oracle_reduction_pct": 44.962,
+      "contribution_share": 0.4658,
+      "capacity_share": 0.4677,
+      "promote": false
+    },
+    "zero_days:none:B": {
+      "same_sign_seasons": 3,
+      "oracle_reduction_pct": 44.54,
+      "contribution_share": 0.4622,
+      "capacity_share": 0.4395,
+      "promote": false
+    }
+  },
+  "promoted": [],
+  "complete": true
+}

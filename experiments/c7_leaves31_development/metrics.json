@@ -1,0 +1,20 @@
+{
+  "name": "c7_leaves31",
+  "fold": "development",
+  "feats": "full",
+  "objective": "l2",
+  "alpha": 0.5,
+  "weight": "cap",
+  "train_start": "2023-06-01",
+  "n_estimators": 600,
+  "learning_rate": 0.06,
+  "num_leaves": 31,
+  "min_child_samples": 100,
+  "seed": 2026,
+  "n_feats": 81,
+  "train_rows": 1260174,
+  "penalty_ref": 28802690,
+  "penalty_lb": 27850778,
+  "weighted_bias_kwh": 236.9,
+  "seconds": 52.3
+}

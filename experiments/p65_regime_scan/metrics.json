@@ -1,0 +1,542 @@
+{
+  "rule": "14.61",
+  "oof_group_hours": 24679,
+  "static_group_hours": 9594,
+  "oof_base": 156396328,
+  "static_base": 166627544,
+  "variables": {
+    "wa_cloud": {
+      "missing_share": 0.1389,
+      "factors": [
+        0.9847,
+        0.9846,
+        0.9887,
+        0.9862,
+        0.9791,
+        0.9814,
+        0.987,
+        0.981,
+        0.9664,
+        0.9909
+      ],
+      "oof_change_pct": -1.723,
+      "static_change_pct": -0.707,
+      "static_ci90_pct": [
+        -2.2,
+        0.787
+      ],
+      "static_seasons": {
+        "summer": 3.249,
+        "autumn": 1.0,
+        "winter": -6.195,
+        "spring": -2.492
+      }
+    },
+    "wa_temp": {
+      "missing_share": 0.1389,
+      "factors": [
+        0.9691,
+        0.9747,
+        0.9706,
+        0.9793,
+        0.9701,
+        0.9921,
+        0.9869,
+        0.9925,
+        0.9977,
+        1.0018
+      ],
+      "oof_change_pct": -1.789,
+      "static_change_pct": -3.053,
+      "static_ci90_pct": [
+        -4.835,
+        -1.39
+      ],
+      "static_seasons": {
+        "summer": -0.353,
+        "autumn": 0.73,
+        "winter": -9.346,
+        "spring": -5.068
+      }
+    },
+    "wa_humidity": {
+      "missing_share": 0.1389,
+      "factors": [
+        0.9792,
+        0.9895,
+        0.9799,
+        0.9844,
+        0.9854,
+        0.9935,
+        0.9796,
+        0.9811,
+        0.958,
+        0.9921
+      ],
+      "oof_change_pct": -1.694,
+      "static_change_pct": -1.182,
+      "static_ci90_pct": [
+        -2.66,
+        0.192
+      ],
+      "static_seasons": {
+        "summer": 2.683,
+        "autumn": 0.832,
+        "winter": -6.724,
+        "spring": -3.252
+      }
+    },
+    "wa_ground_press": {
+      "missing_share": 0.1389,
+      "factors": [
+        0.9951,
+        1.007,
+        0.9925,
+        0.9844,
+        0.9891,
+        0.9803,
+        0.9784,
+        0.9729,
+        0.9758,
+        0.9757
+      ],
+      "oof_change_pct": -1.776,
+      "static_change_pct": -2.5,
+      "static_ci90_pct": [
+        -4.116,
+        -0.908
+      ],
+      "static_seasons": {
+        "summer": 0.132,
+        "autumn": 1.208,
+        "winter": -8.242,
+        "spring": -5.051
+      }
+    },
+    "wa_wind_speed": {
+      "missing_share": 0.1389,
+      "factors": [
+        0.9775,
+        0.9832,
+        0.9811,
+        0.9783,
+        0.9845,
+        0.9758,
+        0.9897,
+        0.9928,
+        0.9922,
+        0.9791
+      ],
+      "oof_change_pct": -1.634,
+      "static_change_pct": -0.993,
+      "static_ci90_pct": [
+        -2.595,
+        0.544
+      ],
+      "static_seasons": {
+        "summer": 3.035,
+        "autumn": 1.751,
+        "winter": -6.701,
+        "spring": -4.328
+      }
+    },
+    "wa_rain": {
+      "missing_share": 0.1389,
+      "factors": [
+        0.9824,
+        0.9823,
+        0.9451
+      ],
+      "oof_change_pct": -1.91,
+      "static_change_pct": -0.375,
+      "static_ci90_pct": [
+        -2.178,
+        1.366
+      ],
+      "static_seasons": {
+        "summer": 4.957,
+        "autumn": 1.422,
+        "winter": -6.921,
+        "spring": -3.139
+      }
+    },
+    "wa_rain_daysum": {
+      "missing_share": 0.1367,
+      "factors": [
+        0.9796,
+        0.9924,
+        0.9884,
+        0.993,
+        0.9453
+      ],
+      "oof_change_pct": -1.906,
+      "static_change_pct": -1.017,
+      "static_ci90_pct": [
+        -2.856,
+        0.76
+      ],
+      "static_seasons": {
+        "summer": 4.086,
+        "autumn": 0.446,
+        "winter": -7.473,
+        "spring": -2.961
+      }
+    },
+    "wa_cloud_rdiff": {
+      "missing_share": 0.1389,
+      "factors": [
+        1.0108,
+        0.9912,
+        0.9793,
+        0.9733,
+        0.9956,
+        0.9732,
+        0.9811,
+        0.9836,
+        0.9805,
+        0.9831
+      ],
+      "oof_change_pct": -2.083,
+      "static_change_pct": -1.329,
+      "static_ci90_pct": [
+        -2.786,
+        0.066
+      ],
+      "static_seasons": {
+        "summer": 2.183,
+        "autumn": 1.351,
+        "winter": -7.01,
+        "spring": -3.723
+      }
+    },
+    "wb_temp": {
+      "missing_share": 0.14,
+      "factors": [
+        0.9701,
+        0.9694,
+        0.9759,
+        0.9733,
+        0.9796,
+        0.9905,
+        0.9852,
+        0.9962,
+        0.9936,
+        1.0051
+      ],
+      "oof_change_pct": -1.738,
+      "static_change_pct": -3.009,
+      "static_ci90_pct": [
+        -4.87,
+        -1.391
+      ],
+      "static_seasons": {
+        "summer": -0.627,
+        "autumn": 0.75,
+        "winter": -9.485,
+        "spring": -4.189
+      }
+    },
+    "wb_rel_hum": {
+      "missing_share": 0.14,
+      "factors": [
+        0.9903,
+        0.9863,
+        0.9824,
+        0.9818,
+        0.9848,
+        0.9879,
+        0.9834,
+        0.9799,
+        0.9501,
+        0.9885
+      ],
+      "oof_change_pct": -1.675,
+      "static_change_pct": -0.412,
+      "static_ci90_pct": [
+        -1.738,
+        0.935
+      ],
+      "static_seasons": {
+        "summer": 3.42,
+        "autumn": 0.988,
+        "winter": -5.521,
+        "spring": -2.01
+      }
+    },
+    "wb_vis": {
+      "missing_share": 0.14,
+      "factors": [
+        0.978,
+        0.9857,
+        0.9845,
+        0.99,
+        0.9779,
+        0.9828,
+        1.0025,
+        0.9817
+      ],
+      "oof_change_pct": -1.651,
+      "static_change_pct": -1.194,
+      "static_ci90_pct": [
+        -2.781,
+        0.371
+      ],
+      "static_seasons": {
+        "summer": 2.932,
+        "autumn": 1.132,
+        "winter": -6.872,
+        "spring": -4.036
+      }
+    },
+    "wb_ceiling": {
+      "missing_share": 0.14,
+      "factors": [
+        1.0018,
+        0.976,
+        0.9891,
+        0.9794,
+        0.9764,
+        0.9891,
+        0.9885,
+        0.9782
+      ],
+      "oof_change_pct": -1.806,
+      "static_change_pct": -1.069,
+      "static_ci90_pct": [
+        -2.705,
+        0.523
+      ],
+      "static_seasons": {
+        "summer": 3.015,
+        "autumn": 1.197,
+        "winter": -7.057,
+        "spring": -3.3
+      }
+    },
+    "wb_uv_idx": {
+      "missing_share": 0.14,
+      "factors": [
+        1.0215,
+        0.9824,
+        0.9954,
+        0.9842,
+        0.9752,
+        0.9759,
+        0.9761,
+        0.9797,
+        0.9894
+      ],
+      "oof_change_pct": -1.683,
+      "static_change_pct": -0.906,
+      "static_ci90_pct": [
+        -2.59,
+        0.752
+      ],
+      "static_seasons": {
+        "summer": 3.09,
+        "autumn": 1.775,
+        "winter": -7.316,
+        "spring": -3.094
+      }
+    },
+    "wb_precip_prob": {
+      "missing_share": 0.14,
+      "factors": [
+        0.9772,
+        0.9842,
+        0.9953,
+        0.9753,
+        1.0057,
+        0.9837
+      ],
+      "oof_change_pct": -1.939,
+      "static_change_pct": -1.228,
+      "static_ci90_pct": [
+        -2.917,
+        0.391
+      ],
+      "static_seasons": {
+        "summer": 2.312,
+        "autumn": 1.413,
+        "winter": -7.767,
+        "spring": -2.395
+      }
+    },
+    "wb_total_liq": {
+      "missing_share": 0.14,
+      "factors": [
+        0.9796,
+        0.9867,
+        0.9877
+      ],
+      "oof_change_pct": -1.679,
+      "static_change_pct": -1.23,
+      "static_ci90_pct": [
+        -2.914,
+        0.424
+      ],
+      "static_seasons": {
+        "summer": 3.094,
+        "autumn": 1.163,
+        "winter": -7.636,
+        "spring": -3.496
+      }
+    },
+    "wb_ice_prob": {
+      "skipped": "분위 부족"
+    },
+    "wb_cloud": {
+      "missing_share": 0.14,
+      "factors": [
+        0.9748,
+        0.9754,
+        0.9824,
+        0.9769,
+        0.989,
+        0.9818,
+        0.9912,
+        0.9986,
+        0.992,
+        0.9918
+      ],
+      "oof_change_pct": -1.947,
+      "static_change_pct": -1.174,
+      "static_ci90_pct": [
+        -2.857,
+        0.422
+      ],
+      "static_seasons": {
+        "summer": 2.857,
+        "autumn": 1.003,
+        "winter": -7.314,
+        "spring": -2.956
+      }
+    },
+    "wb_cloud_rdiff": {
+      "missing_share": 0.14,
+      "factors": [
+        0.9655,
+        0.9821
+      ],
+      "oof_change_pct": -1.744,
+      "static_change_pct": -0.566,
+      "static_ci90_pct": [
+        -2.537,
+        1.373
+      ],
+      "static_seasons": {
+        "summer": 3.961,
+        "autumn": 2.116,
+        "winter": -7.389,
+        "spring": -3.066
+      }
+    },
+    "dew_spread": {
+      "missing_share": 0.14,
+      "factors": [
+        0.9873,
+        0.9492,
+        0.9712,
+        0.987,
+        0.987,
+        0.9851,
+        0.9828,
+        0.978,
+        0.9885,
+        0.9932
+      ],
+      "oof_change_pct": -1.623,
+      "static_change_pct": -0.293,
+      "static_ci90_pct": [
+        -1.608,
+        1.011
+      ],
+      "static_seasons": {
+        "summer": 3.226,
+        "autumn": 0.964,
+        "winter": -5.295,
+        "spring": -1.277
+      }
+    },
+    "cloud_absgap": {
+      "missing_share": 0.14,
+      "factors": [
+        0.98,
+        0.9732,
+        0.9927,
+        0.9936,
+        0.9851,
+        0.9847,
+        0.9837,
+        0.9854,
+        0.9839,
+        0.9707
+      ],
+      "oof_change_pct": -1.685,
+      "static_change_pct": -0.914,
+      "static_ci90_pct": [
+        -2.331,
+        0.46
+      ],
+      "static_seasons": {
+        "summer": 2.709,
+        "autumn": 1.192,
+        "winter": -6.174,
+        "spring": -3.127
+      }
+    },
+    "rain_gap": {
+      "missing_share": 0.1367,
+      "factors": [
+        1.0043,
+        0.9959,
+        0.9815,
+        0.9758,
+        0.9928,
+        0.9769
+      ],
+      "oof_change_pct": -1.888,
+      "static_change_pct": -1.524,
+      "static_ci90_pct": [
+        -3.13,
+        0.116
+      ],
+      "static_seasons": {
+        "summer": 2.258,
+        "autumn": 0.842,
+        "winter": -7.534,
+        "spring": -3.385
+      }
+    },
+    "day_cloud_gap": {
+      "missing_share": 0.14,
+      "factors": [
+        0.9634,
+        0.9794,
+        1.0035,
+        1.0042,
+        0.9865,
+        0.9784,
+        0.9882,
+        0.9775,
+        0.9589,
+        0.991
+      ],
+      "oof_change_pct": -2.055,
+      "static_change_pct": 0.486,
+      "static_ci90_pct": [
+        -1.172,
+        2.069
+      ],
+      "static_seasons": {
+        "summer": 5.062,
+        "autumn": 1.813,
+        "winter": -6.467,
+        "spring": 0.354
+      }
+    }
+  },
+  "selected": "wa_cloud_rdiff",
+  "passed": false,
+  "complete": true
+}

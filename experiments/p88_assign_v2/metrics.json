@@ -1,0 +1,16 @@
+{
+ "rule": "14.88",
+ "validation": {
+  "moved_vs_nolimit": 149,
+  "g1_kw": 20005.8,
+  "nolimit": 68660339,
+  "candidate": 68913964,
+  "change_pct": 0.369,
+  "block95_pct": [
+   -0.294,
+   1.089
+  ],
+  "search_change_vs_nolimit_pct": -0.427
+ },
+ "passed": false
+}

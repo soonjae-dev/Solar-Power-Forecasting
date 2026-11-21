@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-05T07:38:56.239988+00:00",
+  "scope": "public HTTP headers only; no competition data accessed",
+  "registry_url": "https://registry.opendata.aws/noaa-gfs-bdp-pds/",
+  "archive_documentation_url": "https://www.ncei.noaa.gov/products/weather-climate-models/global-forecast",
+  "distribution_license": "NODD public data usable as desired; registry documentation",
+  "probes": [
+    {
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20210531/00/atmos/gfs.t00z.pgrb2.0p25.f016",
+      "status": "reachable",
+      "http_status": 200,
+      "last_modified": "Mon, 31 May 2021 03:40:39 GMT",
+      "etag": "\"bd0db28b71fb9723ef7d7e75a3aefc44\"",
+      "content_length": "557052743"
+    },
+    {
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20240531/00/atmos/gfs.t00z.pgrb2.0p25.f016",
+      "status": "reachable",
+      "http_status": 200,
+      "last_modified": "Fri, 31 May 2024 03:38:09 GMT",
+      "etag": "\"7c1c6480f707f9ce97d6de20f77be786\"",
+      "content_length": "550305359"
+    },
+    {
+      "url": "https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.20250531/00/atmos/gfs.t00z.pgrb2.0p25.f016",
+      "status": "reachable",
+      "http_status": 200,
+      "last_modified": "Sat, 31 May 2025 03:42:24 GMT",
+      "etag": "\"1f64c4627464b25c6a2e20b4024c7b6e\"",
+      "content_length": "548070641"
+    }
+  ],
+  "qualification": "pending; not integrated into v3",
+  "unresolved": [
+    "required historical date coverage and repeatable retrieval",
+    "institutional evidence of original publication before each cutoff",
+    "identity of retrieved files with originally published versions",
+    "GRIB radiation averaging intervals and hourly conversion"
+  ],
+  "current_production_status_page_is_historical_publication_evidence": false,
+  "head_last_modified_alone_is_publication_evidence": false
+}

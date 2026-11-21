@@ -1,0 +1,306 @@
+{
+  "summer_support": {
+    "adopted": {
+      "total": {
+        "penalty": 46429228,
+        "lower_bound": 44775724,
+        "pen_pct": 2.437,
+        "bias": 0.9651
+      },
+      "k3": {
+        "penalty": 36715876,
+        "lower_bound": 35359561,
+        "pen_pct": 3.231,
+        "bias": 0.9762
+      },
+      "k1": {
+        "penalty": 9713352,
+        "lower_bound": 9416163,
+        "pen_pct": 1.264,
+        "bias": 0.9492
+      },
+      "month": {
+        "2024-06": {
+          "penalty": 14920218,
+          "lower_bound": 14490410,
+          "pen_pct": 2.299,
+          "bias": 0.99
+        },
+        "2024-07": {
+          "penalty": 18672367,
+          "lower_bound": 18026147,
+          "pen_pct": 3.477,
+          "bias": 0.9362
+        },
+        "2024-08": {
+          "penalty": 12836643,
+          "lower_bound": 12259168,
+          "pen_pct": 1.786,
+          "bias": 0.9627
+        }
+      }
+    },
+    "f_all": {
+      "total": {
+        "penalty": 45418677,
+        "lower_bound": 43819957,
+        "pen_pct": 2.384,
+        "bias": 0.9673
+      },
+      "k3": {
+        "penalty": 35887433,
+        "lower_bound": 34578118,
+        "pen_pct": 3.158,
+        "bias": 0.9774
+      },
+      "k1": {
+        "penalty": 9531244,
+        "lower_bound": 9241838,
+        "pen_pct": 1.24,
+        "bias": 0.953
+      },
+      "month": {
+        "2024-06": {
+          "penalty": 14214011,
+          "lower_bound": 13781860,
+          "pen_pct": 2.19,
+          "bias": 0.9957
+        },
+        "2024-07": {
+          "penalty": 18586079,
+          "lower_bound": 18028543,
+          "pen_pct": 3.46,
+          "bias": 0.9356
+        },
+        "2024-08": {
+          "penalty": 12618586,
+          "lower_bound": 12009555,
+          "pen_pct": 1.755,
+          "bias": 0.9636
+        }
+      }
+    }
+  },
+  "autumn_support": {
+    "adopted": {
+      "total": {
+        "penalty": 56328688,
+        "lower_bound": 55358130,
+        "pen_pct": 3.645,
+        "bias": 1.0316
+      },
+      "k3": {
+        "penalty": 47925353,
+        "lower_bound": 47123841,
+        "pen_pct": 4.522,
+        "bias": 1.0301
+      },
+      "k1": {
+        "penalty": 8403335,
+        "lower_bound": 8234289,
+        "pen_pct": 1.731,
+        "bias": 1.035
+      },
+      "month": {
+        "2024-09": {
+          "penalty": 25695888,
+          "lower_bound": 25273693,
+          "pen_pct": 3.896,
+          "bias": 1.0308
+        },
+        "2024-10": {
+          "penalty": 18671793,
+          "lower_bound": 18450690,
+          "pen_pct": 3.897,
+          "bias": 1.0352
+        },
+        "2024-11": {
+          "penalty": 11961007,
+          "lower_bound": 11633747,
+          "pen_pct": 2.942,
+          "bias": 1.0288
+        }
+      }
+    },
+    "f_all": {
+      "total": {
+        "penalty": 55807970,
+        "lower_bound": 54942123,
+        "pen_pct": 3.611,
+        "bias": 1.03
+      },
+      "k3": {
+        "penalty": 47461400,
+        "lower_bound": 46766431,
+        "pen_pct": 4.478,
+        "bias": 1.0286
+      },
+      "k1": {
+        "penalty": 8346570,
+        "lower_bound": 8175692,
+        "pen_pct": 1.719,
+        "bias": 1.0331
+      },
+      "month": {
+        "2024-09": {
+          "penalty": 25765327,
+          "lower_bound": 25398422,
+          "pen_pct": 3.906,
+          "bias": 1.0288
+        },
+        "2024-10": {
+          "penalty": 17878239,
+          "lower_bound": 17677669,
+          "pen_pct": 3.731,
+          "bias": 1.0345
+        },
+        "2024-11": {
+          "penalty": 12164405,
+          "lower_bound": 11866032,
+          "pen_pct": 2.992,
+          "bias": 1.0265
+        }
+      }
+    }
+  },
+  "development": {
+    "adopted": {
+      "total": {
+        "penalty": 26115339,
+        "lower_bound": 25294218,
+        "pen_pct": 2.451,
+        "bias": 1.0298
+      },
+      "k3": {
+        "penalty": 22641534,
+        "lower_bound": 21977918,
+        "pen_pct": 2.916,
+        "bias": 1.0326
+      },
+      "k1": {
+        "penalty": 3473805,
+        "lower_bound": 3316301,
+        "pen_pct": 1.201,
+        "bias": 1.0222
+      },
+      "month": {
+        "2025-01": {
+          "penalty": 11836901,
+          "lower_bound": 11663656,
+          "pen_pct": 2.532,
+          "bias": 1.0445
+        },
+        "2025-02": {
+          "penalty": 14278438,
+          "lower_bound": 13630563,
+          "pen_pct": 2.388,
+          "bias": 1.0184
+        }
+      }
+    },
+    "f_all": {
+      "total": {
+        "penalty": 26199870,
+        "lower_bound": 25442136,
+        "pen_pct": 2.459,
+        "bias": 1.0263
+      },
+      "k3": {
+        "penalty": 22751920,
+        "lower_bound": 22130314,
+        "pen_pct": 2.931,
+        "bias": 1.029
+      },
+      "k1": {
+        "penalty": 3447950,
+        "lower_bound": 3311822,
+        "pen_pct": 1.192,
+        "bias": 1.0188
+      },
+      "month": {
+        "2025-01": {
+          "penalty": 12159176,
+          "lower_bound": 11983963,
+          "pen_pct": 2.601,
+          "bias": 1.0367
+        },
+        "2025-02": {
+          "penalty": 14040695,
+          "lower_bound": 13458172,
+          "pen_pct": 2.348,
+          "bias": 1.0182
+        }
+      }
+    }
+  },
+  "selection": {
+    "adopted": {
+      "total": {
+        "penalty": 28017404,
+        "lower_bound": 27019928,
+        "pen_pct": 1.943,
+        "bias": 0.9891
+      },
+      "k3": {
+        "penalty": 22518291,
+        "lower_bound": 21665425,
+        "pen_pct": 2.464,
+        "bias": 0.9926
+      },
+      "k1": {
+        "penalty": 5499113,
+        "lower_bound": 5354502,
+        "pen_pct": 1.042,
+        "bias": 0.9828
+      },
+      "month": {
+        "2025-03": {
+          "penalty": 13060489,
+          "lower_bound": 12479479,
+          "pen_pct": 2.143,
+          "bias": 1.0076
+        },
+        "2025-04": {
+          "penalty": 14956915,
+          "lower_bound": 14540449,
+          "pen_pct": 1.797,
+          "bias": 0.9737
+        }
+      }
+    },
+    "f_all": {
+      "total": {
+        "penalty": 28411643,
+        "lower_bound": 27529607,
+        "pen_pct": 1.97,
+        "bias": 0.9912
+      },
+      "k3": {
+        "penalty": 22907978,
+        "lower_bound": 22139407,
+        "pen_pct": 2.506,
+        "bias": 0.9938
+      },
+      "k1": {
+        "penalty": 5503665,
+        "lower_bound": 5390201,
+        "pen_pct": 1.043,
+        "bias": 0.9866
+      },
+      "month": {
+        "2025-03": {
+          "penalty": 13273653,
+          "lower_bound": 12702916,
+          "pen_pct": 2.178,
+          "bias": 1.0091
+        },
+        "2025-04": {
+          "penalty": 15137990,
+          "lower_bound": 14826691,
+          "pen_pct": 1.819,
+          "bias": 0.9763
+        }
+      }
+    }
+  }
+}

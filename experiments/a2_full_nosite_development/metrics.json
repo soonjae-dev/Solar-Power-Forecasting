@@ -1,0 +1,20 @@
+{
+  "name": "a2_full_nosite",
+  "fold": "development",
+  "feats": "full_nosite",
+  "objective": "l2",
+  "alpha": 0.5,
+  "weight": "none",
+  "train_start": "2023-06-01",
+  "n_estimators": 600,
+  "learning_rate": 0.06,
+  "num_leaves": 127,
+  "min_child_samples": 200,
+  "seed": 2026,
+  "n_feats": 80,
+  "train_rows": 1260174,
+  "penalty_ref": 27287266,
+  "penalty_lb": 26185726,
+  "weighted_bias_kwh": 264.9,
+  "seconds": 55.4
+}

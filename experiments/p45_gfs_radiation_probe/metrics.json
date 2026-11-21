@@ -1,0 +1,170 @@
+{
+ "checked_at": "2026-11-07T14:15:57.920832+00:00",
+ "probe_name": "gfs_sflux_radiation",
+ "rule": "14.34: fixed public samples only; no model scores or competition data",
+ "samples": [
+  {
+   "target_day": "2021-03-01",
+   "fields": {
+    "CSDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "VBDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "VDDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "NBDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "NDDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    }
+   },
+   "body_last_modified": "2021-02-28T03:40:30+00:00",
+   "idx_last_modified": "2021-02-28T03:40:05+00:00",
+   "status": "eligible_sample"
+  },
+  {
+   "target_day": "2023-08-11",
+   "fields": {
+    "CSDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "VBDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "VDDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "NBDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "NDDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    }
+   },
+   "body_last_modified": "2023-08-10T03:39:58+00:00",
+   "idx_last_modified": "2023-08-10T03:40:03+00:00",
+   "status": "eligible_sample"
+  },
+  {
+   "target_day": "2024-08-16",
+   "fields": {
+    "CSDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "VBDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "VDDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "NBDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    },
+    "NDDSF": {
+     "gridType": "regular_gg",
+     "Ni": 3072,
+     "Nj": 1536,
+     "numberOfPoints": 4718592,
+     "stepType": "avg",
+     "startStep": 24,
+     "endStep": 27
+    }
+   },
+   "body_last_modified": "2024-08-15T03:43:27+00:00",
+   "idx_last_modified": "2024-08-15T03:43:34+00:00",
+   "status": "eligible_sample"
+  }
+ ],
+ "eligible_samples": 3,
+ "model_trained": false,
+ "bodies_saved": false,
+ "can_audit_next": true
+}

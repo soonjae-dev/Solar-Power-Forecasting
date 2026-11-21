@@ -1,0 +1,23 @@
+{
+ "rule": "14.19",
+ "seeds": 3,
+ "train_cutoff": "2025-04-30T17:00:00+09:00",
+ "missing_gfs_days": 61,
+ "vs_v3_3seeds": {
+  "base_penalty": 20143342,
+  "direct_penalty": 17687061,
+  "change_pct": -12.194,
+  "change_ci90_pct": [
+   -19.762,
+   -6.436
+  ],
+  "peak_change_pct": -14.075,
+  "base_forecast_actual_ratio": 1.0067,
+  "direct_forecast_actual_ratio": 1.0086,
+  "group_change_pct": {
+   "A": -10.567,
+   "B": -13.579
+  }
+ },
+ "investigate_before_submission": false
+}

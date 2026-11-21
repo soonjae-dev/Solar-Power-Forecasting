@@ -1,0 +1,20 @@
+{
+  "name": "c0_baseline",
+  "fold": "development",
+  "feats": "baseline",
+  "objective": "l2",
+  "alpha": 0.5,
+  "weight": "none",
+  "train_start": "2023-06-01",
+  "n_estimators": 600,
+  "learning_rate": 0.06,
+  "num_leaves": 127,
+  "min_child_samples": 200,
+  "seed": 2026,
+  "n_feats": 24,
+  "train_rows": 1260174,
+  "penalty_ref": 29939930,
+  "penalty_lb": 29234701,
+  "weighted_bias_kwh": 145.4,
+  "seconds": 27.9
+}

@@ -1,0 +1,26 @@
+{
+  "fold": "final_holdout",
+  "train_cutoff": "2025-04-30 17:00:00+09:00",
+  "sites": 253,
+  "rows": 188232,
+  "rows_before": {
+    "official": 188232,
+    "v3": 188232
+  },
+  "scores": {
+    "official": {
+      "penalty": 24226913,
+      "lower_bound": 23906219,
+      "pen_pct": 3.162,
+      "bias": 1.0124
+    },
+    "v3": {
+      "penalty": 20214871,
+      "lower_bound": 19755383,
+      "pen_pct": 2.638,
+      "bias": 1.0063
+    }
+  },
+  "normalized_v3": 16.56,
+  "note": "제출 직전 1회 채점(사용자 결정 10/15). 결과로 후보를 바꾸지 않는다."
+}

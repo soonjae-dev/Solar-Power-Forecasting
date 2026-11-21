@@ -1,0 +1,151 @@
+{
+  "spec": {
+    "rule": "14.57",
+    "params": {
+      "iterations": 600,
+      "learning_rate": 0.06,
+      "depth": 8,
+      "loss_function": "RMSE",
+      "thread_count": 4,
+      "verbose": false,
+      "allow_writing_files": false,
+      "one_hot_max_size": 255
+    },
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "features": 144,
+    "cb_weight": 0.5
+  },
+  "results": {
+    "summer_support": {
+      "base_penalty": 42781408,
+      "direct_penalty": 40871881,
+      "change_pct": -4.463,
+      "change_ci90_pct": [
+        -6.034,
+        -2.804
+      ],
+      "peak_change_pct": -4.864,
+      "base_forecast_actual_ratio": 0.9749,
+      "direct_forecast_actual_ratio": 0.9769,
+      "group_change_pct": {
+        "A": -4.354,
+        "B": -4.603
+      },
+      "cb_alone_change_pct": -6.322,
+      "train_rows": 1106282,
+      "train_cutoff": "2024-05-31T17:00:00+09:00",
+      "seconds": 186.0
+    },
+    "fold1_static": {
+      "base_penalty": 166627544,
+      "direct_penalty": 160654772,
+      "change_pct": -3.585,
+      "change_ci90_pct": [
+        -4.939,
+        -2.164
+      ],
+      "peak_change_pct": -3.737,
+      "base_forecast_actual_ratio": 1.0132,
+      "direct_forecast_actual_ratio": 1.0049,
+      "group_change_pct": {
+        "A": -2.725,
+        "B": -4.358
+      },
+      "cb_alone_change_pct": -4.154,
+      "train_rows": 1106282,
+      "train_cutoff": "2024-05-31T17:00:00+09:00",
+      "seconds": 187.8
+    },
+    "autumn_support": {
+      "base_penalty": 48555811,
+      "direct_penalty": 47919064,
+      "change_pct": -1.311,
+      "change_ci90_pct": [
+        -2.459,
+        0.252
+      ],
+      "peak_change_pct": -1.156,
+      "base_forecast_actual_ratio": 1.0034,
+      "direct_forecast_actual_ratio": 0.9983,
+      "group_change_pct": {
+        "A": -1.47,
+        "B": -1.163
+      },
+      "cb_alone_change_pct": -0.839,
+      "train_rows": 1409736,
+      "train_cutoff": "2024-08-31T17:00:00+09:00",
+      "seconds": 231.1
+    },
+    "development": {
+      "base_penalty": 25519629,
+      "direct_penalty": 24879015,
+      "change_pct": -2.51,
+      "change_ci90_pct": [
+        -4.854,
+        -0.159
+      ],
+      "peak_change_pct": -2.722,
+      "base_forecast_actual_ratio": 1.0447,
+      "direct_forecast_actual_ratio": 1.0453,
+      "group_change_pct": {
+        "A": -2.845,
+        "B": -2.243
+      },
+      "cb_alone_change_pct": -3.598,
+      "train_rows": 1739344,
+      "train_cutoff": "2024-12-31T17:00:00+09:00",
+      "seconds": 289.0
+    },
+    "selection": {
+      "base_penalty": 25506539,
+      "direct_penalty": 26020755,
+      "change_pct": 2.016,
+      "change_ci90_pct": [
+        -0.322,
+        4.17
+      ],
+      "peak_change_pct": 2.935,
+      "base_forecast_actual_ratio": 0.9992,
+      "direct_forecast_actual_ratio": 0.9903,
+      "group_change_pct": {
+        "A": -0.854,
+        "B": 4.704
+      },
+      "cb_alone_change_pct": 8.317,
+      "train_rows": 1890847,
+      "train_cutoff": "2025-02-28T17:00:00+09:00",
+      "seconds": 316.6
+    }
+  },
+  "seasonal_base_penalty": 142363387,
+  "seasonal_candidate_penalty": 139690715,
+  "seasonal_change_pct": -1.877,
+  "evaluation_complete": true,
+  "improved_seasons": 3,
+  "complete": true,
+  "passed": true,
+  "final_holdout": {
+    "base_penalty": 17712661,
+    "direct_penalty": 18201966,
+    "change_pct": 2.762,
+    "change_ci90_pct": [
+      1.117,
+      4.933
+    ],
+    "peak_change_pct": 3.569,
+    "base_forecast_actual_ratio": 1.0037,
+    "direct_forecast_actual_ratio": 0.9991,
+    "group_change_pct": {
+      "A": 1.012,
+      "B": 4.314
+    },
+    "cb_alone_change_pct": 7.003,
+    "train_cutoff": "2025-04-30T17:00:00+09:00",
+    "train_rows": 2081315,
+    "submission_candidate": false
+  }
+}

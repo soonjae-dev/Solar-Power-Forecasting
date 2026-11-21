@@ -1,0 +1,183 @@
+{
+  "spec": {
+    "rule": "14.47",
+    "channels": 287,
+    "width": 32,
+    "dilations": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "bound_kt": 0.2,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "max_epochs": 40,
+    "patience": 5,
+    "batch_size": 64,
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ]
+  },
+  "prepare": {
+    "complete": true,
+    "restored_daylight_rows": 1549,
+    "site_days": 86592,
+    "channels": 287,
+    "target_mask_in_input": false,
+    "baseline_forecast_in_input": false,
+    "torch_version": "2.8.0",
+    "device": "cpu"
+  },
+  "early_stopping": [
+    {
+      "seed": 2026,
+      "best_epoch": 1,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.034512546953374065,
+          "validation_loss": 0.032348544797813225
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.032561635505916633,
+          "validation_loss": 0.03427351252100207
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.03151901602865748,
+          "validation_loss": 0.033943029363856514
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.031046608544901193,
+          "validation_loss": 0.032643375352090304
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.029980592826457455,
+          "validation_loss": 0.03433413016884229
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.029336446353818733,
+          "validation_loss": 0.03542401998531316
+        }
+      ]
+    },
+    {
+      "seed": 2027,
+      "best_epoch": 7,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.034136233640311986,
+          "validation_loss": 0.03489816222297607
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.03273588084684177,
+          "validation_loss": 0.033223957681429765
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.03133144762823549,
+          "validation_loss": 0.037969005991148434
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.030568079413862224,
+          "validation_loss": 0.03402484181385094
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.029852268501818838,
+          "validation_loss": 0.033987233881292024
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.02959838245913143,
+          "validation_loss": 0.03416516085308309
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.028807831684748247,
+          "validation_loss": 0.03312375769082993
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.0283121379631929,
+          "validation_loss": 0.03408135284449512
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.028227324627386082,
+          "validation_loss": 0.03575887984014962
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.027759558079246176,
+          "validation_loss": 0.03388150305244253
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.02733854590546769,
+          "validation_loss": 0.03494214539736968
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.027349304068180293,
+          "validation_loss": 0.036433156996731775
+        }
+      ]
+    },
+    {
+      "seed": 2028,
+      "best_epoch": 1,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.03559052022857952,
+          "validation_loss": 0.0316214965837889
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.03421275610915841,
+          "validation_loss": 0.03216903351489922
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.03206115921735096,
+          "validation_loss": 0.034646261696954506
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.031907784319955876,
+          "validation_loss": 0.032858390192013864
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.03080040948882903,
+          "validation_loss": 0.034243245991184425
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.029888399998565164,
+          "validation_loss": 0.034898835749872285
+        }
+      ]
+    }
+  ],
+  "oof5": {
+    "base_penalty": 50293367,
+    "candidate_penalty": 55744107,
+    "change_pct": 10.837890057688405,
+    "passed": false
+  },
+  "complete": true,
+  "selected": false,
+  "reason": "OOF5 정산 악화: 외부 검증 안함"
+}

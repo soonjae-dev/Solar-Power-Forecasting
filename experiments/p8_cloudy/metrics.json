@@ -1,0 +1,1605 @@
+{
+ "all": {
+  "autumn_2022": {
+   "sites": 58,
+   "days": 91,
+   "ratio": 0.973,
+   "pen_pct_of_revenue": 3.198,
+   "energy_share_at_zero_forecast": 0.0008,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 31,
+     "ratio": 1.008,
+     "ci90": [
+      0.992,
+      1.023
+     ],
+     "pen_share": 0.186,
+     "err_pct_of_fold": 0.32
+    },
+    "중간": {
+     "days": 34,
+     "ratio": 0.987,
+     "ci90": [
+      0.929,
+      1.04
+     ],
+     "pen_share": 0.426,
+     "err_pct_of_fold": -0.5
+    },
+    "흐림": {
+     "days": 26,
+     "ratio": 0.876,
+     "ci90": [
+      0.789,
+      0.965
+     ],
+     "pen_share": 0.388,
+     "err_pct_of_fold": -2.47
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 30,
+     "ratio": 1.018,
+     "ci90": [
+      1.004,
+      1.033
+     ],
+     "pen_share": 0.175,
+     "err_pct_of_fold": 0.76
+    },
+    "중간": {
+     "days": 25,
+     "ratio": 0.997,
+     "ci90": [
+      0.959,
+      1.038
+     ],
+     "pen_share": 0.255,
+     "err_pct_of_fold": -0.09
+    },
+    "흐림": {
+     "days": 36,
+     "ratio": 0.892,
+     "ci90": [
+      0.814,
+      0.966
+     ],
+     "pen_share": 0.57,
+     "err_pct_of_fold": -3.32
+    }
+   }
+  },
+  "janfeb_2023": {
+   "sites": 80,
+   "days": 59,
+   "ratio": 0.999,
+   "pen_pct_of_revenue": 3.183,
+   "energy_share_at_zero_forecast": 0.0017,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 26,
+     "ratio": 0.973,
+     "ci90": [
+      0.954,
+      0.993
+     ],
+     "pen_share": 0.242,
+     "err_pct_of_fold": -1.46
+    },
+    "중간": {
+     "days": 20,
+     "ratio": 0.959,
+     "ci90": [
+      0.893,
+      1.04
+     ],
+     "pen_share": 0.465,
+     "err_pct_of_fold": -1.39
+    },
+    "흐림": {
+     "days": 13,
+     "ratio": 1.249,
+     "ci90": [
+      1.096,
+      1.468
+     ],
+     "pen_share": 0.293,
+     "err_pct_of_fold": 2.73
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 21,
+     "ratio": 0.986,
+     "ci90": [
+      0.965,
+      1.004
+     ],
+     "pen_share": 0.171,
+     "err_pct_of_fold": -0.64
+    },
+    "중간": {
+     "days": 19,
+     "ratio": 1.046,
+     "ci90": [
+      0.974,
+      1.147
+     ],
+     "pen_share": 0.44,
+     "err_pct_of_fold": 1.45
+    },
+    "흐림": {
+     "days": 19,
+     "ratio": 0.961,
+     "ci90": [
+      0.876,
+      1.064
+     ],
+     "pen_share": 0.389,
+     "err_pct_of_fold": -0.93
+    }
+   }
+  },
+  "autumn_2023": {
+   "sites": 117,
+   "days": 91,
+   "ratio": 1.033,
+   "pen_pct_of_revenue": 2.923,
+   "energy_share_at_zero_forecast": 0.0011,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 37,
+     "ratio": 1.023,
+     "ci90": [
+      1.007,
+      1.039
+     ],
+     "pen_share": 0.24,
+     "err_pct_of_fold": 1.12
+    },
+    "중간": {
+     "days": 30,
+     "ratio": 1.004,
+     "ci90": [
+      0.967,
+      1.042
+     ],
+     "pen_share": 0.35,
+     "err_pct_of_fold": 0.13
+    },
+    "흐림": {
+     "days": 24,
+     "ratio": 1.138,
+     "ci90": [
+      1.027,
+      1.269
+     ],
+     "pen_share": 0.411,
+     "err_pct_of_fold": 2.09
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 33,
+     "ratio": 1.041,
+     "ci90": [
+      1.026,
+      1.058
+     ],
+     "pen_share": 0.219,
+     "err_pct_of_fold": 1.76
+    },
+    "중간": {
+     "days": 29,
+     "ratio": 1.023,
+     "ci90": [
+      0.988,
+      1.063
+     ],
+     "pen_share": 0.302,
+     "err_pct_of_fold": 0.79
+    },
+    "흐림": {
+     "days": 29,
+     "ratio": 1.035,
+     "ci90": [
+      0.963,
+      1.127
+     ],
+     "pen_share": 0.48,
+     "err_pct_of_fold": 0.8
+    }
+   }
+  },
+  "janfeb_2024": {
+   "sites": 148,
+   "days": 60,
+   "ratio": 1.048,
+   "pen_pct_of_revenue": 3.711,
+   "energy_share_at_zero_forecast": 0.0018,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 19,
+     "ratio": 0.971,
+     "ci90": [
+      0.952,
+      0.99
+     ],
+     "pen_share": 0.172,
+     "err_pct_of_fold": -1.33
+    },
+    "중간": {
+     "days": 16,
+     "ratio": 1.037,
+     "ci90": [
+      0.984,
+      1.105
+     ],
+     "pen_share": 0.265,
+     "err_pct_of_fold": 1.2
+    },
+    "흐림": {
+     "days": 25,
+     "ratio": 1.23,
+     "ci90": [
+      1.112,
+      1.373
+     ],
+     "pen_share": 0.563,
+     "err_pct_of_fold": 4.94
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 19,
+     "ratio": 1.0,
+     "ci90": [
+      0.98,
+      1.021
+     ],
+     "pen_share": 0.159,
+     "err_pct_of_fold": -0.01
+    },
+    "중간": {
+     "days": 18,
+     "ratio": 1.053,
+     "ci90": [
+      0.991,
+      1.133
+     ],
+     "pen_share": 0.361,
+     "err_pct_of_fold": 1.78
+    },
+    "흐림": {
+     "days": 23,
+     "ratio": 1.136,
+     "ci90": [
+      1.025,
+      1.274
+     ],
+     "pen_share": 0.48,
+     "err_pct_of_fold": 3.03
+    }
+   }
+  },
+  "autumn_support": {
+   "sites": 252,
+   "days": 91,
+   "ratio": 1.031,
+   "pen_pct_of_revenue": 3.632,
+   "energy_share_at_zero_forecast": 0.0011,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 16,
+     "ratio": 1.019,
+     "ci90": [
+      1.003,
+      1.035
+     ],
+     "pen_share": 0.067,
+     "err_pct_of_fold": 0.44
+    },
+    "중간": {
+     "days": 47,
+     "ratio": 0.989,
+     "ci90": [
+      0.953,
+      1.03
+     ],
+     "pen_share": 0.532,
+     "err_pct_of_fold": -0.62
+    },
+    "흐림": {
+     "days": 28,
+     "ratio": 1.183,
+     "ci90": [
+      1.088,
+      1.293
+     ],
+     "pen_share": 0.401,
+     "err_pct_of_fold": 3.31
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 19,
+     "ratio": 1.022,
+     "ci90": [
+      1.004,
+      1.04
+     ],
+     "pen_share": 0.092,
+     "err_pct_of_fold": 0.6
+    },
+    "중간": {
+     "days": 38,
+     "ratio": 1.03,
+     "ci90": [
+      0.986,
+      1.078
+     ],
+     "pen_share": 0.451,
+     "err_pct_of_fold": 1.39
+    },
+    "흐림": {
+     "days": 34,
+     "ratio": 1.043,
+     "ci90": [
+      0.967,
+      1.135
+     ],
+     "pen_share": 0.457,
+     "err_pct_of_fold": 1.14
+    }
+   }
+  },
+  "development": {
+   "sites": 253,
+   "days": 59,
+   "ratio": 1.03,
+   "pen_pct_of_revenue": 2.418,
+   "energy_share_at_zero_forecast": 0.0016,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 25,
+     "ratio": 1.017,
+     "ci90": [
+      0.999,
+      1.033
+     ],
+     "pen_share": 0.265,
+     "err_pct_of_fold": 0.89
+    },
+    "중간": {
+     "days": 26,
+     "ratio": 1.019,
+     "ci90": [
+      0.976,
+      1.066
+     ],
+     "pen_share": 0.541,
+     "err_pct_of_fold": 0.82
+    },
+    "흐림": {
+     "days": 8,
+     "ratio": 1.229,
+     "ci90": [
+      1.06,
+      1.437
+     ],
+     "pen_share": 0.194,
+     "err_pct_of_fold": 1.32
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 28,
+     "ratio": 1.03,
+     "ci90": [
+      1.01,
+      1.05
+     ],
+     "pen_share": 0.348,
+     "err_pct_of_fold": 1.7
+    },
+    "중간": {
+     "days": 23,
+     "ratio": 1.04,
+     "ci90": [
+      0.993,
+      1.096
+     ],
+     "pen_share": 0.494,
+     "err_pct_of_fold": 1.46
+    },
+    "흐림": {
+     "days": 8,
+     "ratio": 0.981,
+     "ci90": [
+      0.864,
+      1.173
+     ],
+     "pen_share": 0.158,
+     "err_pct_of_fold": -0.13
+    }
+   }
+  },
+  "summer_2023": {
+   "sites": 106,
+   "days": 92,
+   "ratio": 0.982,
+   "pen_pct_of_revenue": 3.012,
+   "energy_share_at_zero_forecast": 0.0006,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 5,
+     "ratio": 0.966,
+     "ci90": [
+      0.937,
+      0.992
+     ],
+     "pen_share": 0.028,
+     "err_pct_of_fold": -0.27
+    },
+    "중간": {
+     "days": 52,
+     "ratio": 0.963,
+     "ci90": [
+      0.939,
+      0.986
+     ],
+     "pen_share": 0.508,
+     "err_pct_of_fold": -2.51
+    },
+    "흐림": {
+     "days": 35,
+     "ratio": 1.04,
+     "ci90": [
+      0.971,
+      1.115
+     ],
+     "pen_share": 0.463,
+     "err_pct_of_fold": 0.95
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 6,
+     "ratio": 0.974,
+     "ci90": [
+      0.947,
+      0.996
+     ],
+     "pen_share": 0.031,
+     "err_pct_of_fold": -0.25
+    },
+    "중간": {
+     "days": 40,
+     "ratio": 0.984,
+     "ci90": [
+      0.964,
+      1.006
+     ],
+     "pen_share": 0.34,
+     "err_pct_of_fold": -0.83
+    },
+    "흐림": {
+     "days": 46,
+     "ratio": 0.98,
+     "ci90": [
+      0.93,
+      1.039
+     ],
+     "pen_share": 0.629,
+     "err_pct_of_fold": -0.76
+    }
+   }
+  },
+  "spring_2023": {
+   "sites": 93,
+   "days": 61,
+   "ratio": 1.054,
+   "pen_pct_of_revenue": 2.488,
+   "energy_share_at_zero_forecast": 0.0008,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 22,
+     "ratio": 1.033,
+     "ci90": [
+      1.015,
+      1.051
+     ],
+     "pen_share": 0.223,
+     "err_pct_of_fold": 1.53
+    },
+    "중간": {
+     "days": 21,
+     "ratio": 1.041,
+     "ci90": [
+      1.0,
+      1.08
+     ],
+     "pen_share": 0.375,
+     "err_pct_of_fold": 1.48
+    },
+    "흐림": {
+     "days": 18,
+     "ratio": 1.143,
+     "ci90": [
+      1.039,
+      1.252
+     ],
+     "pen_share": 0.402,
+     "err_pct_of_fold": 2.4
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 19,
+     "ratio": 1.041,
+     "ci90": [
+      1.022,
+      1.062
+     ],
+     "pen_share": 0.209,
+     "err_pct_of_fold": 1.67
+    },
+    "중간": {
+     "days": 20,
+     "ratio": 1.052,
+     "ci90": [
+      1.019,
+      1.094
+     ],
+     "pen_share": 0.306,
+     "err_pct_of_fold": 1.88
+    },
+    "흐림": {
+     "days": 22,
+     "ratio": 1.079,
+     "ci90": [
+      0.991,
+      1.17
+     ],
+     "pen_share": 0.485,
+     "err_pct_of_fold": 1.85
+    }
+   }
+  },
+  "spring_2024": {
+   "sites": 173,
+   "days": 61,
+   "ratio": 1.012,
+   "pen_pct_of_revenue": 2.782,
+   "energy_share_at_zero_forecast": 0.0013,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 19,
+     "ratio": 1.016,
+     "ci90": [
+      1.001,
+      1.032
+     ],
+     "pen_share": 0.164,
+     "err_pct_of_fold": 0.66
+    },
+    "중간": {
+     "days": 16,
+     "ratio": 1.001,
+     "ci90": [
+      0.947,
+      1.05
+     ],
+     "pen_share": 0.316,
+     "err_pct_of_fold": 0.02
+    },
+    "흐림": {
+     "days": 26,
+     "ratio": 1.019,
+     "ci90": [
+      0.963,
+      1.083
+     ],
+     "pen_share": 0.519,
+     "err_pct_of_fold": 0.51
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 17,
+     "ratio": 1.042,
+     "ci90": [
+      1.02,
+      1.067
+     ],
+     "pen_share": 0.194,
+     "err_pct_of_fold": 1.55
+    },
+    "중간": {
+     "days": 19,
+     "ratio": 1.006,
+     "ci90": [
+      0.979,
+      1.033
+     ],
+     "pen_share": 0.283,
+     "err_pct_of_fold": 0.19
+    },
+    "흐림": {
+     "days": 25,
+     "ratio": 0.981,
+     "ci90": [
+      0.917,
+      1.049
+     ],
+     "pen_share": 0.523,
+     "err_pct_of_fold": -0.54
+    }
+   }
+  },
+  "summer_support": {
+   "sites": 205,
+   "days": 92,
+   "ratio": 0.969,
+   "pen_pct_of_revenue": 2.442,
+   "energy_share_at_zero_forecast": 0.0014,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 14,
+     "ratio": 0.982,
+     "ci90": [
+      0.96,
+      1.002
+     ],
+     "pen_share": 0.101,
+     "err_pct_of_fold": -0.36
+    },
+    "중간": {
+     "days": 39,
+     "ratio": 0.962,
+     "ci90": [
+      0.945,
+      0.978
+     ],
+     "pen_share": 0.324,
+     "err_pct_of_fold": -1.87
+    },
+    "흐림": {
+     "days": 39,
+     "ratio": 0.972,
+     "ci90": [
+      0.923,
+      1.027
+     ],
+     "pen_share": 0.575,
+     "err_pct_of_fold": -0.88
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 10,
+     "ratio": 0.992,
+     "ci90": [
+      0.977,
+      1.008
+     ],
+     "pen_share": 0.059,
+     "err_pct_of_fold": -0.12
+    },
+    "중간": {
+     "days": 30,
+     "ratio": 0.979,
+     "ci90": [
+      0.965,
+      0.993
+     ],
+     "pen_share": 0.198,
+     "err_pct_of_fold": -0.79
+    },
+    "흐림": {
+     "days": 52,
+     "ratio": 0.954,
+     "ci90": [
+      0.918,
+      0.993
+     ],
+     "pen_share": 0.743,
+     "err_pct_of_fold": -2.2
+    }
+   }
+  },
+  "selection": {
+   "sites": 253,
+   "days": 61,
+   "ratio": 0.991,
+   "pen_pct_of_revenue": 1.939,
+   "energy_share_at_zero_forecast": 0.0009,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 24,
+     "ratio": 0.993,
+     "ci90": [
+      0.98,
+      1.006
+     ],
+     "pen_share": 0.246,
+     "err_pct_of_fold": -0.38
+    },
+    "중간": {
+     "days": 23,
+     "ratio": 0.995,
+     "ci90": [
+      0.961,
+      1.039
+     ],
+     "pen_share": 0.449,
+     "err_pct_of_fold": -0.19
+    },
+    "흐림": {
+     "days": 14,
+     "ratio": 0.967,
+     "ci90": [
+      0.861,
+      1.075
+     ],
+     "pen_share": 0.305,
+     "err_pct_of_fold": -0.35
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 18,
+     "ratio": 0.993,
+     "ci90": [
+      0.978,
+      1.008
+     ],
+     "pen_share": 0.173,
+     "err_pct_of_fold": -0.27
+    },
+    "중간": {
+     "days": 22,
+     "ratio": 1.016,
+     "ci90": [
+      0.985,
+      1.054
+     ],
+     "pen_share": 0.384,
+     "err_pct_of_fold": 0.62
+    },
+    "흐림": {
+     "days": 21,
+     "ratio": 0.943,
+     "ci90": [
+      0.89,
+      0.998
+     ],
+     "pen_share": 0.443,
+     "err_pct_of_fold": -1.27
+    }
+   }
+  }
+ },
+ "cohort": {
+  "autumn_2022": {
+   "sites": 58,
+   "days": 91,
+   "ratio": 0.973,
+   "pen_pct_of_revenue": 3.198,
+   "energy_share_at_zero_forecast": 0.0008,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 31,
+     "ratio": 1.008,
+     "ci90": [
+      0.992,
+      1.023
+     ],
+     "pen_share": 0.186,
+     "err_pct_of_fold": 0.32
+    },
+    "중간": {
+     "days": 34,
+     "ratio": 0.987,
+     "ci90": [
+      0.929,
+      1.04
+     ],
+     "pen_share": 0.426,
+     "err_pct_of_fold": -0.5
+    },
+    "흐림": {
+     "days": 26,
+     "ratio": 0.876,
+     "ci90": [
+      0.789,
+      0.965
+     ],
+     "pen_share": 0.388,
+     "err_pct_of_fold": -2.47
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 30,
+     "ratio": 1.018,
+     "ci90": [
+      1.004,
+      1.033
+     ],
+     "pen_share": 0.175,
+     "err_pct_of_fold": 0.76
+    },
+    "중간": {
+     "days": 25,
+     "ratio": 0.997,
+     "ci90": [
+      0.959,
+      1.038
+     ],
+     "pen_share": 0.255,
+     "err_pct_of_fold": -0.09
+    },
+    "흐림": {
+     "days": 36,
+     "ratio": 0.892,
+     "ci90": [
+      0.814,
+      0.966
+     ],
+     "pen_share": 0.57,
+     "err_pct_of_fold": -3.32
+    }
+   }
+  },
+  "janfeb_2023": {
+   "sites": 58,
+   "days": 59,
+   "ratio": 0.994,
+   "pen_pct_of_revenue": 3.183,
+   "energy_share_at_zero_forecast": 0.0015,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 26,
+     "ratio": 0.972,
+     "ci90": [
+      0.952,
+      0.991
+     ],
+     "pen_share": 0.253,
+     "err_pct_of_fold": -1.56
+    },
+    "중간": {
+     "days": 20,
+     "ratio": 0.953,
+     "ci90": [
+      0.887,
+      1.031
+     ],
+     "pen_share": 0.468,
+     "err_pct_of_fold": -1.59
+    },
+    "흐림": {
+     "days": 13,
+     "ratio": 1.241,
+     "ci90": [
+      1.089,
+      1.458
+     ],
+     "pen_share": 0.28,
+     "err_pct_of_fold": 2.6
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 21,
+     "ratio": 0.984,
+     "ci90": [
+      0.963,
+      1.003
+     ],
+     "pen_share": 0.177,
+     "err_pct_of_fold": -0.71
+    },
+    "중간": {
+     "days": 19,
+     "ratio": 1.04,
+     "ci90": [
+      0.968,
+      1.141
+     ],
+     "pen_share": 0.447,
+     "err_pct_of_fold": 1.27
+    },
+    "흐림": {
+     "days": 19,
+     "ratio": 0.953,
+     "ci90": [
+      0.87,
+      1.052
+     ],
+     "pen_share": 0.376,
+     "err_pct_of_fold": -1.12
+    }
+   }
+  },
+  "autumn_2023": {
+   "sites": 58,
+   "days": 91,
+   "ratio": 1.019,
+   "pen_pct_of_revenue": 3.053,
+   "energy_share_at_zero_forecast": 0.0009,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 37,
+     "ratio": 1.004,
+     "ci90": [
+      0.987,
+      1.021
+     ],
+     "pen_share": 0.232,
+     "err_pct_of_fold": 0.18
+    },
+    "중간": {
+     "days": 30,
+     "ratio": 0.993,
+     "ci90": [
+      0.955,
+      1.032
+     ],
+     "pen_share": 0.364,
+     "err_pct_of_fold": -0.27
+    },
+    "흐림": {
+     "days": 24,
+     "ratio": 1.136,
+     "ci90": [
+      1.019,
+      1.278
+     ],
+     "pen_share": 0.404,
+     "err_pct_of_fold": 2.0
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 33,
+     "ratio": 1.021,
+     "ci90": [
+      1.005,
+      1.04
+     ],
+     "pen_share": 0.206,
+     "err_pct_of_fold": 0.92
+    },
+    "중간": {
+     "days": 29,
+     "ratio": 1.014,
+     "ci90": [
+      0.975,
+      1.057
+     ],
+     "pen_share": 0.318,
+     "err_pct_of_fold": 0.47
+    },
+    "흐림": {
+     "days": 29,
+     "ratio": 1.023,
+     "ci90": [
+      0.949,
+      1.116
+     ],
+     "pen_share": 0.476,
+     "err_pct_of_fold": 0.53
+    }
+   }
+  },
+  "janfeb_2024": {
+   "sites": 58,
+   "days": 60,
+   "ratio": 1.048,
+   "pen_pct_of_revenue": 3.603,
+   "energy_share_at_zero_forecast": 0.0016,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 19,
+     "ratio": 0.99,
+     "ci90": [
+      0.968,
+      1.013
+     ],
+     "pen_share": 0.17,
+     "err_pct_of_fold": -0.46
+    },
+    "중간": {
+     "days": 16,
+     "ratio": 1.012,
+     "ci90": [
+      0.965,
+      1.074
+     ],
+     "pen_share": 0.231,
+     "err_pct_of_fold": 0.4
+    },
+    "흐림": {
+     "days": 25,
+     "ratio": 1.227,
+     "ci90": [
+      1.108,
+      1.363
+     ],
+     "pen_share": 0.599,
+     "err_pct_of_fold": 4.82
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 19,
+     "ratio": 1.011,
+     "ci90": [
+      0.991,
+      1.03
+     ],
+     "pen_share": 0.143,
+     "err_pct_of_fold": 0.49
+    },
+    "중간": {
+     "days": 18,
+     "ratio": 1.024,
+     "ci90": [
+      0.969,
+      1.099
+     ],
+     "pen_share": 0.338,
+     "err_pct_of_fold": 0.83
+    },
+    "흐림": {
+     "days": 23,
+     "ratio": 1.162,
+     "ci90": [
+      1.046,
+      1.303
+     ],
+     "pen_share": 0.52,
+     "err_pct_of_fold": 3.45
+    }
+   }
+  },
+  "autumn_support": {
+   "sites": 58,
+   "days": 91,
+   "ratio": 1.027,
+   "pen_pct_of_revenue": 4.052,
+   "energy_share_at_zero_forecast": 0.001,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 16,
+     "ratio": 1.024,
+     "ci90": [
+      1.001,
+      1.048
+     ],
+     "pen_share": 0.087,
+     "err_pct_of_fold": 0.59
+    },
+    "중간": {
+     "days": 47,
+     "ratio": 0.98,
+     "ci90": [
+      0.94,
+      1.024
+     ],
+     "pen_share": 0.547,
+     "err_pct_of_fold": -1.15
+    },
+    "흐림": {
+     "days": 28,
+     "ratio": 1.185,
+     "ci90": [
+      1.082,
+      1.307
+     ],
+     "pen_share": 0.366,
+     "err_pct_of_fold": 3.28
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 19,
+     "ratio": 1.028,
+     "ci90": [
+      1.006,
+      1.052
+     ],
+     "pen_share": 0.113,
+     "err_pct_of_fold": 0.79
+    },
+    "중간": {
+     "days": 38,
+     "ratio": 1.02,
+     "ci90": [
+      0.974,
+      1.072
+     ],
+     "pen_share": 0.453,
+     "err_pct_of_fold": 0.93
+    },
+    "흐림": {
+     "days": 34,
+     "ratio": 1.038,
+     "ci90": [
+      0.954,
+      1.137
+     ],
+     "pen_share": 0.434,
+     "err_pct_of_fold": 1.01
+    }
+   }
+  },
+  "development": {
+   "sites": 58,
+   "days": 59,
+   "ratio": 1.025,
+   "pen_pct_of_revenue": 2.236,
+   "energy_share_at_zero_forecast": 0.0014,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 25,
+     "ratio": 1.012,
+     "ci90": [
+      0.995,
+      1.028
+     ],
+     "pen_share": 0.248,
+     "err_pct_of_fold": 0.6
+    },
+    "중간": {
+     "days": 26,
+     "ratio": 1.013,
+     "ci90": [
+      0.975,
+      1.055
+     ],
+     "pen_share": 0.548,
+     "err_pct_of_fold": 0.56
+    },
+    "흐림": {
+     "days": 8,
+     "ratio": 1.231,
+     "ci90": [
+      1.061,
+      1.424
+     ],
+     "pen_share": 0.204,
+     "err_pct_of_fold": 1.3
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 28,
+     "ratio": 1.023,
+     "ci90": [
+      1.002,
+      1.044
+     ],
+     "pen_share": 0.338,
+     "err_pct_of_fold": 1.27
+    },
+    "중간": {
+     "days": 23,
+     "ratio": 1.031,
+     "ci90": [
+      0.991,
+      1.082
+     ],
+     "pen_share": 0.496,
+     "err_pct_of_fold": 1.17
+    },
+    "흐림": {
+     "days": 8,
+     "ratio": 1.004,
+     "ci90": [
+      0.882,
+      1.208
+     ],
+     "pen_share": 0.166,
+     "err_pct_of_fold": 0.02
+    }
+   }
+  },
+  "summer_2023": {
+   "sites": 58,
+   "days": 92,
+   "ratio": 0.984,
+   "pen_pct_of_revenue": 3.263,
+   "energy_share_at_zero_forecast": 0.0004,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 5,
+     "ratio": 0.957,
+     "ci90": [
+      0.924,
+      0.991
+     ],
+     "pen_share": 0.034,
+     "err_pct_of_fold": -0.34
+    },
+    "중간": {
+     "days": 52,
+     "ratio": 0.962,
+     "ci90": [
+      0.939,
+      0.985
+     ],
+     "pen_share": 0.508,
+     "err_pct_of_fold": -2.56
+    },
+    "흐림": {
+     "days": 35,
+     "ratio": 1.053,
+     "ci90": [
+      0.986,
+      1.13
+     ],
+     "pen_share": 0.458,
+     "err_pct_of_fold": 1.27
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 6,
+     "ratio": 0.959,
+     "ci90": [
+      0.929,
+      0.989
+     ],
+     "pen_share": 0.039,
+     "err_pct_of_fold": -0.39
+    },
+    "중간": {
+     "days": 40,
+     "ratio": 0.979,
+     "ci90": [
+      0.958,
+      1.002
+     ],
+     "pen_share": 0.348,
+     "err_pct_of_fold": -1.1
+    },
+    "흐림": {
+     "days": 46,
+     "ratio": 0.996,
+     "ci90": [
+      0.946,
+      1.056
+     ],
+     "pen_share": 0.613,
+     "err_pct_of_fold": -0.14
+    }
+   }
+  },
+  "spring_2023": {
+   "sites": 58,
+   "days": 61,
+   "ratio": 1.044,
+   "pen_pct_of_revenue": 2.512,
+   "energy_share_at_zero_forecast": 0.0007,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 22,
+     "ratio": 1.025,
+     "ci90": [
+      1.006,
+      1.044
+     ],
+     "pen_share": 0.225,
+     "err_pct_of_fold": 1.18
+    },
+    "중간": {
+     "days": 21,
+     "ratio": 1.031,
+     "ci90": [
+      0.992,
+      1.068
+     ],
+     "pen_share": 0.374,
+     "err_pct_of_fold": 1.13
+    },
+    "흐림": {
+     "days": 18,
+     "ratio": 1.123,
+     "ci90": [
+      1.021,
+      1.236
+     ],
+     "pen_share": 0.401,
+     "err_pct_of_fold": 2.08
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 19,
+     "ratio": 1.032,
+     "ci90": [
+      1.012,
+      1.053
+     ],
+     "pen_share": 0.198,
+     "err_pct_of_fold": 1.29
+    },
+    "중간": {
+     "days": 20,
+     "ratio": 1.04,
+     "ci90": [
+      1.008,
+      1.079
+     ],
+     "pen_share": 0.31,
+     "err_pct_of_fold": 1.43
+    },
+    "흐림": {
+     "days": 22,
+     "ratio": 1.071,
+     "ci90": [
+      0.983,
+      1.165
+     ],
+     "pen_share": 0.491,
+     "err_pct_of_fold": 1.68
+    }
+   }
+  },
+  "spring_2024": {
+   "sites": 58,
+   "days": 61,
+   "ratio": 1.026,
+   "pen_pct_of_revenue": 2.91,
+   "energy_share_at_zero_forecast": 0.0008,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 19,
+     "ratio": 1.031,
+     "ci90": [
+      1.014,
+      1.052
+     ],
+     "pen_share": 0.181,
+     "err_pct_of_fold": 1.33
+    },
+    "중간": {
+     "days": 16,
+     "ratio": 1.008,
+     "ci90": [
+      0.955,
+      1.06
+     ],
+     "pen_share": 0.308,
+     "err_pct_of_fold": 0.26
+    },
+    "흐림": {
+     "days": 26,
+     "ratio": 1.04,
+     "ci90": [
+      0.986,
+      1.102
+     ],
+     "pen_share": 0.511,
+     "err_pct_of_fold": 1.06
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 17,
+     "ratio": 1.051,
+     "ci90": [
+      1.029,
+      1.078
+     ],
+     "pen_share": 0.199,
+     "err_pct_of_fold": 1.89
+    },
+    "중간": {
+     "days": 19,
+     "ratio": 1.011,
+     "ci90": [
+      0.984,
+      1.041
+     ],
+     "pen_share": 0.281,
+     "err_pct_of_fold": 0.39
+    },
+    "흐림": {
+     "days": 25,
+     "ratio": 1.013,
+     "ci90": [
+      0.944,
+      1.083
+     ],
+     "pen_share": 0.52,
+     "err_pct_of_fold": 0.37
+    }
+   }
+  },
+  "summer_support": {
+   "sites": 58,
+   "days": 92,
+   "ratio": 1.001,
+   "pen_pct_of_revenue": 2.858,
+   "energy_share_at_zero_forecast": 0.0004,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 14,
+     "ratio": 1.025,
+     "ci90": [
+      0.987,
+      1.058
+     ],
+     "pen_share": 0.124,
+     "err_pct_of_fold": 0.48
+    },
+    "중간": {
+     "days": 39,
+     "ratio": 1.003,
+     "ci90": [
+      0.98,
+      1.026
+     ],
+     "pen_share": 0.356,
+     "err_pct_of_fold": 0.15
+    },
+    "흐림": {
+     "days": 39,
+     "ratio": 0.984,
+     "ci90": [
+      0.936,
+      1.04
+     ],
+     "pen_share": 0.52,
+     "err_pct_of_fold": -0.5
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 10,
+     "ratio": 1.035,
+     "ci90": [
+      1.014,
+      1.059
+     ],
+     "pen_share": 0.066,
+     "err_pct_of_fold": 0.5
+    },
+    "중간": {
+     "days": 30,
+     "ratio": 1.026,
+     "ci90": [
+      1.0,
+      1.05
+     ],
+     "pen_share": 0.262,
+     "err_pct_of_fold": 0.97
+    },
+    "흐림": {
+     "days": 52,
+     "ratio": 0.972,
+     "ci90": [
+      0.936,
+      1.012
+     ],
+     "pen_share": 0.673,
+     "err_pct_of_fold": -1.34
+    }
+   }
+  },
+  "selection": {
+   "sites": 58,
+   "days": 61,
+   "ratio": 1.006,
+   "pen_pct_of_revenue": 1.96,
+   "energy_share_at_zero_forecast": 0.0007,
+   "days_no_fcst": 0,
+   "observed": {
+    "맑음": {
+     "days": 24,
+     "ratio": 1.012,
+     "ci90": [
+      0.998,
+      1.026
+     ],
+     "pen_share": 0.251,
+     "err_pct_of_fold": 0.6
+    },
+    "중간": {
+     "days": 23,
+     "ratio": 1.009,
+     "ci90": [
+      0.976,
+      1.047
+     ],
+     "pen_share": 0.444,
+     "err_pct_of_fold": 0.34
+    },
+    "흐림": {
+     "days": 14,
+     "ratio": 0.97,
+     "ci90": [
+      0.867,
+      1.079
+     ],
+     "pen_share": 0.304,
+     "err_pct_of_fold": -0.33
+    }
+   },
+   "forecast": {
+    "맑음": {
+     "days": 18,
+     "ratio": 1.014,
+     "ci90": [
+      0.997,
+      1.03
+     ],
+     "pen_share": 0.181,
+     "err_pct_of_fold": 0.55
+    },
+    "중간": {
+     "days": 22,
+     "ratio": 1.031,
+     "ci90": [
+      1.005,
+      1.064
+     ],
+     "pen_share": 0.364,
+     "err_pct_of_fold": 1.21
+    },
+    "흐림": {
+     "days": 21,
+     "ratio": 0.949,
+     "ci90": [
+      0.894,
+      1.003
+     ],
+     "pen_share": 0.455,
+     "err_pct_of_fold": -1.15
+    }
+   }
+  }
+ },
+ "verdict": {
+  "A_observed_pass": [
+   "janfeb_2023",
+   "autumn_2023",
+   "janfeb_2024"
+  ],
+  "A": false,
+  "B_forecast_pass": [
+   "janfeb_2024"
+  ],
+  "B": false,
+  "B_cohort_pass": [
+   "janfeb_2024"
+  ]
+ }
+}

@@ -1,0 +1,127 @@
+{
+  "params": {
+    "objective": "quantile",
+    "alpha": 0.5,
+    "n_estimators": 150,
+    "learning_rate": 0.03,
+    "num_leaves": 7,
+    "max_depth": 3,
+    "min_child_samples": 150,
+    "reg_lambda": 10,
+    "verbosity": -1,
+    "n_jobs": 4,
+    "random_state": 2026,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "results": {
+    "summer_support": {
+      "hours": 2208,
+      "base_penalty": 46527873,
+      "corrected_penalty": 45525779,
+      "change_pct": -2.154,
+      "change_ci90_pct": [
+        -4.715,
+        0.974
+      ],
+      "peak_change_pct": -2.64,
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024"
+      ]
+    },
+    "autumn_support": {
+      "hours": 2184,
+      "base_penalty": 56121692,
+      "corrected_penalty": 55995422,
+      "change_pct": -0.225,
+      "change_ci90_pct": [
+        -1.556,
+        0.575
+      ],
+      "peak_change_pct": -0.091,
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024"
+      ]
+    },
+    "development": {
+      "hours": 1416,
+      "base_penalty": 25759542,
+      "corrected_penalty": 25433433,
+      "change_pct": -1.266,
+      "change_ci90_pct": [
+        -2.492,
+        0.441
+      ],
+      "peak_change_pct": -0.813,
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024",
+        "summer_support",
+        "autumn_support"
+      ]
+    },
+    "selection": {
+      "hours": 1464,
+      "base_penalty": 27954798,
+      "corrected_penalty": 29809666,
+      "change_pct": 6.635,
+      "change_ci90_pct": [
+        4.468,
+        8.938
+      ],
+      "peak_change_pct": 6.733,
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024",
+        "summer_support",
+        "autumn_support"
+      ]
+    },
+    "fold1_static": {
+      "hours": 8016,
+      "base_penalty": 179141150,
+      "corrected_penalty": 177765366,
+      "change_pct": -0.768,
+      "change_ci90_pct": [
+        -2.011,
+        0.648
+      ],
+      "peak_change_pct": -1.003,
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024"
+      ]
+    }
+  },
+  "seasonal_change_pct": 0.256,
+  "seasonal_screen_pass": false,
+  "static_improves": true,
+  "note": "과거 부분 관측 집합 포함. 고정 모델 검증은 보정기도 2024-06 이전에 동결. 독립 holdout 아님"
+}

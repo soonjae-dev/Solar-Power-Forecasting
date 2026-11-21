@@ -1,0 +1,61 @@
+{
+  "spec": {
+    "neighbors": 20,
+    "shrink_days": 20,
+    "max_correction": 0.1,
+    "rule": "14.39",
+    "history": [
+      "oof6m_1",
+      "oof6m_2",
+      "oof6m_3",
+      "oof6m_4",
+      "oof6m_5"
+    ],
+    "features": [
+      "wa_cloud",
+      "wb_cloud",
+      "wb_uv_idx",
+      "cosz",
+      "base_kt",
+      "gfs_dswrf_all",
+      "gfs_tcdc_all",
+      "gfs_lcdc_all",
+      "gfs_mcdc_all",
+      "gfs_hcdc_all",
+      "gfs_pwat_all"
+    ],
+    "baseline": "gfs60_3seeds"
+  },
+  "results": {
+    "summer_support": {
+      "base_penalty": 42781408,
+      "direct_penalty": 46090830,
+      "change_pct": 7.736,
+      "change_ci90_pct": [
+        5.387,
+        10.353
+      ],
+      "peak_change_pct": 8.915,
+      "base_forecast_actual_ratio": 0.9749,
+      "direct_forecast_actual_ratio": 0.9744,
+      "group_change_pct": {
+        "A": 6.444,
+        "B": 9.384
+      },
+      "training_hours": 21147,
+      "training_days": 876,
+      "corrected_group_hours": 2639,
+      "missing_feature_hours": 0,
+      "insufficient_history_hours": 0
+    }
+  },
+  "complete": true,
+  "early_rejection": "계절+3% 초과",
+  "passed": false,
+  "uncompleted_windows": [
+    "fold1_static",
+    "autumn_support",
+    "development",
+    "selection"
+  ]
+}

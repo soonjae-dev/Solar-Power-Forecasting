@@ -1,0 +1,372 @@
+{
+  "residual_params": {
+    "objective": "quantile",
+    "alpha": 0.5,
+    "n_estimators": 150,
+    "learning_rate": 0.03,
+    "num_leaves": 7,
+    "max_depth": 3,
+    "min_child_samples": 150,
+    "reg_lambda": 10,
+    "verbosity": -1,
+    "n_jobs": 4,
+    "random_state": 2026,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "results": {
+    "summer_support": {
+      "pca_variance": {
+        "wa_cloud": [
+          0.4549599885940552,
+          0.15942999720573425,
+          0.09141000360250473
+        ],
+        "wb_cloud": [
+          0.39362001419067383,
+          0.14292000234127045,
+          0.07208000123500824
+        ],
+        "wb_uv_idx": [
+          0.3169200122356415,
+          0.1228799968957901
+        ]
+      },
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024"
+      ],
+      "controls": {
+        "hours": 2208,
+        "base_penalty": 46527873,
+        "corrected_penalty": 45636099,
+        "change_pct": -1.917,
+        "change_ci90_pct": [
+          -4.303,
+          0.95
+        ],
+        "peak_change_pct": -2.343,
+        "weighted_residual_mae": 0.0414292
+      },
+      "spatial": {
+        "hours": 2208,
+        "base_penalty": 46527873,
+        "corrected_penalty": 45992280,
+        "change_pct": -1.151,
+        "change_ci90_pct": [
+          -3.132,
+          0.919
+        ],
+        "peak_change_pct": -1.383,
+        "weighted_residual_mae": 0.0417604
+      },
+      "incremental_comparison": {
+        "base_penalty": 45636099,
+        "direct_penalty": 45992280,
+        "change_pct": 0.78,
+        "change_ci90_pct": [
+          -0.372,
+          1.489
+        ],
+        "peak_change_pct": 0.983,
+        "base_forecast_actual_ratio": 0.975,
+        "direct_forecast_actual_ratio": 0.9716,
+        "group_change_pct": {
+          "A": 1.063,
+          "B": 0.421
+        }
+      },
+      "incremental_penalty_change_pct": 0.78,
+      "incremental_residual_mae_change_pct": 0.799
+    },
+    "autumn_support": {
+      "pca_variance": {
+        "wa_cloud": [
+          0.4551500082015991,
+          0.15842999517917633,
+          0.09003999829292297
+        ],
+        "wb_cloud": [
+          0.39280998706817627,
+          0.1419599950313568,
+          0.0711899995803833
+        ],
+        "wb_uv_idx": [
+          0.31777000427246094,
+          0.12011999636888504
+        ]
+      },
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024"
+      ],
+      "controls": {
+        "hours": 2184,
+        "base_penalty": 56121692,
+        "corrected_penalty": 56579729,
+        "change_pct": 0.816,
+        "change_ci90_pct": [
+          -0.952,
+          1.799
+        ],
+        "peak_change_pct": 1.031,
+        "weighted_residual_mae": 0.0525049
+      },
+      "spatial": {
+        "hours": 2184,
+        "base_penalty": 56121692,
+        "corrected_penalty": 56069351,
+        "change_pct": -0.093,
+        "change_ci90_pct": [
+          -1.604,
+          0.692
+        ],
+        "peak_change_pct": -0.076,
+        "weighted_residual_mae": 0.0520202
+      },
+      "incremental_comparison": {
+        "base_penalty": 56579729,
+        "direct_penalty": 56069351,
+        "change_pct": -0.902,
+        "change_ci90_pct": [
+          -1.46,
+          -0.306
+        ],
+        "peak_change_pct": -1.096,
+        "base_forecast_actual_ratio": 1.0231,
+        "direct_forecast_actual_ratio": 1.0244,
+        "group_change_pct": {
+          "A": -0.976,
+          "B": -0.833
+        }
+      },
+      "incremental_penalty_change_pct": -0.902,
+      "incremental_residual_mae_change_pct": -0.923
+    },
+    "development": {
+      "pca_variance": {
+        "wa_cloud": [
+          0.45103999972343445,
+          0.15800000727176666,
+          0.09250999987125397
+        ],
+        "wb_cloud": [
+          0.3899399936199188,
+          0.1405400037765503,
+          0.07152000069618225
+        ],
+        "wb_uv_idx": [
+          0.31652000546455383,
+          0.11929000169038773
+        ]
+      },
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024",
+        "summer_support",
+        "autumn_support"
+      ],
+      "controls": {
+        "hours": 1416,
+        "base_penalty": 25759542,
+        "corrected_penalty": 25434030,
+        "change_pct": -1.264,
+        "change_ci90_pct": [
+          -2.505,
+          0.442
+        ],
+        "peak_change_pct": -0.954,
+        "weighted_residual_mae": 0.0374714
+      },
+      "spatial": {
+        "hours": 1416,
+        "base_penalty": 25759542,
+        "corrected_penalty": 25254729,
+        "change_pct": -1.96,
+        "change_ci90_pct": [
+          -3.066,
+          -0.499
+        ],
+        "peak_change_pct": -1.619,
+        "weighted_residual_mae": 0.0372568
+      },
+      "incremental_comparison": {
+        "base_penalty": 25434030,
+        "direct_penalty": 25254729,
+        "change_pct": -0.705,
+        "change_ci90_pct": [
+          -1.346,
+          -0.135
+        ],
+        "peak_change_pct": -0.672,
+        "base_forecast_actual_ratio": 1.0238,
+        "direct_forecast_actual_ratio": 1.0239,
+        "group_change_pct": {
+          "A": -1.013,
+          "B": -0.454
+        }
+      },
+      "incremental_penalty_change_pct": -0.705,
+      "incremental_residual_mae_change_pct": -0.573
+    },
+    "selection": {
+      "pca_variance": {
+        "wa_cloud": [
+          0.448170006275177,
+          0.15663999319076538,
+          0.09567999839782715
+        ],
+        "wb_cloud": [
+          0.3886699974536896,
+          0.1413400024175644,
+          0.07175999879837036
+        ],
+        "wb_uv_idx": [
+          0.3165299892425537,
+          0.11957000195980072
+        ]
+      },
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024",
+        "summer_support",
+        "autumn_support"
+      ],
+      "controls": {
+        "hours": 1464,
+        "base_penalty": 27954798,
+        "corrected_penalty": 29941321,
+        "change_pct": 7.106,
+        "change_ci90_pct": [
+          5.038,
+          9.393
+        ],
+        "peak_change_pct": 7.397,
+        "weighted_residual_mae": 0.0402082
+      },
+      "spatial": {
+        "hours": 1464,
+        "base_penalty": 27954798,
+        "corrected_penalty": 29798777,
+        "change_pct": 6.596,
+        "change_ci90_pct": [
+          4.898,
+          8.432
+        ],
+        "peak_change_pct": 6.924,
+        "weighted_residual_mae": 0.039982
+      },
+      "incremental_comparison": {
+        "base_penalty": 29941321,
+        "direct_penalty": 29798777,
+        "change_pct": -0.476,
+        "change_ci90_pct": [
+          -1.327,
+          0.251
+        ],
+        "peak_change_pct": -0.441,
+        "base_forecast_actual_ratio": 0.9803,
+        "direct_forecast_actual_ratio": 0.9831,
+        "group_change_pct": {
+          "A": -0.049,
+          "B": -0.839
+        }
+      },
+      "incremental_penalty_change_pct": -0.476,
+      "incremental_residual_mae_change_pct": -0.563
+    },
+    "fold1_static": {
+      "pca_variance": {
+        "wa_cloud": [
+          0.4549599885940552,
+          0.15942999720573425,
+          0.09141000360250473
+        ],
+        "wb_cloud": [
+          0.39362001419067383,
+          0.14292000234127045,
+          0.07208000123500824
+        ],
+        "wb_uv_idx": [
+          0.3169200122356415,
+          0.1228799968957901
+        ]
+      },
+      "calibration_folds": [
+        "autumn_2022",
+        "janfeb_2023",
+        "spring_2023",
+        "summer_2023",
+        "autumn_2023",
+        "janfeb_2024",
+        "spring_2024"
+      ],
+      "controls": {
+        "hours": 8016,
+        "base_penalty": 179141150,
+        "corrected_penalty": 178261417,
+        "change_pct": -0.491,
+        "change_ci90_pct": [
+          -1.738,
+          0.968
+        ],
+        "peak_change_pct": -0.579,
+        "weighted_residual_mae": 0.043471
+      },
+      "spatial": {
+        "hours": 8016,
+        "base_penalty": 179141150,
+        "corrected_penalty": 178429201,
+        "change_pct": -0.397,
+        "change_ci90_pct": [
+          -1.542,
+          0.859
+        ],
+        "peak_change_pct": -0.462,
+        "weighted_residual_mae": 0.0435281
+      },
+      "incremental_comparison": {
+        "base_penalty": 178261417,
+        "direct_penalty": 178429201,
+        "change_pct": 0.094,
+        "change_ci90_pct": [
+          -0.356,
+          0.472
+        ],
+        "peak_change_pct": 0.118,
+        "base_forecast_actual_ratio": 0.9987,
+        "direct_forecast_actual_ratio": 0.9981,
+        "group_change_pct": {
+          "A": 0.128,
+          "B": 0.063
+        }
+      },
+      "incremental_penalty_change_pct": 0.094,
+      "incremental_residual_mae_change_pct": 0.131
+    }
+  },
+  "verdict": {
+    "incremental_seasonal_change_pct": -0.302,
+    "proceed_generation_trial": false
+  }
+}

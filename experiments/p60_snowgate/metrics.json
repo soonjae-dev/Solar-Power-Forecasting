@@ -1,0 +1,184 @@
+{
+  "spec": {
+    "rule": "14.55",
+    "seeds": [
+      2026,
+      2027,
+      2028
+    ],
+    "windows": {
+      "winter2022": [
+        "2022-12-01",
+        "2023-04-01"
+      ],
+      "winter2023": [
+        "2023-12-01",
+        "2024-04-01"
+      ]
+    },
+    "gate": "wa_snow_sum72>0 or wb_snow_sum72>0",
+    "baseline": "v6_ref",
+    "threads": 4
+  },
+  "results": {
+    "winter2022": {
+      "train_cutoff": "2022-11-30T17:00:00+09:00",
+      "train_rows": 283274,
+      "validation_rows": 110753,
+      "gate_days": 79,
+      "gate_share": 0.1996153603062671,
+      "missing_both72_rows": 0,
+      "snow": {
+        "base_penalty": 18520955,
+        "candidate_penalty": 18727556,
+        "change_pct": 1.1155,
+        "change_ci95_pct": [
+          -0.5654,
+          2.519
+        ]
+      },
+      "gate": {
+        "base_penalty": 18520955,
+        "candidate_penalty": 18532276,
+        "change_pct": 0.0611,
+        "change_ci95_pct": [
+          -0.8056,
+          0.9211
+        ]
+      },
+      "paired_seeds": {
+        "2026": {
+          "base_penalty": 18445207,
+          "candidate_penalty": 18412435,
+          "change_pct": -0.1777,
+          "change_ci95_pct": [
+            -1.0328,
+            0.6474
+          ]
+        },
+        "2027": {
+          "base_penalty": 18607823,
+          "candidate_penalty": 18634272,
+          "change_pct": 0.1421,
+          "change_ci95_pct": [
+            -1.42,
+            1.6122
+          ]
+        },
+        "2028": {
+          "base_penalty": 18811336,
+          "candidate_penalty": 18851155,
+          "change_pct": 0.2117,
+          "change_ci95_pct": [
+            -0.7992,
+            1.2974
+          ]
+        }
+      },
+      "seconds": 174.88
+    },
+    "winter2023": {
+      "train_cutoff": "2023-11-30T17:00:00+09:00",
+      "train_rows": 753172,
+      "validation_rows": 202109,
+      "gate_days": 97,
+      "gate_share": 0.24154787763038757,
+      "missing_both72_rows": 0,
+      "snow": {
+        "base_penalty": 33197167,
+        "candidate_penalty": 33291221,
+        "change_pct": 0.2833,
+        "change_ci95_pct": [
+          -3.0047,
+          2.7573
+        ]
+      },
+      "gate": {
+        "base_penalty": 33197167,
+        "candidate_penalty": 32825887,
+        "change_pct": -1.1184,
+        "change_ci95_pct": [
+          -3.6427,
+          0.7716
+        ]
+      },
+      "paired_seeds": {
+        "2026": {
+          "base_penalty": 34103475,
+          "candidate_penalty": 33296898,
+          "change_pct": -2.3651,
+          "change_ci95_pct": [
+            -4.7591,
+            -0.2885
+          ]
+        },
+        "2027": {
+          "base_penalty": 33017842,
+          "candidate_penalty": 32954206,
+          "change_pct": -0.1927,
+          "change_ci95_pct": [
+            -2.7441,
+            2.3125
+          ]
+        },
+        "2028": {
+          "base_penalty": 33527636,
+          "candidate_penalty": 33123261,
+          "change_pct": -1.2061,
+          "change_ci95_pct": [
+            -4.2031,
+            1.244
+          ]
+        }
+      },
+      "seconds": 359.34
+    }
+  },
+  "audit": {
+    "wa": {
+      "source_rows": 5778812,
+      "nonhourly_rows": 0,
+      "fallback10_rows": 146,
+      "missing_selected_rows": 4026,
+      "24": {
+        "issue_violations": 0,
+        "empty_windows": 1464,
+        "partial_windows": 7015
+      },
+      "72": {
+        "issue_violations": 0,
+        "empty_windows": 0,
+        "partial_windows": 17263
+      },
+      "boundary_rows_changed_if_reset": 0,
+      "train_test_overlap": 0
+    },
+    "wb": {
+      "source_rows": 6900956,
+      "nonhourly_rows": 92,
+      "fallback10_rows": 5558,
+      "missing_selected_rows": 6789,
+      "24": {
+        "issue_violations": 0,
+        "empty_windows": 1752,
+        "partial_windows": 11753
+      },
+      "72": {
+        "issue_violations": 0,
+        "empty_windows": 0,
+        "partial_windows": 27521
+      },
+      "boundary_rows_changed_if_reset": 0,
+      "train_test_overlap": 0
+    }
+  },
+  "audit_passed": true,
+  "complete": true,
+  "verdict": {
+    "passed": false,
+    "pooled_change_pct": -0.696,
+    "all_paired_seeds_improve": true,
+    "sufficient_gate_days": true
+  },
+  "selected": false
+}

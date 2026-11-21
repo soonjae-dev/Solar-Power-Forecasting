@@ -1,0 +1,90 @@
+{
+  "rule": "14.76",
+  "seed": 2026,
+  "results": {
+    "summer_support": {
+      "base_penalty": 40984561,
+      "direct_penalty": 40343981,
+      "change_pct": -1.563,
+      "change_ci90_pct": [
+        -6.468,
+        3.315
+      ],
+      "peak_change_pct": -1.413,
+      "base_forecast_actual_ratio": 0.9778,
+      "direct_forecast_actual_ratio": 0.9938,
+      "group_change_pct": {
+        "A": -0.524,
+        "B": -2.896
+      }
+    },
+    "fold1_static": {
+      "base_penalty": 162817493,
+      "direct_penalty": 155826397,
+      "change_pct": -4.294,
+      "change_ci90_pct": [
+        -6.777,
+        -1.874
+      ],
+      "peak_change_pct": -4.387,
+      "base_forecast_actual_ratio": 0.9966,
+      "direct_forecast_actual_ratio": 1.0008,
+      "group_change_pct": {
+        "A": -3.755,
+        "B": -4.79
+      }
+    },
+    "autumn_support": {
+      "base_penalty": 49012213,
+      "direct_penalty": 45382528,
+      "change_pct": -7.406,
+      "change_ci90_pct": [
+        -10.414,
+        -3.14
+      ],
+      "peak_change_pct": -7.57,
+      "base_forecast_actual_ratio": 0.9936,
+      "direct_forecast_actual_ratio": 0.9961,
+      "group_change_pct": {
+        "A": -7.003,
+        "B": -7.775
+      }
+    },
+    "development": {
+      "base_penalty": 24337330,
+      "direct_penalty": 24260549,
+      "change_pct": -0.315,
+      "change_ci90_pct": [
+        -3.062,
+        2.455
+      ],
+      "peak_change_pct": -0.431,
+      "base_forecast_actual_ratio": 1.0458,
+      "direct_forecast_actual_ratio": 1.0465,
+      "group_change_pct": {
+        "A": -0.125,
+        "B": -0.467
+      }
+    },
+    "selection": {
+      "base_penalty": 27831204,
+      "direct_penalty": 26219298,
+      "change_pct": -5.792,
+      "change_ci90_pct": [
+        -8.922,
+        -1.889
+      ],
+      "peak_change_pct": -6.99,
+      "base_forecast_actual_ratio": 0.9836,
+      "direct_forecast_actual_ratio": 0.9794,
+      "group_change_pct": {
+        "A": -4.687,
+        "B": -6.694
+      }
+    }
+  },
+  "seasonal_change_pct": -4.192,
+  "improved": 4,
+  "passed": true,
+  "complete": true
+}

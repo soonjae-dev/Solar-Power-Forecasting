@@ -1,0 +1,343 @@
+{
+  "rule": "14.79",
+  "control": "gfs60+ldaps",
+  "cache_name": "cache",
+  "seeds1": {
+    "gfsday": {
+      "summer_support": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2024-05-31T17:00:00+09:00",
+        "validation_start": "2024-06-01T01:00:00+09:00",
+        "validation_end": "2024-09-01T00:00:00+09:00",
+        "train_rows": 1106282,
+        "train_features": 174,
+        "weighted_train_rmse_kt": 0.102127,
+        "training_predict_seconds": 107.56,
+        "weighted_train_mae_kt": 0.070366,
+        "vs_v3_3seeds": {
+          "base_penalty": 46527873,
+          "direct_penalty": 43053946,
+          "change_pct": -7.466,
+          "change_ci90_pct": [
+            -14.091,
+            0.937
+          ],
+          "peak_change_pct": -6.979,
+          "base_forecast_actual_ratio": 0.9689,
+          "direct_forecast_actual_ratio": 0.9822,
+          "group_change_pct": {
+            "A": -7.721,
+            "B": -7.139
+          }
+        },
+        "baseline_train_rmse_kt": 0.102645,
+        "baseline_train_mae_kt": 0.070665,
+        "vs_matched_v3": {
+          "base_penalty": 42881514,
+          "direct_penalty": 43053946,
+          "change_pct": 0.402,
+          "change_ci90_pct": [
+            -2.535,
+            3.848
+          ],
+          "peak_change_pct": 0.199,
+          "base_forecast_actual_ratio": 0.9803,
+          "direct_forecast_actual_ratio": 0.9822,
+          "group_change_pct": {
+            "A": -0.612,
+            "B": 1.73
+          }
+        }
+      },
+      "fold1_static": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2024-05-31T17:00:00+09:00",
+        "validation_start": "2024-06-01T01:00:00+09:00",
+        "validation_end": "2025-05-01T00:00:00+09:00",
+        "train_rows": 1106282,
+        "train_features": 174,
+        "weighted_train_rmse_kt": 0.102127,
+        "training_predict_seconds": 107.56,
+        "weighted_train_mae_kt": 0.070366,
+        "vs_v3_3seeds": {
+          "base_penalty": 179141150,
+          "direct_penalty": 165791866,
+          "change_pct": -7.452,
+          "change_ci90_pct": [
+            -11.564,
+            -2.947
+          ],
+          "peak_change_pct": -7.066,
+          "base_forecast_actual_ratio": 1.0048,
+          "direct_forecast_actual_ratio": 1.0154,
+          "group_change_pct": {
+            "A": -7.606,
+            "B": -7.312
+          }
+        },
+        "baseline_train_rmse_kt": 0.102645,
+        "baseline_train_mae_kt": 0.070665,
+        "vs_matched_v3": {
+          "base_penalty": 165236619,
+          "direct_penalty": 165791866,
+          "change_pct": 0.336,
+          "change_ci90_pct": [
+            -1.5,
+            2.128
+          ],
+          "peak_change_pct": 0.278,
+          "base_forecast_actual_ratio": 1.0132,
+          "direct_forecast_actual_ratio": 1.0154,
+          "group_change_pct": {
+            "A": 0.339,
+            "B": 0.333
+          }
+        }
+      },
+      "autumn_support": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2024-08-31T17:00:00+09:00",
+        "validation_start": "2024-09-01T01:00:00+09:00",
+        "validation_end": "2024-12-01T00:00:00+09:00",
+        "train_rows": 1409736,
+        "train_features": 174,
+        "weighted_train_rmse_kt": 0.103217,
+        "training_predict_seconds": 128.56,
+        "weighted_train_mae_kt": 0.072432,
+        "vs_v3_3seeds": {
+          "base_penalty": 56121692,
+          "direct_penalty": 45113194,
+          "change_pct": -19.615,
+          "change_ci90_pct": [
+            -25.652,
+            -10.531
+          ],
+          "peak_change_pct": -19.662,
+          "base_forecast_actual_ratio": 1.0313,
+          "direct_forecast_actual_ratio": 1.0101,
+          "group_change_pct": {
+            "A": -19.481,
+            "B": -19.741
+          }
+        },
+        "baseline_train_rmse_kt": 0.103859,
+        "baseline_train_mae_kt": 0.07286,
+        "vs_matched_v3": {
+          "base_penalty": 46410832,
+          "direct_penalty": 45113194,
+          "change_pct": -2.796,
+          "change_ci90_pct": [
+            -5.407,
+            -0.549
+          ],
+          "peak_change_pct": -3.371,
+          "base_forecast_actual_ratio": 1.0076,
+          "direct_forecast_actual_ratio": 1.0101,
+          "group_change_pct": {
+            "A": -2.997,
+            "B": -2.607
+          }
+        }
+      },
+      "development": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2024-12-31T17:00:00+09:00",
+        "validation_start": "2025-01-01T01:00:00+09:00",
+        "validation_end": "2025-03-01T00:00:00+09:00",
+        "train_rows": 1739344,
+        "train_features": 174,
+        "weighted_train_rmse_kt": 0.110755,
+        "training_predict_seconds": 157.33,
+        "weighted_train_mae_kt": 0.078382,
+        "vs_v3_3seeds": {
+          "base_penalty": 25759542,
+          "direct_penalty": 24331677,
+          "change_pct": -5.543,
+          "change_ci90_pct": [
+            -11.895,
+            0.932
+          ],
+          "peak_change_pct": -4.808,
+          "base_forecast_actual_ratio": 1.0303,
+          "direct_forecast_actual_ratio": 1.0464,
+          "group_change_pct": {
+            "A": -6.162,
+            "B": -5.06
+          }
+        },
+        "baseline_train_rmse_kt": 0.111434,
+        "baseline_train_mae_kt": 0.078828,
+        "vs_matched_v3": {
+          "base_penalty": 25214413,
+          "direct_penalty": 24331677,
+          "change_pct": -3.501,
+          "change_ci90_pct": [
+            -6.189,
+            -1.305
+          ],
+          "peak_change_pct": -3.086,
+          "base_forecast_actual_ratio": 1.0462,
+          "direct_forecast_actual_ratio": 1.0464,
+          "group_change_pct": {
+            "A": -4.637,
+            "B": -2.605
+          }
+        }
+      },
+      "selection": {
+        "config": {
+          "fold": "development",
+          "feats": "fullc",
+          "objective": "l2",
+          "alpha": 0.5,
+          "weight": "cap",
+          "target": "kt",
+          "train_start": "2021-01-01",
+          "n_estimators": 600,
+          "learning_rate": 0.06,
+          "num_leaves": 127,
+          "min_child_samples": 200,
+          "seed": 2026,
+          "model": "lgbm",
+          "depth": 8,
+          "outage": "keep",
+          "nbrc_asof": "fold",
+          "kt_weight": "cs"
+        },
+        "seeds": 1,
+        "train_cutoff": "2025-02-28T17:00:00+09:00",
+        "validation_start": "2025-03-01T01:00:00+09:00",
+        "validation_end": "2025-05-01T00:00:00+09:00",
+        "train_rows": 1890847,
+        "train_features": 174,
+        "weighted_train_rmse_kt": 0.113467,
+        "training_predict_seconds": 172.57,
+        "weighted_train_mae_kt": 0.080068,
+        "vs_v3_3seeds": {
+          "base_penalty": 27954798,
+          "direct_penalty": 26007539,
+          "change_pct": -6.966,
+          "change_ci90_pct": [
+            -13.7,
+            1.954
+          ],
+          "peak_change_pct": -7.21,
+          "base_forecast_actual_ratio": 0.9908,
+          "direct_forecast_actual_ratio": 1.0003,
+          "group_change_pct": {
+            "A": -4.04,
+            "B": -9.503
+          }
+        },
+        "baseline_train_rmse_kt": 0.114298,
+        "baseline_train_mae_kt": 0.08061,
+        "vs_matched_v3": {
+          "base_penalty": 25712272,
+          "direct_penalty": 26007539,
+          "change_pct": 1.148,
+          "change_ci90_pct": [
+            -2.387,
+            4.934
+          ],
+          "peak_change_pct": 1.607,
+          "base_forecast_actual_ratio": 1.0002,
+          "direct_forecast_actual_ratio": 1.0003,
+          "group_change_pct": {
+            "A": 0.97,
+            "B": 1.313
+          }
+        }
+      }
+    }
+  },
+  "seeds1_verdicts": {
+    "gfsday": {
+      "vs_v3_3seeds_seasonal_change_pct": -11.421,
+      "vs_matched_v3_seasonal_change_pct": -1.221,
+      "screen_pass": false
+    }
+  },
+  "verdict_vs_control": {
+    "seasonal_change_pct": -1.221,
+    "seasons_improved": 2,
+    "worst_season_pct": 1.148,
+    "static_change_pct": 0.336,
+    "passed": false
+  }
+}
