@@ -204,7 +204,7 @@ KMA_AUTH_KEY=... .venv/bin/python -m src.ldaps_fetch 2021-01-02 2026-03-31
 ## Team
 
 - [@soonjae-dev](https://github.com/soonjae-dev): problem analysis, feature & training pipeline, validation design, external NWP collection, final blend
-- [@CHANHONG_GITHUB_ID](https://github.com/CHANHONG_GITHUB_ID): snow-specific model (snowgate), group composition search
+- [@Xterbase](https://github.com/Xterbase): snow-specific model (snowgate), group composition search
 
 ## License
 

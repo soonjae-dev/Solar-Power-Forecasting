@@ -204,7 +204,7 @@ KMA_AUTH_KEY=... .venv/bin/python -m src.ldaps_fetch 2021-01-02 2026-03-31
 ## 팀
 
 - [@soonjae-dev](https://github.com/soonjae-dev): 문제 분석, 특징·학습 파이프라인, 검증 설계, 외부 예보 수집, 최종 결합
-- [@CHANHONG_GITHUB_ID](https://github.com/CHANHONG_GITHUB_ID): 적설 전용 모델(snowgate), 집합 배정 탐색
+- [@Xterbase](https://github.com/Xterbase): 적설 전용 모델(snowgate), 집합 배정 탐색
 
 ## 라이선스
 
