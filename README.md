@@ -2,6 +2,12 @@
 
 English · [한국어](README.ko.md)
 
+> **Summary**
+>
+> - Final rank 134 / 385 (top 35%), settlement 6,465,154,213 KRW: +46.8 M KRW over the official baseline (25% lower penalty)
+> - 91% of the server-confirmed gain came from new information (richer features from the provided forecasts, external NWP from GFS and LDAPS). Calibration, tuning and blending were worth only hundreds of thousands of KRW
+> - Five changes that helped locally hurt on the server. Out-of-sample validation was concentrated in one year, and that year's over-forecast bias leaked into every decision ([lessons.md](docs/lessons.md))
+
 ## Project Overview
 
 <p align="center">
@@ -13,7 +19,7 @@ This is our entry to the **2026 POSTECH OIBC Big Data Challenge** (6th POSTECH-U
 - **Task.** Split 253 PV plants (42.7 MW in total) into two aggregates (G1/G2, each ≥ 20 MW). For each aggregate, forecast hourly generation at 17:00 KST on the day before delivery. The evaluation period is June 2025 – May 2026 (8,760 hours).
 - **Score (settlement).** `S = Σ SMP·actual − 0.1 × Σ SMP·k·|forecast − actual|`, with k = 3 for 11:00–15:00. The absolute error is taken **per aggregate**, so errors of plants inside the same aggregate cancel.
 - **Key framing.** Improving S means reducing the second term: an SMP- and hour-weighted absolute error on aggregate sums (the *penalty*). The model with the lowest RMSE is therefore not necessarily the best submission.
-- **Result.** Best submission S = 6,465,154,213 KRW. That is +46.8 M KRW over the official baseline, or about +25 normalized points (a 25% penalty reduction vs. the baseline). Final leaderboard rank: 134th (competition closed 2026-11-13).
+- **Result.** Best submission S = 6,465,154,213 KRW. That is +46.8 M KRW over the official baseline, or about +25 normalized points (a 25% penalty reduction vs. the baseline). Final leaderboard rank: 134th of 385 teams (competition closed 2026-11-13).
 - **Setup.** Oct 1 – Nov 13, 2026, on a local MacBook (M2, 8 GB). Team of two.
 
 > Under the competition rules, the provided data, plant-level predictions and submission files are **not** included in this repository. All numbers in the docs are aggregates.
