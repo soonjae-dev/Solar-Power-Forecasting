@@ -33,6 +33,8 @@ EXTRA_GROUPS = {
     "spa": [f"{c}_regstd" for c in _REGIME] + [f"{c}_regdev" for c in _REGIME],        # 공간 분산
     # 인접 관측소를 좌표 대신 예보 상관으로 고른 평균(2026-10-15 추가). feats="fullc"가 _nbr 대신 쓴다.
     "nbrc": [f"{c}_nbrc" for cols in NEIGHBOR_COLS.values() for c in cols],
+    # 쌓인 눈(2026-11-08, 팀원 snowgate): 관측소별 강설 예보의 지난 24·72시간 합. 대상일 이전 값은 그 전날 이전 발행분
+    "snow": [f"{p}_snow_sum{h}" for p in ("wa", "wb") for h in (24, 72)],
 }
 EXTRA = {c for cols in EXTRA_GROUPS.values() for c in cols}
 
@@ -106,6 +108,8 @@ def station_table(provider: str, sites: pd.DataFrame, weighted_average=None) -> 
     del r17, r10
 
     g = out.groupby(level=0, sort=False)
+    for h in (24, 72):                                         # 격자가 관측소별 1시간 간격이라 행 수 = 시간
+        out[f"{provider}_snow_sum{h}"] = g[f"{provider}_snow"].transform(lambda x: x.rolling(h, min_periods=1).sum())
     for c in NEIGHBOR_COLS[provider]:
         out[f"{c}_prev"] = g[c].shift(1)
         out[f"{c}_next"] = g[c].shift(-1)
