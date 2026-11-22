@@ -4,6 +4,10 @@
 
 ## 프로젝트 개요
 
+<p align="center">
+  <img src="docs/images/competition_banner.jpg" alt="제6회 POSTECH·KAIST·UNIST AI & 데이터사이언스 경진대회 × 2026 POSTECH OIBC Big Data Challenge 배너" width="100%">
+</p>
+
 **2026 POSTECH OIBC Big Data Challenge**(제6회 POSTECH-UNIST-KAIST AI & 데이터사이언스 경진대회) 참가 프로젝트다. 주제는 '집합자원 구성 최적화 및 하루 전 발전량 예측'이다.
 
 - **과제:** 태양광 발전소 253개소(총 42.7 MW)를 두 집합(G1·G2, 각 20 MW 이상)으로 나누고, 집합별 시간 발전량을 대상일 전날 17시에 예측한다. 평가 기간은 2025-06 ~ 2026-05, 8,760시간이다.

@@ -4,6 +4,10 @@ English · [한국어](README.ko.md)
 
 ## Project Overview
 
+<p align="center">
+  <img src="docs/images/competition_banner.jpg" alt="Banner of the 6th POSTECH·KAIST·UNIST AI & Data Science Competition × 2026 POSTECH OIBC Big Data Challenge" width="100%">
+</p>
+
 This is our entry to the **2026 POSTECH OIBC Big Data Challenge** (6th POSTECH-UNIST-KAIST AI & Data Science Competition). The theme is *aggregated resource composition and day-ahead PV generation forecasting*.
 
 - **Task.** Split 253 PV plants (42.7 MW in total) into two aggregates (G1/G2, each ≥ 20 MW). For each aggregate, forecast hourly generation at 17:00 KST on the day before delivery. The evaluation period is June 2025 – May 2026 (8,760 hours).
