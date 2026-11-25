@@ -28,7 +28,7 @@ BEST = [
     ("split", "+ teammate's\naggregate split", "+ 팀원\n집합 배정", 6_462_937_912),
     ("D", "+ CatBoost blend\n& snow model", "+ CatBoost 결합\n& 눈 모델", 6_464_297_778),
     ("#6", "3-model\nequal blend", "3모델\n등분 결합", 6_464_511_199),
-    ("#9", "+ LDAPS in\nv6 component", "+ v6 성분에\nLDAPS", 6_465_154_213),
+    ("#9", "+ LDAPS in\nv6 component", "v6 + LDAPS", 6_465_154_213),
 ]
 # 서버 S 차이(만 원). docs/experiments.md 1·2절.
 HURT = [
@@ -58,7 +58,7 @@ TEXT = {
         prog_title="공식 기준선 대비 서버 정산금 개선 추이",
         prog_y="누적 개선 (만 원)", prog_unit=lambda v: f"+{v:,.0f}",
         total="최종 +4,675만 원 (385팀 중 134위)",
-        lvs_title="로컬 검증 통과 변경의 서버 결과",
+        lvs_title="로컬 검증을 통과한 변경 사항의 서버 결과",
         lvs_x="서버 정산금 변화 (만 원)", adopted="채택 (서버 개선)",
         hurt="서버 손해로 기각됨", lvs_unit=lambda v: f"{v:+,.0f}",
         dec_title="정답 수준을 알 때의 페널티 감소 폭 (오라클 진단)",
