@@ -61,6 +61,25 @@ This is our entry to the **2026 POSTECH OIBC Big Data Challenge** (6th POSTECH-U
 
 ## Modeling & Validation Strategy
 
+**Pipeline**
+
+```mermaid
+flowchart TD
+    A["Provided forecasts A/B<br/>issued 10:00 & 17:00 D-1"] --> F
+    G["GFS (NOAA)<br/>00 UTC run of D-1"] --> F
+    L["LDAPS (KMA)<br/>00 UTC run of D-1"] --> F
+    F["Feature building<br/>84 provided + 70 external columns<br/>publication-time audit"] --> T["Target: clear-sky index kt<br/>daylight hours only"]
+    T --> M1["LightGBM + GFS + LDAPS<br/>snowgate on snow hours"]
+    T --> M2["CatBoost<br/>plant ID as category"]
+    T --> M3["CatBoost<br/>without plant ID"]
+    M1 --> E["Equal-weight average"]
+    M2 --> E
+    M3 --> E
+    E --> P["kt × clear-sky irradiance × capacity<br/>hourly kWh per plant"]
+    C["Aggregate split G1 / G2<br/>residual-based search"] --> S
+    P --> S["Sum per aggregate → submission"]
+```
+
 **Models**
 - **Core model:** LightGBM (600 trees, lr 0.06, 127 leaves, min_child 200), L2 loss, averaged over 3 seeds. One model covers all 253 plants.
 - **Final submission:** an equal-weight average of three different predictors:
@@ -96,10 +115,20 @@ Details are in [docs/validation.md](docs/validation.md).
 | #6 | Equal blend of 3 models | 6,464,511,199 | +0.2 M |
 | **#9** | **+ LDAPS in the LightGBM component** | **6,465,154,213** | **+0.6 M** |
 
+<p align="center">
+  <img src="docs/images/server_progress_en.png" alt="Waterfall chart of cumulative server settlement gain over the official baseline" width="90%">
+</p>
+
 **Better locally, worse on the server.** These three changes improved local validation but lost points on the server:
 - CatBoost alone
 - LDAPS added to every component
 - A lower forecast level (×0.984)
+
+<p align="center">
+  <img src="docs/images/local_vs_server_en.png" alt="Server settlement change of changes that passed local validation: six adopted gains and five rejected losses" width="90%">
+</p>
+
+The chart above covers all five server losses listed in section 2 of [docs/experiments.md](docs/experiments.md).
 
 **Rejected experiments** (representative, out of ~90)
 - Alternative forecasts: ECMWF, JMA MSM, GEFS mean/spread/aerosol, KMA short-range forecast, finer LDAPS grids. None explained daily totals better than GFS.
@@ -112,6 +141,10 @@ Details are in [docs/validation.md](docs/validation.md).
 **Penalty decomposition with oracle information** (diagnostic only)
 - Matching each day's total would cut the penalty by 47.5%.
 - Matching monthly levels would cut it by 4.0%.
+
+<p align="center">
+  <img src="docs/images/penalty_decomposition_en.png" alt="Penalty reduction with oracle levels: 47.5% for daily totals, 4.0% for monthly levels" width="90%">
+</p>
 
 → Half of the remaining error is *how cloudy tomorrow will be*. Irradiance forecast quality matters, but it is not the only limit: a model that captures within-day structure also matters (see Retrospective).
 
@@ -132,7 +165,8 @@ The full list is in [docs/experiments.md](docs/experiments.md).
 │   └── OIBC2026_technical_report.pdf   # 3-page technical report
 ├── scripts/
 │   ├── check_publish.py  # pre-publication check (data, keys, coordinates, IDs)
-│   └── build_report.py   # builds the report PDF from aggregates
+│   ├── build_report.py   # builds the report PDF from aggregates
+│   └── make_readme_figures.py   # builds the README charts from published aggregates
 ├── src/
 │   ├── config.py, data.py, solar.py, splits.py   # paths, loading, solar geometry, folds
 │   ├── scoring.py, validate_submission.py        # scorer (--selftest), submission format check

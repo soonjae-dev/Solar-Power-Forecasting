@@ -18,7 +18,9 @@ EXCLUDED_EXPERIMENTS = {"submission_log"}   # .gitignore와 같게 유지
 BANNED_EXT = {".parquet", ".csv", ".zip", ".ipynb", ".npz", ".nc", ".grib", ".grib2", ".grb2", ".pkl",
               ".pptx", ".pdf", ".pages", ".xlsx"}
 MAX_BYTES = 1_000_000
-ALLOWED_BINARY = {Path("docs/OIBC2026_technical_report.pdf"), Path("docs/images/competition_banner.jpg")}   # 집계값만으로 만든 산출물(.gitignore와 같게 유지)
+ALLOWED_BINARY = {Path("docs/OIBC2026_technical_report.pdf"), Path("docs/images/competition_banner.jpg")} | {
+    Path(f"docs/images/{n}_{lang}.png") for n in ("server_progress", "local_vs_server", "penalty_decomposition")
+    for lang in ("en", "ko")}  # scripts/make_readme_figures.py 산출물(공개 집계값만 사용)   # 집계값만으로 만든 산출물(.gitignore와 같게 유지)
 CHECKS = {
     "인증 정보 의심": re.compile(r"(?i)(auth_?key|api_?key|secret|token|password)\s*[=:]\s*['\"][A-Za-z0-9_\-+/]{12,}['\"]"),
     "URL 안 인증키": re.compile(r"(?i)[?&](auth_?key|service_?key|key)=[A-Za-z0-9_\-%]{12,}"),

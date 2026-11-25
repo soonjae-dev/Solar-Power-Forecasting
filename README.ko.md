@@ -61,6 +61,25 @@
 
 ## 모델링 및 검증 전략
 
+**파이프라인**
+
+```mermaid
+flowchart TD
+    A["제공 예보 A·B<br/>전날 10시·17시 발행"] --> F
+    G["GFS (NOAA)<br/>전날 00 UTC 실행"] --> F
+    L["LDAPS (기상청)<br/>전날 00 UTC 실행"] --> F
+    F["특징 생성<br/>제공 예보 84열 + 외부 예보 70열<br/>공개 시각 감사"] --> T["타깃: 청천 지수 kt<br/>주간 시각만 학습"]
+    T --> M1["LightGBM + GFS + LDAPS<br/>눈 예보 시각은 snowgate"]
+    T --> M2["CatBoost<br/>발전소 ID 범주형"]
+    T --> M3["CatBoost<br/>발전소 ID 제외"]
+    M1 --> E["등가중 평균"]
+    M2 --> E
+    M3 --> E
+    E --> P["kt × 청천 일사 × 용량<br/>발전소별 시간 발전량"]
+    C["집합 배정 G1 / G2<br/>잔차 기반 탐색"] --> S
+    P --> S["집합별 합산 → 제출"]
+```
+
 **모델**
 - **주력:** LightGBM(600 트리, lr 0.06, 잎 127, min_child 200), L2 손실, 3시드 평균. 253개소를 한 모델로 학습한다.
 - **최종 제출:** 성격이 다른 세 예측의 등가중 평균이다.
@@ -96,10 +115,20 @@
 | 6번 | 3모델 등분 | 6,464,511,199 | +21만 |
 | **9번** | **v6 성분에 LDAPS 추가** | **6,465,154,213** | **+64만** |
 
+<p align="center">
+  <img src="docs/images/server_progress_ko.png" alt="공식 기준선 대비 서버 정산금 누적 개선 폭포 차트" width="90%">
+</p>
+
 **로컬 개선, 서버 손해:** 아래 세 변경은 로컬 검증에서는 좋았지만 서버에서는 손해였다.
 - CatBoost 단독
 - 전 성분 LDAPS
 - 예측 수준 하향(×0.984)
+
+<p align="center">
+  <img src="docs/images/local_vs_server_ko.png" alt="로컬 검증을 통과한 변경의 서버 정산금 변화. 채택 6건은 개선, 기각 5건은 손해" width="90%">
+</p>
+
+위 차트는 [docs/experiments.md](docs/experiments.md) 2절의 서버 손해 다섯 건을 모두 담았다.
 
 **기각한 실험** (약 90개 중 대표)
 - 대체 예보: ECMWF, 일본 MSM, GEFS 평균·퍼짐·에어로졸, 기상청 단기예보, LDAPS 세밀 격자. 모두 GFS보다 하루 총량 설명력이 낮거나 같았다.
@@ -112,6 +141,10 @@
 **정답을 보고 분해한 페널티 성분** (진단용)
 - 날마다 총량을 맞혔다면 페널티는 47.5% 줄었을 것이다.
 - 월별 수준을 맞혔다면 4.0% 줄었을 것이다.
+
+<p align="center">
+  <img src="docs/images/penalty_decomposition_ko.png" alt="정답 수준을 알았을 때의 페널티 감소. 일 총량 47.5%, 월별 4.0%" width="90%">
+</p>
 
 → 남은 오차의 절반은 '그날 얼마나 흐린가'를 맞히는 문제다. 일사 예보의 질이 중요하지만 그것만으로 정해지지는 않는다. 하루 안의 구조를 다루는 모델도 필요하다(회고 참고).
 
@@ -132,7 +165,8 @@
 │   └── OIBC2026_technical_report.pdf   # 영문 기술 보고서 3쪽
 ├── scripts/
 │   ├── check_publish.py  # 공개 전 점검(데이터·키·좌표·식별자)
-│   └── build_report.py   # 기술 보고서 PDF 생성(집계값만 사용)
+│   ├── build_report.py   # 기술 보고서 PDF 생성(집계값만 사용)
+│   └── make_readme_figures.py   # README 그림 생성(공개 집계값만 사용)
 ├── src/
 │   ├── config.py, data.py, solar.py, splits.py   # 경로·로딩·태양 위치·검증 구간
 │   ├── scoring.py, validate_submission.py        # 채점기(--selftest), 제출 형식 검사
